@@ -1,0 +1,38 @@
+{
+  "asOf": "2026-09-16T05:30:00Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "UP",
+      "recommendation": "FILL_UP",
+      "confidence": 0.72,
+      "summary": "Hurt i kurs EUR wskazują wzrost PB95 w tym tygodniu."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.58,
+      "summary": "Sygnały mieszane, bez wyraźnego trendu."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Orlen - ceny hurtowe",
+      "url": "https://www.orlen.pl/pl/Ceny",
+      "accessedAt": "2026-09-16T05:20:00Z"
+    },
+    {
+      "title": "NBP - kurs EUR",
+      "url": "https://www.nbp.pl/home.aspx?f=/kursy/kursya.html",
+      "accessedAt": "2026-09-16T05:21:00Z"
+    },
+    {
+      "title": "ANWIM - notowania",
+      "url": "https://www.anwim.pl/notowania",
+      "accessedAt": "2026-09-16T05:22:00Z"
+    }
+  ]
+}
