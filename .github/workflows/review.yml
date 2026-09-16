@@ -1,0 +1,107 @@
+name: Review Forecast
+
+on:
+  repository_dispatch:
+    types:
+      - forecast-review-requested
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Parse dispatch payload
+        run: |
+          echo "PR_NUMBER=${{ github.event.client_payload.pr_number }}" >> "$GITHUB_ENV"
+          echo "BRANCH=${{ github.event.client_payload.branch }}" >> "$GITHUB_ENV"
+          echo "EXPECTED_SHA=${{ github.event.client_payload.head_sha }}" >> "$GITHUB_ENV"
+
+      - name: Checkout forecast branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.client_payload.branch }}
+
+      - name: Verify PR head SHA
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          CURRENT_SHA="$(gh pr view "$PR_NUMBER" --json headRefOid --jq '.headRefOid')"
+          if [[ "$CURRENT_SHA" != "$EXPECTED_SHA" ]]; then
+            echo "Stale review payload: expected $EXPECTED_SHA, got $CURRENT_SHA"
+            exit 1
+          fi
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm run test:run
+
+      - name: Build site
+        run: npm run build
+
+      - name: Run review agent
+        id: review
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_REVIEW_MODEL: ${{ vars.OPENAI_REVIEW_MODEL }}
+        run: |
+          set +e
+          npm run review > review-output.json
+          status=$?
+          if [ "$status" -ne 0 ] && [ ! -s review-output.json ]; then
+            echo "Review failed, retrying once..."
+            sleep 30
+            npm run review > review-output.json
+            status=$?
+          fi
+          echo "REVIEW_EXIT=$status" >> "$GITHUB_ENV"
+
+      - name: Comment review result
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ env.PR_NUMBER }}
+        run: |
+          export REVIEW_JSON="$(cat review-output.json)"
+          bash scripts/comment-review.sh
+
+      - name: Merge on PASS
+        if: env.REVIEW_EXIT == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          CURRENT_SHA="$(gh pr view "$PR_NUMBER" --json headRefOid --jq '.headRefOid')"
+          if [[ "$CURRENT_SHA" != "$EXPECTED_SHA" ]]; then
+            echo "Head SHA changed before merge; aborting."
+            exit 1
+          fi
+
+          TITLE="$(npx tsx -e "
+          import { readFileSync } from 'node:fs';
+          import { ForecastSchema } from './src/domain/forecast.ts';
+          import { toCommitSummary } from './src/domain/forecast-view.ts';
+          const forecast = ForecastSchema.parse(JSON.parse(readFileSync('src/data/latest.json', 'utf8')));
+          console.log('forecast: ' + toCommitSummary(forecast));
+          ")"
+
+          gh pr merge "$PR_NUMBER" --squash --delete-branch --subject "$TITLE"
+
+      - name: Dispatch deploy
+        if: env.REVIEW_EXIT == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main
+
+      - name: Fail on rejection
+        if: env.REVIEW_EXIT != '0'
+        run: exit 1
