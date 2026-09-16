@@ -14,7 +14,9 @@ export const FuelForecastSchema = z.object({
 
 export const SourceSchema = z.object({
   title: z.string().min(1),
-  url: z.string().url(),
+  url: z.string().min(1).refine((value) => URL.canParse(value), {
+    message: 'Invalid URL',
+  }),
   accessedAt: z.string().datetime(),
 });
 
