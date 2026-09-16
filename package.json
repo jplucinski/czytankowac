@@ -9,7 +9,7 @@
     "test": "vitest",
     "test:run": "vitest run",
     "research": "tsx agents/research/run-research.ts",
-    "review": "echo 'review CLI not yet implemented' && exit 1"
+    "review": "tsx agents/review/run-review.ts"
   },
   "dependencies": {
     "@openai/agents": "^0.18.0",
