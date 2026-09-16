@@ -1,7 +1,39 @@
 ---
-// Placeholder until Task 2
+import FuelCard from '../components/FuelCard.astro';
+import { ForecastSchema } from '../domain/forecast';
+import Base from '../layouts/Base.astro';
+import latestRaw from '../data/latest.json';
+
+const forecast = ForecastSchema.parse(latestRaw);
+const updatedAt = new Date(forecast.asOf).toLocaleString('pl-PL', {
+  dateStyle: 'long',
+  timeStyle: 'short',
+  timeZone: 'Europe/Warsaw',
+});
 ---
-<html lang="pl">
-  <head><meta charset="utf-8" /><title>Czy tankować?</title></head>
-  <body><p>CzyTankowac.pl</p></body>
-</html>
+
+<Base title="Czy tankować?">
+  <h1 class="page-title">Czy tankować?</h1>
+  <p class="page-meta">
+    Prognoza na {forecast.horizonDays} dni · aktualizacja {updatedAt}
+  </p>
+
+  <section class="fuel-list" aria-label="Rekomendacje paliw">
+    {forecast.fuels.map((fuel) => <FuelCard fuel={fuel} />)}
+  </section>
+
+  <details class="sources">
+    <summary>Źródła</summary>
+    <ul>
+      {
+        forecast.sources.map((source) => (
+          <li>
+            <a href={source.url} rel="noopener noreferrer" target="_blank">
+              {source.title}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </details>
+</Base>

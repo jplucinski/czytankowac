@@ -1,0 +1,27 @@
+---
+import type { FuelForecast } from '../domain/forecast';
+import { toFuelCardViewModel } from '../domain/forecast-view';
+import SignalBadge from './SignalBadge.astro';
+
+interface Props {
+  fuel: FuelForecast;
+}
+
+const { fuel } = Astro.props;
+const view = toFuelCardViewModel(fuel);
+
+const accentClass =
+  fuel.recommendation === 'FILL_UP'
+    ? 'fuel-card--fill-up'
+    : fuel.recommendation === 'WAIT'
+      ? 'fuel-card--wait'
+      : 'fuel-card--normal';
+---
+
+<article class={`fuel-card ${accentClass}`}>
+  <SignalBadge label={fuel.fuel} />
+  <h2 class="fuel-card__headline">{view.headline}</h2>
+  <p class="fuel-card__subline">{view.subline}</p>
+  <p class="fuel-card__summary">{view.summary}</p>
+  <p class="fuel-card__confidence">Pewność: {view.confidencePercent}%</p>
+</article>
