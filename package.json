@@ -8,7 +8,7 @@
     "build": "astro build",
     "test": "vitest",
     "test:run": "vitest run",
-    "research": "echo 'research CLI not yet implemented' && exit 1",
+    "research": "tsx agents/research/run-research.ts",
     "review": "echo 'review CLI not yet implemented' && exit 1"
   },
   "dependencies": {
@@ -19,6 +19,7 @@
     "zod": "^4.6.5"
   },
   "devDependencies": {
-    "@types/node": "^22.20.3"
+    "@types/node": "^22.20.3",
+    "tsx": "^4.23.13"
   }
 }
