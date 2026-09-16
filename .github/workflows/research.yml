@@ -1,0 +1,95 @@
+name: Research Forecast
+
+on:
+  schedule:
+    - cron: '30 5 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: research-forecast
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm run test:run
+
+      - name: Run research agent
+        id: research
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_RESEARCH_MODEL: ${{ vars.OPENAI_RESEARCH_MODEL }}
+        run: |
+          set +e
+          npm run research
+          status=$?
+          if [ "$status" -ne 0 ]; then
+            echo "Research failed, retrying once..."
+            sleep 30
+            npm run research
+          fi
+
+      - name: Prepare forecast branch
+        run: |
+          BRANCH="forecast/$(date -u +%Y-%m-%d)"
+          echo "BRANCH=$BRANCH" >> "$GITHUB_ENV"
+          git checkout -B "$BRANCH"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit forecast data
+        run: bash scripts/commit-forecast.sh
+
+      - name: Push forecast branch
+        run: git push --force-with-lease origin "$BRANCH"
+
+      - name: Open or reuse forecast PR
+        id: pr
+        env:
+          BRANCH: ${{ env.BRANCH }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PR_NUMBER="$(bash scripts/open-forecast-pr.sh)"
+          echo "PR_NUMBER=$PR_NUMBER" >> "$GITHUB_ENV"
+          echo "HEAD_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+          echo "Opened or reused PR #$PR_NUMBER"
+
+      - name: Dispatch forecast review
+        uses: actions/github-script@v7
+        env:
+          PR_NUMBER: ${{ env.PR_NUMBER }}
+          BRANCH: ${{ env.BRANCH }}
+          HEAD_SHA: ${{ env.HEAD_SHA }}
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.repos.createDispatchEvent({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              event_type: 'forecast-review-requested',
+              client_payload: {
+                pr_number: Number(process.env.PR_NUMBER),
+                branch: process.env.BRANCH,
+                head_sha: process.env.HEAD_SHA,
+              },
+            });
