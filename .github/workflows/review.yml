@@ -57,12 +57,12 @@ jobs:
           OPENAI_REVIEW_MODEL: ${{ vars.OPENAI_REVIEW_MODEL }}
         run: |
           set +e
-          npm run review > review-output.json
+          npm run --silent review > review-output.json
           status=$?
-          if [ "$status" -ne 0 ] && [ ! -s review-output.json ]; then
+          if [ "$status" -ne 0 ] && ! jq -e '.decision' review-output.json >/dev/null 2>&1; then
             echo "Review failed, retrying once..."
             sleep 30
-            npm run review > review-output.json
+            npm run --silent review > review-output.json
             status=$?
           fi
           echo "REVIEW_EXIT=$status" >> "$GITHUB_ENV"
