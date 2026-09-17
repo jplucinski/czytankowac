@@ -1,43 +1,43 @@
 {
-  "asOf": "2026-09-17T12:10:17.225Z",
+  "asOf": "2026-09-17T14:12:47.285Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
     {
       "fuel": "PB95",
-      "direction": "DOWN",
-      "recommendation": "WAIT",
-      "confidence": 0.64,
-      "summary": "Hurtowa Pb95 spadła 17 września, a ceny detaliczne mogą obniżać się w najbliższych dniach."
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.78,
+      "summary": "Hurt PB95 spadł dziś, ale wzrost w pięciu dniach i droższe euro ograniczają szanse na wyraźne obniżki."
     },
     {
       "fuel": "DIESEL",
       "direction": "UP",
       "recommendation": "FILL_UP",
-      "confidence": 0.78,
-      "summary": "Diesel drożeje w hurcie i nadal może podnosić ceny na stacjach w ciągu tygodnia."
+      "confidence": 0.88,
+      "summary": "Diesel drożeje w hurcie i detalu, a mocniejsze euro zwiększa presję na dalszy wzrost cen w ciągu tygodnia."
     }
   ],
   "sources": [
     {
-      "title": "Ceny paliw 17 września: diesel drożeje, benzyna tanieje",
-      "url": "https://motoguru.pl/na-czasie/ceny-paliw-17-wrzesnia-diesel-drozeje-benzyna-tanieje/",
-      "accessedAt": "2026-09-17T12:10:17.225Z"
+      "title": "Średnie ceny hurtowe, detaliczne i kurs EUR NBP",
+      "url": "https://www.e-petrol.pl/notowania/pomocne-informacje",
+      "accessedAt": "2026-09-17T14:12:47.285Z"
     },
     {
-      "title": "Ceny paliw dziś i na jutro – 17 września 2026",
-      "url": "https://cenypaliw.fyi/?from=2020-01-01&mode=vat&series=brent%2Con&to=2026-06-29",
-      "accessedAt": "2026-09-17T12:10:17.225Z"
+      "title": "Ceny detaliczne i zmiany hurtu ORLEN",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-09-17T14:12:47.285Z"
     },
     {
-      "title": "Kursy walut – tabela A NBP",
-      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
-      "accessedAt": "2026-09-17T12:10:17.225Z"
+      "title": "Codzienne średnie ceny detaliczne w Polsce",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-09-17T14:12:47.285Z"
     },
     {
-      "title": "Sprzedaż hurtowa ANWIM",
-      "url": "https://www.anwim.pl/sprzedaz-hurtowa",
-      "accessedAt": "2026-09-17T12:10:17.225Z"
+      "title": "Archiwum kursów średnich NBP, tabela A",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
+      "accessedAt": "2026-09-17T14:12:47.285Z"
     }
   ]
 }
