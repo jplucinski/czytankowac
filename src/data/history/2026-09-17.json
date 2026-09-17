@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-17T16:58:59.317Z",
+  "asOf": "2026-09-17T18:50:47.021Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -7,42 +7,42 @@
       "fuel": "PB95",
       "direction": "STABLE",
       "recommendation": "NORMAL",
-      "confidence": 0.76,
-      "summary": "Hurt Pb95 spadł dziś, lecz wzrost w ostatnich dniach i droższy detal ograniczają szanse na wyraźne obniżki."
+      "confidence": 0.78,
+      "summary": "Hurt Pb95 spadł, lecz ceny detaliczne wzrosły; w tydzień możliwa stabilizacja z lekką presją spadkową."
     },
     {
       "fuel": "DIESEL",
       "direction": "UP",
       "recommendation": "FILL_UP",
       "confidence": 0.84,
-      "summary": "Diesel drożeje w hurcie i detalu, więc w najbliższym tygodniu bardziej prawdopodobne są dalsze podwyżki niż spadki."
+      "summary": "Hurt diesla wzrósł, a detal podrożał wyraźniej niż benzyna; w najbliższym tygodniu przewagę mają podwyżki."
     }
   ],
   "sources": [
     {
-      "title": "Ceny paliw dzisiaj – benzyna, diesel i LPG",
-      "url": "https://cenapaliwa.pl/",
-      "accessedAt": "2026-09-17T16:58:59.317Z"
+      "title": "Hurtowe ceny paliw ORLEN i średnie ceny rafineryjne",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
+      "accessedAt": "2026-09-17T18:50:47.021Z"
     },
     {
-      "title": "Ceny paliw dziś — benzyna, diesel, LPG",
+      "title": "Ceny paliw 17 września: diesel drożeje, benzyna tanieje",
+      "url": "https://motoguru.pl/na-czasie/ceny-paliw-17-wrzesnia-diesel-drozeje-benzyna-tanieje/",
+      "accessedAt": "2026-09-17T18:50:47.021Z"
+    },
+    {
+      "title": "Aktualne średnie ceny detaliczne paliw w Polsce",
       "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-09-17T16:58:59.317Z"
+      "accessedAt": "2026-09-17T18:50:47.021Z"
     },
     {
-      "title": "Ceny paliw dziś i na jutro – PB95 i ON",
-      "url": "https://cenypaliw.fyi/",
-      "accessedAt": "2026-09-17T16:58:59.317Z"
+      "title": "Ceny detaliczne i metodologia monitoringu",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-09-17T18:50:47.021Z"
     },
     {
-      "title": "Hurtowe ceny paliw ORLEN i UNIMOT",
-      "url": "https://cenapaliwa.pl/hurt/",
-      "accessedAt": "2026-09-17T16:58:59.317Z"
-    },
-    {
-      "title": "Archiwum kursów średnich – tabela A NBP",
-      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
-      "accessedAt": "2026-09-17T16:58:59.317Z"
+      "title": "Kursy walut — tabela A NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-09-17T18:50:47.021Z"
     }
   ]
 }

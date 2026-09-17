@@ -1,6 +1,9 @@
 {
   "decision": "PASS",
-  "issues": [],
-  "summary": "Prognoza jest spójna z aktualnymi cenami hurtowymi i detalicznymi oraz ma wystarczające źródła.",
-  "reviewedAt": "2026-09-17T17:00:00.000Z"
+  "issues": [
+    "PB95: sygnały są mieszane — dzisiejszy spadek hurtu, ale wzrost w ujęciu pięciodniowym.",
+    "DIESEL: kierunek wzrostowy jest wiarygodny, lecz rekomendacja „FILL_UP” opiera się na słabej prognozie krótkoterminowej."
+  ],
+  "summary": "Kierunki prognozy są zgodne z głównym sygnałem rynku, ale pewność jest zawyżona.",
+  "reviewedAt": "2026-09-17T18:51:55.289Z"
 }
