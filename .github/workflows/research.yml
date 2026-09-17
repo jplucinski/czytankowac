@@ -39,6 +39,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_RESEARCH_MODEL: ${{ vars.OPENAI_RESEARCH_MODEL }}
+          OPENAI_RESEARCH_FALLBACK_MODEL: ${{ vars.OPENAI_RESEARCH_FALLBACK_MODEL }}
         run: |
           set +e
           npm run research

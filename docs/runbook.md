@@ -7,7 +7,12 @@
    - Włącz *Allow GitHub Actions to create and approve pull requests*
 2. **Pages** → Build and deployment → Source: *GitHub Actions*
 3. **Secrets**: `OPENAI_API_KEY`
-4. **Variables** (opcjonalne): `OPENAI_RESEARCH_MODEL`, `OPENAI_REVIEW_MODEL` (np. `gpt-4.1-mini`)
+4. **Variables** (opcjonalne):
+   - `OPENAI_RESEARCH_MODEL` — cheap research (np. `gpt-4.1-mini`)
+   - `OPENAI_RESEARCH_FALLBACK_MODEL` — deep research przy confidence &lt; 75% (np. `gpt-4.1`)
+   - `OPENAI_REVIEW_MODEL` (np. `gpt-4.1-mini`)
+
+Gdy którykolwiek fuel ma confidence &lt; 75%, research robi jeden dodatkowy przebieg: lepszy model, `searchContextSize: high`, więcej wyszukiwań web i JSON pierwszej prognozy jako kontekst. Zapisuje się tylko końcowy wynik.
 
 ## Codzienny cykl autonomiczny
 
