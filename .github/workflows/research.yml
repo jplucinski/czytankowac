@@ -61,7 +61,9 @@ jobs:
         run: bash scripts/commit-forecast.sh
 
       - name: Push forecast branch
-        run: git push --force-with-lease origin "$BRANCH"
+        run: |
+          git fetch origin "refs/heads/${BRANCH}:refs/remotes/origin/${BRANCH}" || true
+          git push --force-with-lease origin "$BRANCH"
 
       - name: Open or reuse forecast PR
         id: pr
