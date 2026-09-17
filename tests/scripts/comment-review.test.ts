@@ -70,8 +70,22 @@ describe('comment-review.sh', () => {
       REVIEW_JSON: '\n> czytankowac@0.1.0 review\n> tsx agents/review/run-review.ts\n',
     });
 
-    expect(result.status).toBe(1);
+    expect(result.status).toBe(0);
     expect(result.comment).toContain('nie zwrócił poprawnego JSON');
     expect(result.comment).toContain('czytankowac@0.1.0');
+  });
+
+  it('comments from the first JSON object when stdout has trailing noise', async () => {
+    const result = await runComment({
+      REVIEW_JSON: `${JSON.stringify({
+        decision: 'PASS',
+        issues: [],
+        summary: 'OK',
+      })}\n> czytankowac@0.1.0 review\n`,
+    });
+
+    expect(result.status).toBe(0);
+    expect(result.comment).toContain('Zatwierdzono');
+    expect(result.comment).toContain('OK');
   });
 });
