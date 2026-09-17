@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-17T14:12:47.285Z",
+  "asOf": "2026-09-17T14:55:21.719Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -8,36 +8,36 @@
       "direction": "STABLE",
       "recommendation": "NORMAL",
       "confidence": 0.78,
-      "summary": "Hurt PB95 spadł dziś, ale wzrost w pięciu dniach i droższe euro ograniczają szanse na wyraźne obniżki."
+      "summary": "Hurt Pb95 spadł w ostatnim notowaniu, lecz wcześniejszy wzrost i ceny detaliczne ograniczają szanse na wyraźne obniżki."
     },
     {
       "fuel": "DIESEL",
       "direction": "UP",
       "recommendation": "FILL_UP",
-      "confidence": 0.88,
-      "summary": "Diesel drożeje w hurcie i detalu, a mocniejsze euro zwiększa presję na dalszy wzrost cen w ciągu tygodnia."
+      "confidence": 0.86,
+      "summary": "Diesel pozostaje drogi, a wzrost hurtu i cen stacyjnych wskazuje na dalszą presję wzrostową w najbliższym tygodniu."
     }
   ],
   "sources": [
     {
-      "title": "Średnie ceny hurtowe, detaliczne i kurs EUR NBP",
-      "url": "https://www.e-petrol.pl/notowania/pomocne-informacje",
-      "accessedAt": "2026-09-17T14:12:47.285Z"
+      "title": "Anwim – sprzedaż hurtowa paliw",
+      "url": "https://www.anwim.pl/sprzedaz-hurtowa",
+      "accessedAt": "2026-09-17T14:55:21.719Z"
     },
     {
-      "title": "Ceny detaliczne i zmiany hurtu ORLEN",
+      "title": "Ceny paliw dzisiaj – ceny detaliczne i hurt ORLEN",
       "url": "https://cenapaliwa.pl/",
-      "accessedAt": "2026-09-17T14:12:47.285Z"
+      "accessedAt": "2026-09-17T14:55:21.719Z"
     },
     {
-      "title": "Codzienne średnie ceny detaliczne w Polsce",
-      "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-09-17T14:12:47.285Z"
+      "title": "Ceny paliw we wrześniu 2026 – PaliwoMapa",
+      "url": "https://paliwomapa.pl/historia-cen/miesiac/2026/09",
+      "accessedAt": "2026-09-17T14:55:21.719Z"
     },
     {
-      "title": "Archiwum kursów średnich NBP, tabela A",
+      "title": "Archiwum kursów średnich EUR – NBP",
       "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
-      "accessedAt": "2026-09-17T14:12:47.285Z"
+      "accessedAt": "2026-09-17T14:55:21.719Z"
     }
   ]
 }
