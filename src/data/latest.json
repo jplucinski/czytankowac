@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-17T14:55:21.719Z",
+  "asOf": "2026-09-17T15:14:47.955Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -7,37 +7,37 @@
       "fuel": "PB95",
       "direction": "STABLE",
       "recommendation": "NORMAL",
-      "confidence": 0.78,
-      "summary": "Hurt Pb95 spadł w ostatnim notowaniu, lecz wcześniejszy wzrost i ceny detaliczne ograniczają szanse na wyraźne obniżki."
+      "confidence": 0.8,
+      "summary": "Hurt Pb95 spadł, lecz wcześniejszy wzrost i ceny detaliczne sugerują raczej stabilizację niż szybkie obniżki."
     },
     {
       "fuel": "DIESEL",
       "direction": "UP",
       "recommendation": "FILL_UP",
-      "confidence": 0.86,
-      "summary": "Diesel pozostaje drogi, a wzrost hurtu i cen stacyjnych wskazuje na dalszą presję wzrostową w najbliższym tygodniu."
+      "confidence": 0.9,
+      "summary": "Diesel wyraźnie podrożał w hurcie, a krajowe ceny detaliczne są już wysokie, więc możliwe są dalsze wzrosty."
     }
   ],
   "sources": [
     {
-      "title": "Anwim – sprzedaż hurtowa paliw",
-      "url": "https://www.anwim.pl/sprzedaz-hurtowa",
-      "accessedAt": "2026-09-17T14:55:21.719Z"
+      "title": "Ceny paliw 17 września – hurt ORLEN i ceny detaliczne",
+      "url": "https://motoguru.pl/na-czasie/ceny-paliw-17-wrzesnia-diesel-drozeje-benzyna-tanieje/",
+      "accessedAt": "2026-09-17T15:14:47.955Z"
     },
     {
-      "title": "Ceny paliw dzisiaj – ceny detaliczne i hurt ORLEN",
+      "title": "Monitoring cen i hurtu ORLEN – 17 września 2026",
       "url": "https://cenapaliwa.pl/",
-      "accessedAt": "2026-09-17T14:55:21.719Z"
+      "accessedAt": "2026-09-17T15:14:47.955Z"
     },
     {
-      "title": "Ceny paliw we wrześniu 2026 – PaliwoMapa",
-      "url": "https://paliwomapa.pl/historia-cen/miesiac/2026/09",
-      "accessedAt": "2026-09-17T14:55:21.719Z"
+      "title": "Średnie ceny detaliczne i prognoza e-petrol.pl",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/ceny-stacje-paliw",
+      "accessedAt": "2026-09-17T15:14:47.955Z"
     },
     {
-      "title": "Archiwum kursów średnich EUR – NBP",
+      "title": "Archiwum kursów średnich NBP – tabela A",
       "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
-      "accessedAt": "2026-09-17T14:55:21.719Z"
+      "accessedAt": "2026-09-17T15:14:47.955Z"
     }
   ]
 }
