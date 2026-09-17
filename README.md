@@ -1,16 +1,20 @@
 # CzyTankowac.pl
 
-Statyczna strona z rekomendacją tankowania PB95 i diesla w Polsce. Prognoza jest generowana codziennie przez agenta OpenAI w GitHub Actions, weryfikowana przez niezależnego recenzenta i publikowana na GitHub Pages po przejściu review.
+A project for running OpenAI agents with web search (`@openai/agents` + `webSearchTool`). The demo is a static site with PB95 and diesel fill-up recommendations for Poland.
 
-## Lokalny development
+Site: [https://jplucinski.github.io/czytankowac](https://jplucinski.github.io/czytankowac)
+
+Agent architecture is iterated in **GitHub Actions** (schedule, secrets, PRs, review, deploy): research → review → merge → GitHub Pages.
+
+## Local development
 
 ```bash
 npm ci
-npm run dev        # podgląd strony
-npm run test:run   # testy
-npm run build      # build statyczny → dist/
-npm run research   # agent badawczy (wymaga OPENAI_API_KEY)
-npm run review     # walidacja + recenzja prognozy
+npm run dev        # site preview
+npm run test:run   # tests
+npm run build      # static build → dist/
+npm run research   # research agent (needs OPENAI_API_KEY)
+npm run review     # validation + forecast review
 ```
 
-Operacje produkcyjne: [docs/runbook.md](docs/runbook.md).
+Ops: [docs/runbook.md](docs/runbook.md).
