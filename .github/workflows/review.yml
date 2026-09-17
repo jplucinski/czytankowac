@@ -94,7 +94,18 @@ jobs:
           console.log('forecast: ' + toCommitSummary(forecast));
           ")"
 
-          gh pr merge "$PR_NUMBER" --squash --delete-branch --subject "$TITLE"
+          gh api \
+            --method PUT \
+            "repos/${GITHUB_REPOSITORY}/pulls/${PR_NUMBER}/merge" \
+            -f merge_method=squash \
+            -f commit_title="$TITLE" \
+            -f sha="$EXPECTED_SHA"
+
+          ENCODED_BRANCH="${BRANCH//\//%2F}"
+          gh api \
+            --method DELETE \
+            "repos/${GITHUB_REPOSITORY}/git/refs/heads/${ENCODED_BRANCH}" \
+            || true
 
       - name: Dispatch deploy
         if: env.REVIEW_EXIT == '0'
