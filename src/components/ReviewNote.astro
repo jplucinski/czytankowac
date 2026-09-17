@@ -1,0 +1,24 @@
+---
+import type { PublishedReview } from '../domain/review';
+import { toReviewViewModel } from '../domain/review';
+
+interface Props {
+  review: PublishedReview;
+}
+
+const { review } = Astro.props;
+const view = toReviewViewModel(review);
+const reviewedAt = new Date(review.reviewedAt).toLocaleString('pl-PL', {
+  dateStyle: 'long',
+  timeStyle: 'short',
+  timeZone: 'Europe/Warsaw',
+});
+---
+
+<section class={`review-note ${view.accentClass}`} aria-label="Recenzja prognozy">
+  <p class="review-note__label">Recenzja prognozy</p>
+  <h2 class="review-note__status">{view.statusLabel}</h2>
+  <p class="review-note__summary">{review.summary}</p>
+  <p class="review-note__issues">Problemy: {view.issuesLabel}</p>
+  <p class="review-note__meta">Sprawdzono {reviewedAt}</p>
+</section>
