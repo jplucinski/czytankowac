@@ -1,43 +1,43 @@
 {
-  "asOf": "2026-09-17T11:17:57.377Z",
+  "asOf": "2026-09-17T12:10:17.225Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
     {
       "fuel": "PB95",
-      "direction": "UP",
-      "recommendation": "FILL_UP",
-      "confidence": 0.73,
-      "summary": "Hurt PB95 wzrosła, a detal i ropa pozostają wysokie; w 7 dni bardziej prawny jest dalszy umiarkowany wzrost niż spadek."
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.64,
+      "summary": "Hurtowa Pb95 spadła 17 września, a ceny detaliczne mogą obniżać się w najbliższych dniach."
     },
     {
       "fuel": "DIESEL",
       "direction": "UP",
       "recommendation": "FILL_UP",
-      "confidence": 0.79,
-      "summary": "Diesel jest drogi i hurtowo rośnie; przy utrzymaniu wysokiej ropy w najbliższym tygodniu ceny raczej jeszcze wzrosną."
+      "confidence": 0.78,
+      "summary": "Diesel drożeje w hurcie i nadal może podnosić ceny na stacjach w ciągu tygodnia."
     }
   ],
   "sources": [
     {
-      "title": "Ceny paliw dziś i na jutro – PB95 i ON, dane hurtowe oraz detaliczne",
+      "title": "Ceny paliw 17 września: diesel drożeje, benzyna tanieje",
+      "url": "https://motoguru.pl/na-czasie/ceny-paliw-17-wrzesnia-diesel-drozeje-benzyna-tanieje/",
+      "accessedAt": "2026-09-17T12:10:17.225Z"
+    },
+    {
+      "title": "Ceny paliw dziś i na jutro – 17 września 2026",
       "url": "https://cenypaliw.fyi/?from=2020-01-01&mode=vat&series=brent%2Con&to=2026-06-29",
-      "accessedAt": "2026-09-17T11:17:57.377Z"
+      "accessedAt": "2026-09-17T12:10:17.225Z"
     },
     {
-      "title": "Średnie ceny detaliczne i rafineryjne paliw w Polsce",
-      "url": "https://www.e-petrol.pl/notowania/pomocne-informacje",
-      "accessedAt": "2026-09-17T11:17:57.377Z"
-    },
-    {
-      "title": "Kursy średnie NBP – tabela A",
+      "title": "Kursy walut – tabela A NBP",
       "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
-      "accessedAt": "2026-09-17T11:17:57.377Z"
+      "accessedAt": "2026-09-17T12:10:17.225Z"
     },
     {
-      "title": "Ceny paliw w Polsce – raport bieżący",
-      "url": "https://paliwomapa.pl/historia-cen/rok/2026",
-      "accessedAt": "2026-09-17T11:17:57.377Z"
+      "title": "Sprzedaż hurtowa ANWIM",
+      "url": "https://www.anwim.pl/sprzedaz-hurtowa",
+      "accessedAt": "2026-09-17T12:10:17.225Z"
     }
   ]
 }
