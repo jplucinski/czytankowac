@@ -21,6 +21,7 @@ gh pr create \
   --head "$BRANCH" \
   --base main \
   --title "$TITLE" \
-  --body "Automatyczna prognoza paliw wygenerowana przez agenta badawczego."
+  --body "Automatyczna prognoza paliw wygenerowana przez agenta badawczego." \
+  >/dev/null
 
 gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number'
