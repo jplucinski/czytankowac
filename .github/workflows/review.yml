@@ -75,6 +75,20 @@ jobs:
           export REVIEW_JSON="$(cat review-output.json)"
           bash scripts/comment-review.sh
 
+      - name: Persist review artifact
+        if: env.REVIEW_EXIT == '0'
+        run: npx tsx scripts/persist-review.ts review-output.json
+
+      - name: Commit review artifact
+        if: env.REVIEW_EXIT == '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/review.json
+          git commit -m "chore: add forecast review metadata"
+          git push origin "$BRANCH"
+          echo "EXPECTED_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
       - name: Merge on PASS
         if: env.REVIEW_EXIT == '0'
         env:

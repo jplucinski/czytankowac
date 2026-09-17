@@ -1,8 +1,16 @@
 ---
 import FuelCard from '../components/FuelCard.astro';
+import ReviewNote from '../components/ReviewNote.astro';
 import { ForecastSchema } from '../domain/forecast';
+import { PublishedReviewSchema } from '../domain/review';
 import Base from '../layouts/Base.astro';
 import latestRaw from '../data/latest.json';
+
+const reviewModules = import.meta.glob<{ default: unknown }>('../data/review.json', {
+  eager: true,
+});
+const reviewRaw = Object.values(reviewModules)[0]?.default;
+const review = reviewRaw ? PublishedReviewSchema.safeParse(reviewRaw) : null;
 
 const forecast = ForecastSchema.parse(latestRaw);
 const updatedAt = new Date(forecast.asOf).toLocaleString('pl-PL', {
@@ -21,6 +29,8 @@ const updatedAt = new Date(forecast.asOf).toLocaleString('pl-PL', {
   <section class="fuel-list" aria-label="Rekomendacje paliw">
     {forecast.fuels.map((fuel) => <FuelCard fuel={fuel} />)}
   </section>
+
+  {review?.success ? <ReviewNote review={review.data} /> : null}
 
   <p class="model-caveat">
     Rekomendacja modelu jest słaba. To orientacyjny sygnał, nie pewna prognoza cen.
