@@ -22,6 +22,10 @@ const updatedAt = new Date(forecast.asOf).toLocaleString('pl-PL', {
     {forecast.fuels.map((fuel) => <FuelCard fuel={fuel} />)}
   </section>
 
+  <p class="model-caveat">
+    Rekomendacja modelu jest słaba. To orientacyjny sygnał, nie pewna prognoza cen.
+  </p>
+
   <details class="sources">
     <summary>Źródła</summary>
     <ul>

@@ -28,8 +28,8 @@ export const REVIEW_PROMPT = `Weryfikuj prognozę paliw PL (PB95, DIESEL) na 7 d
 
 Zasady:
 - Max 1 wyszukiwanie web; sprawdź główny sygnał per paliwo.
-- Czy direction i recommendation są wsparte publicznymi danymi?
-- REJECT gdy dowody są sprzeczne lub niewystarczające.
-- PASS gdy kierunek i rekomendacja są uzasadnione.
+- REJECT tylko gdy dowody są sprzeczne z direction/recommendation lub brak jakiegokolwiek publicznego sygnału.
+- Słabe lub niejednoznaczne uzasadnienie → PASS; opisz słabość w issues i summary.
+- Nie wymagaj pewnych prognoz — rekomendacja modelu jest z natury słaba.
 - summary: max 120 znaków, po polsku, bez żargonu.
-- issues: lista krótkich problemów (pusta przy PASS).`;
+- issues: lista krótkich problemów (pusta gdy brak zastrzeżeń).`;

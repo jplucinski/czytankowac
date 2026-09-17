@@ -108,6 +108,12 @@ body {
   font-size: 0.8125rem;
 }
 
+.model-caveat {
+  margin: -16px 0 32px;
+  color: var(--text-secondary);
+  font-size: 0.8125rem;
+}
+
 .sources {
   border-top: 1px solid var(--border);
   padding-top: 16px;

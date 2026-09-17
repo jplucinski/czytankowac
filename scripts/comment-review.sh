@@ -18,6 +18,8 @@ BODY="${ICON}
 
 ${SUMMARY}
 
-Problemy: ${ISSUES}"
+Problemy: ${ISSUES}
+
+Rekomendacja modelu jest słaba — na stronie pod wynikami jest ten disclaimer."
 
 gh pr comment "$PR_NUMBER" --body "$BODY"
