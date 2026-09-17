@@ -85,20 +85,31 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/data/review.json
-          git commit -m "chore: add forecast review metadata"
-          git push origin "$BRANCH"
-          echo "EXPECTED_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+          if git diff --staged --quiet; then
+            echo "Review metadata already committed; reusing current HEAD"
+          else
+            git commit -m "chore: add forecast review metadata"
+            git push origin "$BRANCH"
+          fi
+          echo "MERGE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
 
       - name: Merge on PASS
         if: env.REVIEW_EXIT == '0'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          CURRENT_SHA="$(gh pr view "$PR_NUMBER" --json headRefOid --jq '.headRefOid')"
-          if [[ "$CURRENT_SHA" != "$EXPECTED_SHA" ]]; then
-            echo "Head SHA changed before merge; aborting."
-            exit 1
-          fi
+          for attempt in $(seq 1 15); do
+            CURRENT_SHA="$(gh pr view "$PR_NUMBER" --json headRefOid --jq '.headRefOid')"
+            if [[ "$CURRENT_SHA" == "$MERGE_SHA" ]]; then
+              break
+            fi
+            if [[ "$attempt" -eq 15 ]]; then
+              echo "PR head $CURRENT_SHA did not converge to $MERGE_SHA before merge."
+              exit 1
+            fi
+            echo "Waiting for PR head to update ($attempt/15): $CURRENT_SHA -> $MERGE_SHA"
+            sleep 2
+          done
 
           TITLE="$(npx tsx -e "
           import { readFileSync } from 'node:fs';
@@ -113,7 +124,7 @@ jobs:
             "repos/${GITHUB_REPOSITORY}/pulls/${PR_NUMBER}/merge" \
             -f merge_method=squash \
             -f commit_title="$TITLE" \
-            -f sha="$EXPECTED_SHA"
+            -f sha="$MERGE_SHA"
 
           ENCODED_BRANCH="${BRANCH//\//%2F}"
           gh api \
