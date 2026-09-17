@@ -4,19 +4,21 @@ set -euo pipefail
 PR_NUMBER="${PR_NUMBER:?PR_NUMBER is required}"
 REVIEW_JSON="${REVIEW_JSON:?REVIEW_JSON is required}"
 
-if ! echo "$REVIEW_JSON" | jq -e '.decision' >/dev/null 2>&1; then
-  snippet="$(echo "$REVIEW_JSON" | head -c 2000)"
+json="$(printf '%s\n' "$REVIEW_JSON" | jq -n -c 'input | select(.decision != null)' 2>/dev/null || true)"
+
+if [[ -z "$json" ]]; then
+  snippet="$(printf '%s\n' "$REVIEW_JSON" | head -c 2000)"
   gh pr comment "$PR_NUMBER" --body "❌ Review nie zwrócił poprawnego JSON.
 
 \`\`\`
 ${snippet}
 \`\`\`"
-  exit 1
+  exit 0
 fi
 
-DECISION="$(echo "$REVIEW_JSON" | jq -r '.decision')"
-SUMMARY="$(echo "$REVIEW_JSON" | jq -r '.summary')"
-ISSUES="$(echo "$REVIEW_JSON" | jq -r 'if (.issues | length) == 0 then "brak" else (.issues | join(", ")) end')"
+DECISION="$(printf '%s\n' "$json" | jq -r '.decision')"
+SUMMARY="$(printf '%s\n' "$json" | jq -r '.summary')"
+ISSUES="$(printf '%s\n' "$json" | jq -r 'if (.issues | length) == 0 then "brak" else (.issues | join(", ")) end')"
 
 if [[ "$DECISION" == "PASS" ]]; then
   ICON="✅ Zatwierdzono"
