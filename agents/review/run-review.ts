@@ -1,6 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { ForecastSchema } from '../../src/domain/forecast';
+import { reviewCrashResult } from './review-crash-result';
 import { runReview } from './review-agent';
 import type { ReviewResult } from './review-schema';
 import { validateForecast } from './validate-forecast';
@@ -36,5 +37,6 @@ async function main(): Promise<void> {
 main().catch((error: unknown) => {
   const message = error instanceof Error ? error.message : String(error);
   console.error(`Review failed: ${message}`);
+  printResult(reviewCrashResult(message));
   process.exit(1);
 });
