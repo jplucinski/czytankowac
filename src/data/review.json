@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "PB95: sygnały są mieszane — dzisiejszy spadek hurtu, ale wzrost w ujęciu pięciodniowym.",
-    "DIESEL: kierunek wzrostowy jest wiarygodny, lecz rekomendacja „FILL_UP” opiera się na słabej prognozie krótkoterminowej."
+    "PB95: sygnał wzrostowy jest słabszy — 17 września ceny hurtowe spadły.",
+    "Diesel: prognoza wzrostu ma potwierdzenie, ale pewność 0,91 jest wysoka jak na horyzont 7 dni."
   ],
-  "summary": "Kierunki prognozy są zgodne z głównym sygnałem rynku, ale pewność jest zawyżona.",
-  "reviewedAt": "2026-09-17T18:51:55.289Z"
+  "summary": "Prognoza ma publiczne wsparcie, lecz wzrost PB95 jest mniej pewny niż wzrost diesla.",
+  "reviewedAt": "2026-09-18T09:56:51.605Z"
 }
