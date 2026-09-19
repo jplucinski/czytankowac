@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "PB95: sygnał wzrostowy jest słabszy — 17 września ceny hurtowe spadły.",
-    "Diesel: prognoza wzrostu ma potwierdzenie, ale pewność 0,91 jest wysoka jak na horyzont 7 dni."
+    "PB95 ma sygnał mieszany: spadek dzienny, ale wzrost w ujęciu pięciodniowym.",
+    "Diesel: hurt wzrósł, więc sygnał spadkowy opiera się głównie na detalu."
   ],
-  "summary": "Prognoza ma publiczne wsparcie, lecz wzrost PB95 jest mniej pewny niż wzrost diesla.",
-  "reviewedAt": "2026-09-18T09:56:51.605Z"
+  "summary": "Prognoza jest zgodna z danymi, lecz sygnały są mieszane i uzasadniają umiarkowaną pewność.",
+  "reviewedAt": "2026-09-19T09:38:40.422Z"
 }
