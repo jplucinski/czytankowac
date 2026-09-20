@@ -1,38 +1,48 @@
 {
-  "asOf": "2026-09-20T08:45:16.769Z",
+  "asOf": "2026-09-20T09:53:55.258Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
     {
       "fuel": "PB95",
-      "direction": "UP",
-      "recommendation": "FILL_UP",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
       "confidence": 0.78,
-      "summary": "Hurtowe ceny i ceny na stacjach rosną; przy utrzymaniu drogiej ropy PB95 może podrożeć jeszcze w ciągu tygodnia."
+      "summary": "Hurt Pb95 lekko spadł, a ceny detaliczne wzrosły tygodniowo; możliwe są niewielkie obniżki w ciągu 7 dni."
     },
     {
       "fuel": "DIESEL",
-      "direction": "UP",
-      "recommendation": "FILL_UP",
-      "confidence": 0.84,
-      "summary": "Diesel drożeje szybciej od benzyny, a wysokie ceny hurtowe zwiększają ryzyko dalszych podwyżek w najbliższych dniach."
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.76,
+      "summary": "Diesel pozostaje drogi, lecz tempo zmian wygasło; w najbliższym tygodniu bardziej prawdopodobna jest stabilizacja niż duży ruch."
     }
   ],
   "sources": [
     {
-      "title": "Aktualizacja cen paliw 18.09.2026 – AutoCentrum.pl",
-      "url": "https://www.autocentrum.pl/publikacje/badania-raporty-i-analizy/ceny-paliw-raport-tygodniowy/",
-      "accessedAt": "2026-09-20T08:45:16.769Z"
+      "title": "Ceny paliw dziś — benzyna, diesel, LPG",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-09-20T09:53:55.258Z"
     },
     {
-      "title": "Tabela A kursów średnich NBP z 18.09.2026 – EUR/PLN 4,3633",
-      "url": "https://rss.nbp.pl/kursy/TabRss.aspx?n=2026%2Fa%2F26a182",
-      "accessedAt": "2026-09-20T08:45:16.769Z"
+      "title": "Ceny paliw dzisiaj – benzyna, diesel i LPG",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-09-20T09:53:55.258Z"
     },
     {
-      "title": "ORLEN Paliwa – notowania hurtowe",
-      "url": "https://paliwa.orlen.pl/pl/notowania",
-      "accessedAt": "2026-09-20T08:45:16.769Z"
+      "title": "Ceny paliw na jutro (21.09.2026)",
+      "url": "https://cenypaliw.fyi/jutro",
+      "accessedAt": "2026-09-20T09:53:55.258Z"
+    },
+    {
+      "title": "Archiwum kursów średnich – tabela A NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
+      "accessedAt": "2026-09-20T09:53:55.258Z"
+    },
+    {
+      "title": "Raport cen paliw wrzesień 2026",
+      "url": "https://paliwomapa.pl/historia-cen/miesiac/2026/09",
+      "accessedAt": "2026-09-20T09:53:55.258Z"
     }
   ]
 }
