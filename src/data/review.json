@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "PB95 ma sygnał mieszany: spadek dzienny, ale wzrost w ujęciu pięciodniowym.",
-    "Diesel: hurt wzrósł, więc sygnał spadkowy opiera się głównie na detalu."
+    "Sygnały są mieszane: bieżące ceny rosną, ale część prognoz wskazuje możliwą korektę; pewność 0,78–0,84 jest wysoka.",
+    "Brak bezpośredniego potwierdzenia pełnego 7-dniowego wzrostu diesla."
   ],
-  "summary": "Prognoza jest zgodna z danymi, lecz sygnały są mieszane i uzasadniają umiarkowaną pewność.",
-  "reviewedAt": "2026-09-19T09:38:40.422Z"
+  "summary": "Kierunek wzrostowy ma wsparcie, ale prognoza jest zbyt pewna przy mieszanych sygnałach.",
+  "reviewedAt": "2026-09-20T08:46:03.902Z"
 }
