@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Sygnały są mieszane: bieżące ceny rosną, ale część prognoz wskazuje możliwą korektę; pewność 0,78–0,84 jest wysoka.",
-    "Brak bezpośredniego potwierdzenia pełnego 7-dniowego wzrostu diesla."
+    "Horyzont 7 dni nie uzasadnia tak wysokiej pewności, szczególnie dla PB95.",
+    "Sygnał dla PB95 jest umiarkowany; diesel ma wyraźniejsze wsparcie wzrostowe."
   ],
-  "summary": "Kierunek wzrostowy ma wsparcie, ale prognoza jest zbyt pewna przy mieszanych sygnałach.",
-  "reviewedAt": "2026-09-20T08:46:03.902Z"
+  "summary": "Oba kierunki wzrostowe są zgodne z dostępnymi sygnałami, ale pewność zawyżona.",
+  "reviewedAt": "2026-09-21T10:54:38.070Z"
 }
