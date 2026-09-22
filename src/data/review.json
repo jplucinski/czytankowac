@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Horyzont 7 dni nie uzasadnia tak wysokiej pewności, szczególnie dla PB95.",
-    "Sygnał dla PB95 jest umiarkowany; diesel ma wyraźniejsze wsparcie wzrostowe."
+    "PB95: sygnał mieszany — hurt spada, detal pozostaje wysoki; stabilizacja jest możliwa, ale pewność 0,78 wydaje się zawyżona.",
+    "DIESEL: dane wspierają wzrost, lecz brak wyraźnej 7-dniowej dynamiki ogranicza uzasadnienie pewności 0,83."
   ],
-  "summary": "Oba kierunki wzrostowe są zgodne z dostępnymi sygnałami, ale pewność zawyżona.",
-  "reviewedAt": "2026-09-21T10:54:38.070Z"
+  "summary": "Kierunki są zgodne z publicznymi sygnałami, ale pewność prognoz jest zawyżona.",
+  "reviewedAt": "2026-09-22T10:09:20.133Z"
 }
