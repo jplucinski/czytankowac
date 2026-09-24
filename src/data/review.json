@@ -1,8 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Dla DIESEL sygnał stabilności jest słabszy: źródła wskazują możliwe niewielkie spadki, a prognozy tygodniowe szeroki zakres cen."
+    "Diesel: sygnał wzrostowy jest wiarygodny, ale 7-dniowy kierunek pozostaje niepewny.",
+    "PB95: potwierdzona stabilizacja detalu, lecz brak pełnego potwierdzenia odbicia hurtowego."
   ],
-  "summary": "PB95 ma sygnał spadkowy; diesel raczej stabilny, lecz z niepewnością.",
-  "reviewedAt": "2026-09-23T10:11:08.358Z"
+  "summary": "Prognoza zgodna z głównym sygnałem: PB95 stabilnie, diesel z presją wzrostową.",
+  "reviewedAt": "2026-09-24T10:16:36.419Z"
 }
