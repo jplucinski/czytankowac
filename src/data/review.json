@@ -1,9 +1,8 @@
 {
   "decision": "PASS",
   "issues": [
-    "Diesel: sygnał wzrostowy jest wiarygodny, ale 7-dniowy kierunek pozostaje niepewny.",
-    "PB95: potwierdzona stabilizacja detalu, lecz brak pełnego potwierdzenia odbicia hurtowego."
+    "Źródła potwierdzają ogólny kierunek wzrostowy, ale nie weryfikują dokładnie podanych zmian 0,20 i 0,14 zł/l ani poziomów pewności."
   ],
-  "summary": "Prognoza zgodna z głównym sygnałem: PB95 stabilnie, diesel z presją wzrostową.",
-  "reviewedAt": "2026-09-24T10:16:36.419Z"
+  "summary": "Kierunek wzrostowy obu paliw ma publiczne potwierdzenie; szczegóły prognozy są słabiej udokumentowane.",
+  "reviewedAt": "2026-09-27T10:38:55.235Z"
 }
