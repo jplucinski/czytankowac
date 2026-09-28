@@ -1,8 +1,8 @@
 {
   "decision": "PASS",
   "issues": [
-    "Źródła potwierdzają ogólny kierunek wzrostowy, ale nie weryfikują dokładnie podanych zmian 0,20 i 0,14 zł/l ani poziomów pewności."
+    "Uzasadnienie wspomina wzrost hurtu, ale dostępna prognoza CIRE wskazuje stabilizację obu paliw; sygnał jest niespójny, lecz rekomendacja pozostaje zgodna."
   ],
-  "summary": "Kierunek wzrostowy obu paliw ma publiczne potwierdzenie; szczegóły prognozy są słabiej udokumentowane.",
-  "reviewedAt": "2026-09-27T10:38:55.235Z"
+  "summary": "Prognoza stabilizacji PB95 i diesla jest zgodna z publiczną prognozą na 28.09–4.10.",
+  "reviewedAt": "2026-09-28T11:51:26.536Z"
 }
