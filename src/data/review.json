@@ -1,8 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Uzasadnienie wspomina wzrost hurtu, ale dostępna prognoza CIRE wskazuje stabilizację obu paliw; sygnał jest niespójny, lecz rekomendacja pozostaje zgodna."
+    "Obecny sygnał hurtowy wskazuje spadki obu paliw, więc stabilizacja jest słabo uzasadniona.",
+    "Podane ceny detaliczne różnią się od aktualnie znalezionych wartości."
   ],
-  "summary": "Prognoza stabilizacji PB95 i diesla jest zgodna z publiczną prognozą na 28.09–4.10.",
-  "reviewedAt": "2026-09-28T11:51:26.536Z"
+  "summary": "Prognoza jest możliwa, lecz aktualny hurt lekko przemawia za spadkiem obu paliw.",
+  "reviewedAt": "2026-09-29T11:28:07.038Z"
 }
