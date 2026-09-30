@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Obecny sygnał hurtowy wskazuje spadki obu paliw, więc stabilizacja jest słabo uzasadniona.",
-    "Podane ceny detaliczne różnią się od aktualnie znalezionych wartości."
+    "Sygnał jest niejednoznaczny: dostępne dane wskazują krótkoterminowo raczej na możliwe obniżki, nie wzrosty.",
+    "Brak potwierdzenia dokładnego zakresu 9,00–9,29 zł/l dla diesla w horyzoncie 7 dni."
   ],
-  "summary": "Prognoza jest możliwa, lecz aktualny hurt lekko przemawia za spadkiem obu paliw.",
-  "reviewedAt": "2026-09-29T11:28:07.038Z"
+  "summary": "Prognoza przechodzi, ale sygnały sugerują raczej stabilizację lub spadki niż wzrost diesla.",
+  "reviewedAt": "2026-09-30T11:16:03.914Z"
 }
