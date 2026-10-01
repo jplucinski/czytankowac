@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Sygnał jest niejednoznaczny: dostępne dane wskazują krótkoterminowo raczej na możliwe obniżki, nie wzrosty.",
-    "Brak potwierdzenia dokładnego zakresu 9,00–9,29 zł/l dla diesla w horyzoncie 7 dni."
+    "Dane wskazują odbicie, ale zmiana jest niewielka; pewność 0,82–0,84 wydaje się zawyżona.",
+    "Sygnał hurtowy wspiera kierunek, lecz nie przesądza 7 dni."
   ],
-  "summary": "Prognoza przechodzi, ale sygnały sugerują raczej stabilizację lub spadki niż wzrost diesla.",
-  "reviewedAt": "2026-09-30T11:16:03.914Z"
+  "summary": "Kierunki są zgodne z odbiciem hurtu; prognoza przechodzi, lecz pewność jest zbyt wysoka.",
+  "reviewedAt": "2026-10-01T11:44:08.091Z"
 }
