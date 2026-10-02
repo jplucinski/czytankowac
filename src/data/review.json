@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Dane wskazują odbicie, ale zmiana jest niewielka; pewność 0,82–0,84 wydaje się zawyżona.",
-    "Sygnał hurtowy wspiera kierunek, lecz nie przesądza 7 dni."
+    "Diesel: sygnał wspiera raczej stabilizację lub spadek, nie wzrost.",
+    "Brak potwierdzenia niezależną prognozą na 5–11 października."
   ],
-  "summary": "Kierunki są zgodne z odbiciem hurtu; prognoza przechodzi, lecz pewność jest zbyt wysoka.",
-  "reviewedAt": "2026-10-01T11:44:08.091Z"
+  "summary": "PB95 zgodne z danymi; diesel ma przeciwny sygnał, więc rekomendacja jest słabo uzasadniona.",
+  "reviewedAt": "2026-10-02T11:13:02.267Z"
 }
