@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Prognozowane spadki są niewielkie; dla PB95 sygnał jest słabszy niż dla diesla.",
-    "Źródła detaliczne mają opóźnienie względem daty prognozy."
+    "Sygnał wspiera spadek, ale nie potwierdza 7-dniowego trendu; dane wskazują też na możliwą stabilizację.",
+    "Wysoka pewność 0,8/0,78 jest słabo uzasadniona."
   ],
-  "summary": "Oba paliwa mają spadkowy sygnał; rekomendacja WAIT jest zasadna, lecz niepewna.",
-  "reviewedAt": "2026-10-03T10:30:38.924Z"
+  "summary": "Obniżony hurt wspiera spadek obu paliw, lecz bardziej prawdopodobna jest stabilizacja niż pewny ruch w dół.",
+  "reviewedAt": "2026-10-04T11:12:08.302Z"
 }
