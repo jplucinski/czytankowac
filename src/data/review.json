@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Sygnał wspiera spadek, ale nie potwierdza 7-dniowego trendu; dane wskazują też na możliwą stabilizację.",
-    "Wysoka pewność 0,8/0,78 jest słabo uzasadniona."
+    "PB95: odbicie hurtowe osłabia tezę o stabilizacji, ale nie wyklucza jej przy wcześniejszym spadku.",
+    "DIESEL: sygnały potwierdzają spadek hurtowy i limitu; brak twardego potwierdzenia, że ceny stacji są powyżej limitu."
   ],
-  "summary": "Obniżony hurt wspiera spadek obu paliw, lecz bardziej prawdopodobna jest stabilizacja niż pewny ruch w dół.",
-  "reviewedAt": "2026-10-04T11:12:08.302Z"
+  "summary": "Kierunki są zgodne z głównymi sygnałami, lecz uzasadnienie ma kilka słabszych ogniw.",
+  "reviewedAt": "2026-10-06T12:08:24.068Z"
 }
