@@ -1,9 +1,10 @@
 {
   "decision": "PASS",
   "issues": [
-    "PB95: odbicie hurtowe osłabia tezę o stabilizacji, ale nie wyklucza jej przy wcześniejszym spadku.",
-    "DIESEL: sygnały potwierdzają spadek hurtowy i limitu; brak twardego potwierdzenia, że ceny stacji są powyżej limitu."
+    "Brak wiarygodnego sygnału na pełne 7 dni; dane pokazują głównie trend historyczny.",
+    "PB95: źródła detaliczne są niespójne (6,69–7,07 zł/l).",
+    "DIESEL: sygnał spadkowy jest mocniejszy, ale bez prognozy wykraczającej poza trend."
   ],
-  "summary": "Kierunki są zgodne z głównymi sygnałami, lecz uzasadnienie ma kilka słabszych ogniw.",
-  "reviewedAt": "2026-10-06T12:08:24.068Z"
+  "summary": "Oba kierunki spadkowe mają wsparcie w hurcie i detalu, lecz 7-dniowa prognoza jest słabo potwierdzona.",
+  "reviewedAt": "2026-10-07T11:53:49.002Z"
 }
