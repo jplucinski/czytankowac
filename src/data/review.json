@@ -1,10 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Brak wiarygodnego sygnału na pełne 7 dni; dane pokazują głównie trend historyczny.",
-    "PB95: źródła detaliczne są niespójne (6,69–7,07 zł/l).",
-    "DIESEL: sygnał spadkowy jest mocniejszy, ale bez prognozy wykraczającej poza trend."
+    "Hurt 8 października wzrósł dla obu paliw, więc sygnał wspiera stabilizację PB95 i osłabia prognozę dalszych spadków diesla.",
+    "Brak bezpośredniego potwierdzenia pełnego trendu detalicznego na 7 dni; pewność 0,78–0,76 jest wysoka."
   ],
-  "summary": "Oba kierunki spadkowe mają wsparcie w hurcie i detalu, lecz 7-dniowa prognoza jest słabo potwierdzona.",
-  "reviewedAt": "2026-10-07T11:53:49.002Z"
+  "summary": "Prognoza jest możliwa, lecz wzrost hurtu zwiększa ryzyko odbicia, szczególnie diesla.",
+  "reviewedAt": "2026-10-08T12:09:02.223Z"
 }
