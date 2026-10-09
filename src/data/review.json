@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Hurt 8 października wzrósł dla obu paliw, więc sygnał wspiera stabilizację PB95 i osłabia prognozę dalszych spadków diesla.",
-    "Brak bezpośredniego potwierdzenia pełnego trendu detalicznego na 7 dni; pewność 0,78–0,76 jest wysoka."
+    "Brak niezależnego potwierdzenia pełnej prognozy 7-dniowej; sygnał dotyczy głównie jednego dnia.",
+    "Rekomendacja FILL_UP i wysokie confidence są słabiej uzasadnione niż sam kierunek."
   ],
-  "summary": "Prognoza jest możliwa, lecz wzrost hurtu zwiększa ryzyko odbicia, szczególnie diesla.",
-  "reviewedAt": "2026-10-08T12:09:02.223Z"
+  "summary": "Kierunek wzrostowy potwierdzony, ale 7-dniowa pewność i pilność zakupu są zawyżone.",
+  "reviewedAt": "2026-10-09T12:00:44.841Z"
 }
