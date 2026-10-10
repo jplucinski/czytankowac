@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Brak niezależnego potwierdzenia pełnej prognozy 7-dniowej; sygnał dotyczy głównie jednego dnia.",
-    "Rekomendacja FILL_UP i wysokie confidence są słabiej uzasadnione niż sam kierunek."
+    "Diesel: jeden bieżący sygnał wskazuje chwilowy spadek hurtu, mimo przewagi prognoz wzrostowych.",
+    "Confidence 0.82–0.88 jest wysoka jak na 7-dniową prognozę."
   ],
-  "summary": "Kierunek wzrostowy potwierdzony, ale 7-dniowa pewność i pilność zakupu są zawyżone.",
-  "reviewedAt": "2026-10-09T12:00:44.841Z"
+  "summary": "Prognoza zgodna z większością sygnałów: paliwa mogą zdrożeć, szczególnie diesel.",
+  "reviewedAt": "2026-10-10T11:17:09.148Z"
 }
