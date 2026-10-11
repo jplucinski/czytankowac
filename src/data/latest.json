@@ -1,48 +1,43 @@
 {
-  "asOf": "2026-10-10T11:16:24.780Z",
+  "asOf": "2026-10-11T11:29:53.135Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
     {
       "fuel": "PB95",
-      "direction": "UP",
-      "recommendation": "FILL_UP",
-      "confidence": 0.82,
-      "summary": "Hurt Pb95 rośnie od kilku dni, a limit detaliczny wzrósł; w 7 dni ceny raczej jeszcze podbiją."
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.79,
+      "summary": "Ceny hurtowe i limity detaliczne są stabilne; przez tydzień Pb95 powinna zmieniać się najwyżej nieznacznie."
     },
     {
       "fuel": "DIESEL",
-      "direction": "UP",
-      "recommendation": "FILL_UP",
-      "confidence": 0.88,
-      "summary": "Diesel drożeje w hurcie i na rynku ARA, a limit wzrósł; podwyżki na stacjach są prawdopodobne."
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.76,
+      "summary": "Diesel jest drogi, lecz ostatnio tanieje; przy stabilnym hurcie możliwy jest łagodny spadek cen w tydzień."
     }
   ],
   "sources": [
     {
-      "title": "Maksymalna cena detaliczna paliw 10–12 października 2026",
-      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-10-12-pazdziernika-2026-r",
-      "accessedAt": "2026-10-10T11:16:24.780Z"
-    },
-    {
       "title": "Ceny paliw dziś — średnie ceny detaliczne w Polsce",
       "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-10-10T11:16:24.780Z"
+      "accessedAt": "2026-10-11T11:29:53.135Z"
     },
     {
-      "title": "Ceny paliw dzisiaj — hurt ORLEN i ceny detaliczne",
-      "url": "https://cenapaliwa.pl/index.html",
-      "accessedAt": "2026-10-10T11:16:24.780Z"
+      "title": "Ceny paliw i cennik hurtowy ORLEN",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-10-11T11:29:53.135Z"
     },
     {
-      "title": "Prognoza cen paliw 12–18 października 2026",
-      "url": "https://www.e-petrol.pl/notowania-komentarz-rynek-paliw/124817/e-petrol-pl-wracamy-do-8-zlotych",
-      "accessedAt": "2026-10-10T11:16:24.780Z"
+      "title": "Ceny paliw 11 października 2026 — limity maksymalne",
+      "url": "https://cenycpn.pl/ceny-paliw/2026-10-11",
+      "accessedAt": "2026-10-11T11:29:53.135Z"
     },
     {
-      "title": "Raport Reflex: powrót do 7 zł za benzynę i 8 zł za diesla",
-      "url": "https://reflex.com.pl/wiadomosci/reflex-wraca-7-zl-za-litr-benzyny-i-8-zl-za-litr-diesla",
-      "accessedAt": "2026-10-10T11:16:24.780Z"
+      "title": "Archiwum kursów średnich NBP — tabela A",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
+      "accessedAt": "2026-10-11T11:29:53.135Z"
     }
   ]
 }

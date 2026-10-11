@@ -1,9 +1,10 @@
 {
   "decision": "PASS",
   "issues": [
-    "Diesel: jeden bieżący sygnał wskazuje chwilowy spadek hurtu, mimo przewagi prognoz wzrostowych.",
-    "Confidence 0.82–0.88 jest wysoka jak na 7-dniową prognozę."
+    "Sygnał dla PB95 jest słaby: dostępne dane wskazują raczej bieżący spadek hurtowy niż pełną stabilność.",
+    "Dla diesla potwierdzono wysoką cenę i łagodny kierunek spadkowy, ale brak mocnego sygnału na pełne 7 dni.",
+    "Limity maksymalne nie są prognozą cen rynkowych. "
   ],
-  "summary": "Prognoza zgodna z większością sygnałów: paliwa mogą zdrożeć, szczególnie diesel.",
-  "reviewedAt": "2026-10-10T11:17:09.148Z"
+  "summary": "Kierunki są wiarygodne, lecz stabilność PB95 i siła spadku diesla są słabo potwierdzone.",
+  "reviewedAt": "2026-10-11T11:30:43.385Z"
 }
