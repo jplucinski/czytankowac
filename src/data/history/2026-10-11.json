@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-10-11T11:29:53.135Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.79,
+      "summary": "Ceny hurtowe i limity detaliczne są stabilne; przez tydzień Pb95 powinna zmieniać się najwyżej nieznacznie."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.76,
+      "summary": "Diesel jest drogi, lecz ostatnio tanieje; przy stabilnym hurcie możliwy jest łagodny spadek cen w tydzień."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ceny paliw dziś — średnie ceny detaliczne w Polsce",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-10-11T11:29:53.135Z"
+    },
+    {
+      "title": "Ceny paliw i cennik hurtowy ORLEN",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-10-11T11:29:53.135Z"
+    },
+    {
+      "title": "Ceny paliw 11 października 2026 — limity maksymalne",
+      "url": "https://cenycpn.pl/ceny-paliw/2026-10-11",
+      "accessedAt": "2026-10-11T11:29:53.135Z"
+    },
+    {
+      "title": "Archiwum kursów średnich NBP — tabela A",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
+      "accessedAt": "2026-10-11T11:29:53.135Z"
+    }
+  ]
+}
