@@ -1,10 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Sygnał dla PB95 jest słaby: dostępne dane wskazują raczej bieżący spadek hurtowy niż pełną stabilność.",
-    "Dla diesla potwierdzono wysoką cenę i łagodny kierunek spadkowy, ale brak mocnego sygnału na pełne 7 dni.",
-    "Limity maksymalne nie są prognozą cen rynkowych. "
+    "Sygnał dotyczy głównie ceny maksymalnej na 13 października, nie pełnych 7 dni.",
+    "Brak wiarygodnego potwierdzenia wpływu kursu euro i dalszych podwyżek PB95."
   ],
-  "summary": "Kierunki są wiarygodne, lecz stabilność PB95 i siła spadku diesla są słabo potwierdzone.",
-  "reviewedAt": "2026-10-11T11:30:43.385Z"
+  "summary": "Jutrzejsze zmiany potwierdzają kierunek, ale dowody na pełne 7 dni są ograniczone.",
+  "reviewedAt": "2026-10-12T13:21:56.893Z"
 }
