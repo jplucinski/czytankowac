@@ -1,43 +1,48 @@
 {
-  "asOf": "2026-10-11T11:29:53.135Z",
+  "asOf": "2026-10-12T13:20:58.986Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
     {
       "fuel": "PB95",
-      "direction": "STABLE",
-      "recommendation": "NORMAL",
-      "confidence": 0.79,
-      "summary": "Ceny hurtowe i limity detaliczne są stabilne; przez tydzień Pb95 powinna zmieniać się najwyżej nieznacznie."
+      "direction": "UP",
+      "recommendation": "FILL_UP",
+      "confidence": 0.84,
+      "summary": "Limit PB95 rośnie o 9 gr od 13 października, a hurt i kurs euro wspierają dalsze podwyżki w ciągu tygodnia."
     },
     {
       "fuel": "DIESEL",
-      "direction": "DOWN",
-      "recommendation": "WAIT",
-      "confidence": 0.76,
-      "summary": "Diesel jest drogi, lecz ostatnio tanieje; przy stabilnym hurcie możliwy jest łagodny spadek cen w tydzień."
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.79,
+      "summary": "Jutrzejszy limit diesla spada o 4 gr, lecz wcześniejszy wzrost hurtu ogranicza przestrzeń do większych obniżek."
     }
   ],
   "sources": [
     {
-      "title": "Ceny paliw dziś — średnie ceny detaliczne w Polsce",
-      "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-10-11T11:29:53.135Z"
+      "title": "Hurtowe ceny paliw ORLEN",
+      "url": "https://www.orlen.pl/pl/dla-biznesu/hurtowe-ceny-paliw",
+      "accessedAt": "2026-10-12T13:20:58.986Z"
     },
     {
-      "title": "Ceny paliw i cennik hurtowy ORLEN",
+      "title": "Ceny paliw dzisiaj – benzyna, diesel i LPG",
       "url": "https://cenapaliwa.pl/",
-      "accessedAt": "2026-10-11T11:29:53.135Z"
+      "accessedAt": "2026-10-12T13:20:58.986Z"
     },
     {
-      "title": "Ceny paliw 11 października 2026 — limity maksymalne",
-      "url": "https://cenycpn.pl/ceny-paliw/2026-10-11",
-      "accessedAt": "2026-10-11T11:29:53.135Z"
+      "title": "Maksymalna cena detaliczna paliw 10–12 października 2026",
+      "url": "https://redakcja.www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-10-12-pazdziernika-2026-r",
+      "accessedAt": "2026-10-12T13:20:58.986Z"
     },
     {
-      "title": "Archiwum kursów średnich NBP — tabela A",
-      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
-      "accessedAt": "2026-10-11T11:29:53.135Z"
+      "title": "Maksymalne ceny paliw na jutro i dziś",
+      "url": "https://monitorpaliw.pl/",
+      "accessedAt": "2026-10-12T13:20:58.986Z"
+    },
+    {
+      "title": "Tabela A kursów średnich NBP z 12 października 2026",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-10-12T13:20:58.986Z"
     }
   ]
 }
