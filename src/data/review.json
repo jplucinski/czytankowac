@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Sygnał dotyczy głównie ceny maksymalnej na 13 października, nie pełnych 7 dni.",
-    "Brak wiarygodnego potwierdzenia wpływu kursu euro i dalszych podwyżek PB95."
+    "PB95 wzrost hurtowy wynosi ok. 0,8%, nie 4,7%; diesel hurtowo spadł ok. 0,5%, lecz detalicznie wzrósł 0,8%.",
+    "Horyzont 7 dni i wysokie poziomy pewności są słabo uzasadnione jednym krótkim sygnałem."
   ],
-  "summary": "Jutrzejsze zmiany potwierdzają kierunek, ale dowody na pełne 7 dni są ograniczone.",
-  "reviewedAt": "2026-10-12T13:21:56.893Z"
+  "summary": "Kierunki są zgodne z danymi, ale PB95 ma zawyżony wzrost i zbyt wysoką pewność.",
+  "reviewedAt": "2026-10-13T12:50:04.995Z"
 }
