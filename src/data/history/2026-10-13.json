@@ -1,0 +1,48 @@
+{
+  "asOf": "2026-10-13T12:49:16.289Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "UP",
+      "recommendation": "FILL_UP",
+      "confidence": 0.84,
+      "summary": "Hurtowa PB95 wzrosła o 4,7% od 10 października, a detaliści już podnoszą ceny; możliwe dalsze podwyżki w tygodniu."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.79,
+      "summary": "Hurtowy diesel spadł o 0,5%, lecz ceny detaliczne wzrosły; w tygodniu bardziej prawdopodobna jest stabilizacja niż wyraźny spadek."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hurtowe ceny paliw, ORLEN, ARAMCO, BP — e-petrol.pl",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
+      "accessedAt": "2026-10-13T12:49:16.289Z"
+    },
+    {
+      "title": "Archiwum kursów średnich — tabela A NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
+      "accessedAt": "2026-10-13T12:49:16.289Z"
+    },
+    {
+      "title": "Aktualne ceny paliw w Polsce — zapaliwo.pl",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-10-13T12:49:16.289Z"
+    },
+    {
+      "title": "Monitor Cen Paliw — średnie ceny detaliczne",
+      "url": "https://monitorcenpaliw.pl/index.php",
+      "accessedAt": "2026-10-13T12:49:16.289Z"
+    },
+    {
+      "title": "Maksymalne ceny paliw — Monitor Paliw",
+      "url": "https://monitorpaliw.pl/",
+      "accessedAt": "2026-10-13T12:49:16.289Z"
+    }
+  ]
+}
