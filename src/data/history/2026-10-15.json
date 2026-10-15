@@ -1,0 +1,48 @@
+{
+  "asOf": "2026-10-15T10:08:15.855Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.79,
+      "summary": "Hurt Pb95 jest zbliżony u głównych dostawców, a detal pozostaje stabilny; większa zmiana w tydzień jest mało prawdopodobna."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.77,
+      "summary": "Hurt diesla różni się między dostawcami, lecz detal jest stabilny; w ciągu tygodnia najbardziej prawdopodobne są niewielkie wahania."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hurtowe ceny paliw ORLEN",
+      "url": "https://www.orlen.pl/pl/dla-biznesu/hurtowe-ceny-paliw",
+      "accessedAt": "2026-10-15T10:08:15.855Z"
+    },
+    {
+      "title": "Sprzedaż hurtowa ANWIM",
+      "url": "https://www.anwim.pl/sprzedaz-hurtowa",
+      "accessedAt": "2026-10-15T10:08:15.855Z"
+    },
+    {
+      "title": "Średnie ceny detaliczne i rafineryjne paliw",
+      "url": "https://www.e-petrol.pl/notowania/pomocne-informacje",
+      "accessedAt": "2026-10-15T10:08:15.855Z"
+    },
+    {
+      "title": "Ceny paliw dzisiaj — monitoring detaliczny",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-10-15T10:08:15.855Z"
+    },
+    {
+      "title": "Kursy średnie NBP — tabela A",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-10-15T10:08:15.855Z"
+    }
+  ]
+}
