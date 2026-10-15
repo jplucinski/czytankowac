@@ -1,9 +1,8 @@
 {
   "decision": "PASS",
   "issues": [
-    "PB95 wzrost hurtowy wynosi ok. 0,8%, nie 4,7%; diesel hurtowo spadł ok. 0,5%, lecz detalicznie wzrósł 0,8%.",
-    "Horyzont 7 dni i wysokie poziomy pewności są słabo uzasadnione jednym krótkim sygnałem."
+    "Sygnały są częściowo niejednoznaczne: bieżące odczyty wskazują wzrosty, a krótkoterminowe prognozy spadki; brak mocnego potwierdzenia stabilności."
   ],
-  "summary": "Kierunki są zgodne z danymi, ale PB95 ma zawyżony wzrost i zbyt wysoką pewność.",
-  "reviewedAt": "2026-10-13T12:50:04.995Z"
+  "summary": "Prognoza stabilności jest możliwa, lecz sygnały sugerują też krótkie wahania, zwłaszcza diesla.",
+  "reviewedAt": "2026-10-15T10:09:14.396Z"
 }
