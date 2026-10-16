@@ -1,0 +1,48 @@
+{
+  "asOf": "2026-10-16T09:59:04.045Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.79,
+      "summary": "Hurt Pb95 spadł dziś, lecz w pięć dni wzrósł; detal rośnie, więc w kolejnym tygodniu bardziej prawna jest stabilizacja niż wyraźny spadek."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "UP",
+      "recommendation": "FILL_UP",
+      "confidence": 0.81,
+      "summary": "Diesel w hurcie wzrósł o około 20 gr w pięć dni, a detal nadal drożeje; w najbliższym tygodniu możliwy jest dalszy wzrost."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aktualne ceny paliw w Polsce",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-10-16T09:59:04.045Z"
+    },
+    {
+      "title": "Sprzedaż hurtowa ANWIM",
+      "url": "https://www.anwim.pl/sprzedaz-hurtowa",
+      "accessedAt": "2026-10-16T09:59:04.045Z"
+    },
+    {
+      "title": "Ceny hurtowe paliw ORLEN i UNIMOT",
+      "url": "https://cenapaliwa.pl/hurt/",
+      "accessedAt": "2026-10-16T09:59:04.045Z"
+    },
+    {
+      "title": "Maksymalne ceny paliw 16.10.2026",
+      "url": "https://ileaut.pl/maksymalne-ceny-paliw-pb95-pb98-on-dzisiaj/2026-10-16",
+      "accessedAt": "2026-10-16T09:59:04.045Z"
+    },
+    {
+      "title": "Ceny paliw — dzisiaj i jutro",
+      "url": "https://starachowicka.pl/ceny-paliw/",
+      "accessedAt": "2026-10-16T09:59:04.045Z"
+    }
+  ]
+}

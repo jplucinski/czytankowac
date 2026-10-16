@@ -1,8 +1,10 @@
 {
   "decision": "PASS",
   "issues": [
-    "Sygnały są częściowo niejednoznaczne: bieżące odczyty wskazują wzrosty, a krótkoterminowe prognozy spadki; brak mocnego potwierdzenia stabilności."
+    "Sygnał dla PB95 jest mieszany: spadek dzienny, ale wzrost w pięć dni.",
+    "Brak mocnego potwierdzenia kierunku cen detalicznych na pełne 7 dni.",
+    "Wysokie confidence (0.79–0.81) jest słabo uzasadnione."
   ],
-  "summary": "Prognoza stabilności jest możliwa, lecz sygnały sugerują też krótkie wahania, zwłaszcza diesla.",
-  "reviewedAt": "2026-10-15T10:09:14.396Z"
+  "summary": "Dane wspierają stabilizację PB95 i wzrost diesla, ale pewność prognozy jest zawyżona.",
+  "reviewedAt": "2026-10-16T10:00:00.762Z"
 }
