@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-10-17T09:31:36.388Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.82,
+      "summary": "Hurt Pb95 spadł o 0,25 zł/l w pięć dni, a limit detaliczny obniżono; możliwy dalszy niewielki spadek."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.76,
+      "summary": "ON tanieje wolniej, a średnia detaliczna wynosi 7,80 zł/l; w tydzień bardziej prawdopodobna stabilizacja niż duża zmiana."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ceny paliw dzisiaj – hurt ORLEN i ceny detaliczne",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-10-17T09:31:36.388Z"
+    },
+    {
+      "title": "Średnie ceny detaliczne paliw w Polsce",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-10-17T09:31:36.388Z"
+    },
+    {
+      "title": "Maksymalne ceny detaliczne paliw 17–19 października 2026",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-17-19-pazdziernika-2026-r",
+      "accessedAt": "2026-10-17T09:31:36.388Z"
+    },
+    {
+      "title": "Historia maksymalnych cen paliw w Polsce",
+      "url": "https://cenycpn.pl/historia",
+      "accessedAt": "2026-10-17T09:31:36.388Z"
+    }
+  ]
+}
