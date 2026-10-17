@@ -1,48 +1,43 @@
 {
-  "asOf": "2026-10-16T09:59:04.045Z",
+  "asOf": "2026-10-17T09:31:36.388Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
     {
       "fuel": "PB95",
-      "direction": "STABLE",
-      "recommendation": "NORMAL",
-      "confidence": 0.79,
-      "summary": "Hurt Pb95 spadł dziś, lecz w pięć dni wzrósł; detal rośnie, więc w kolejnym tygodniu bardziej prawna jest stabilizacja niż wyraźny spadek."
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.82,
+      "summary": "Hurt Pb95 spadł o 0,25 zł/l w pięć dni, a limit detaliczny obniżono; możliwy dalszy niewielki spadek."
     },
     {
       "fuel": "DIESEL",
-      "direction": "UP",
-      "recommendation": "FILL_UP",
-      "confidence": 0.81,
-      "summary": "Diesel w hurcie wzrósł o około 20 gr w pięć dni, a detal nadal drożeje; w najbliższym tygodniu możliwy jest dalszy wzrost."
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.76,
+      "summary": "ON tanieje wolniej, a średnia detaliczna wynosi 7,80 zł/l; w tydzień bardziej prawdopodobna stabilizacja niż duża zmiana."
     }
   ],
   "sources": [
     {
-      "title": "Aktualne ceny paliw w Polsce",
+      "title": "Ceny paliw dzisiaj – hurt ORLEN i ceny detaliczne",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-10-17T09:31:36.388Z"
+    },
+    {
+      "title": "Średnie ceny detaliczne paliw w Polsce",
       "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-10-16T09:59:04.045Z"
+      "accessedAt": "2026-10-17T09:31:36.388Z"
     },
     {
-      "title": "Sprzedaż hurtowa ANWIM",
-      "url": "https://www.anwim.pl/sprzedaz-hurtowa",
-      "accessedAt": "2026-10-16T09:59:04.045Z"
+      "title": "Maksymalne ceny detaliczne paliw 17–19 października 2026",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-17-19-pazdziernika-2026-r",
+      "accessedAt": "2026-10-17T09:31:36.388Z"
     },
     {
-      "title": "Ceny hurtowe paliw ORLEN i UNIMOT",
-      "url": "https://cenapaliwa.pl/hurt/",
-      "accessedAt": "2026-10-16T09:59:04.045Z"
-    },
-    {
-      "title": "Maksymalne ceny paliw 16.10.2026",
-      "url": "https://ileaut.pl/maksymalne-ceny-paliw-pb95-pb98-on-dzisiaj/2026-10-16",
-      "accessedAt": "2026-10-16T09:59:04.045Z"
-    },
-    {
-      "title": "Ceny paliw — dzisiaj i jutro",
-      "url": "https://starachowicka.pl/ceny-paliw/",
-      "accessedAt": "2026-10-16T09:59:04.045Z"
+      "title": "Historia maksymalnych cen paliw w Polsce",
+      "url": "https://cenycpn.pl/historia",
+      "accessedAt": "2026-10-17T09:31:36.388Z"
     }
   ]
 }
