@@ -1,10 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Sygnał dla PB95 jest mieszany: spadek dzienny, ale wzrost w pięć dni.",
-    "Brak mocnego potwierdzenia kierunku cen detalicznych na pełne 7 dni.",
-    "Wysokie confidence (0.79–0.81) jest słabo uzasadnione."
+    "PB95: potwierdzony spadek hurtu i limitu, ale brak pełnej serii 7-dniowej.",
+    "DIESEL: sygnał stabilizacji jest słabszy; hurt ON nadal spada, a podana średnia 7,80 zł/l nie została potwierdzona."
   ],
-  "summary": "Dane wspierają stabilizację PB95 i wzrost diesla, ale pewność prognozy jest zawyżona.",
-  "reviewedAt": "2026-10-16T10:00:00.762Z"
+  "summary": "Kierunki są wiarygodne, lecz dane nie wystarczają do wysokiej pewności 7-dniowej.",
+  "reviewedAt": "2026-10-17T09:32:23.069Z"
 }
