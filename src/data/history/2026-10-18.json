@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-10-18T09:44:57.862Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.79,
+      "summary": "Hurt PB95 spadł o 9,1 gr/l, a detal pozostaje blisko limitu; w ciągu tygodnia możliwe są dalsze obniżki."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.76,
+      "summary": "Hurt diesla obniżył się tylko o 2,9 gr/l, a ceny detaliczne są stabilne; większy spadek w tydzień jest mało prawdopodobny."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ceny paliw dzisiaj — hurt ORLEN i ceny detaliczne",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-10-18T09:44:57.862Z"
+    },
+    {
+      "title": "Pomocne informacje — ceny hurtowe, detaliczne i kurs EUR NBP",
+      "url": "https://www.e-petrol.pl/notowania/pomocne-informacje",
+      "accessedAt": "2026-10-18T09:44:57.862Z"
+    },
+    {
+      "title": "Maksymalna cena detaliczna paliw 17–19 października 2026",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-17-19-pazdziernika-2026-r",
+      "accessedAt": "2026-10-18T09:44:57.862Z"
+    },
+    {
+      "title": "Ceny paliw w Polsce — dane z 18 października 2026",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-10-18T09:44:57.862Z"
+    }
+  ]
+}

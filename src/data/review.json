@@ -1,9 +1,10 @@
 {
   "decision": "PASS",
   "issues": [
-    "PB95: potwierdzony spadek hurtu i limitu, ale brak pełnej serii 7-dniowej.",
-    "DIESEL: sygnał stabilizacji jest słabszy; hurt ON nadal spada, a podana średnia 7,80 zł/l nie została potwierdzona."
+    "Brak niezależnego potwierdzenia prognozy na pełne 7 dni.",
+    "PB95: silny spadek hurtu wspiera kierunek, ale limit detaliczny nie przesądza dalszych obniżek.",
+    "DIESEL: hurt spadł niewiele, lecz detal pozostaje blisko limitu; stabilność jest wiarygodna, niepewna."
   ],
-  "summary": "Kierunki są wiarygodne, lecz dane nie wystarczają do wysokiej pewności 7-dniowej.",
-  "reviewedAt": "2026-10-17T09:32:23.069Z"
+  "summary": "Sygnały wspierają prognozę, ale 7-dniowa pewność jest ograniczona.",
+  "reviewedAt": "2026-10-18T09:45:46.666Z"
 }
