@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-17T09:31:36.388Z",
+  "asOf": "2026-10-18T09:44:57.862Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -7,37 +7,37 @@
       "fuel": "PB95",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.82,
-      "summary": "Hurt Pb95 spadł o 0,25 zł/l w pięć dni, a limit detaliczny obniżono; możliwy dalszy niewielki spadek."
+      "confidence": 0.79,
+      "summary": "Hurt PB95 spadł o 9,1 gr/l, a detal pozostaje blisko limitu; w ciągu tygodnia możliwe są dalsze obniżki."
     },
     {
       "fuel": "DIESEL",
       "direction": "STABLE",
       "recommendation": "NORMAL",
       "confidence": 0.76,
-      "summary": "ON tanieje wolniej, a średnia detaliczna wynosi 7,80 zł/l; w tydzień bardziej prawdopodobna stabilizacja niż duża zmiana."
+      "summary": "Hurt diesla obniżył się tylko o 2,9 gr/l, a ceny detaliczne są stabilne; większy spadek w tydzień jest mało prawdopodobny."
     }
   ],
   "sources": [
     {
-      "title": "Ceny paliw dzisiaj – hurt ORLEN i ceny detaliczne",
+      "title": "Ceny paliw dzisiaj — hurt ORLEN i ceny detaliczne",
       "url": "https://cenapaliwa.pl/",
-      "accessedAt": "2026-10-17T09:31:36.388Z"
+      "accessedAt": "2026-10-18T09:44:57.862Z"
     },
     {
-      "title": "Średnie ceny detaliczne paliw w Polsce",
-      "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-10-17T09:31:36.388Z"
+      "title": "Pomocne informacje — ceny hurtowe, detaliczne i kurs EUR NBP",
+      "url": "https://www.e-petrol.pl/notowania/pomocne-informacje",
+      "accessedAt": "2026-10-18T09:44:57.862Z"
     },
     {
-      "title": "Maksymalne ceny detaliczne paliw 17–19 października 2026",
+      "title": "Maksymalna cena detaliczna paliw 17–19 października 2026",
       "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-17-19-pazdziernika-2026-r",
-      "accessedAt": "2026-10-17T09:31:36.388Z"
+      "accessedAt": "2026-10-18T09:44:57.862Z"
     },
     {
-      "title": "Historia maksymalnych cen paliw w Polsce",
-      "url": "https://cenycpn.pl/historia",
-      "accessedAt": "2026-10-17T09:31:36.388Z"
+      "title": "Ceny paliw w Polsce — dane z 18 października 2026",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-10-18T09:44:57.862Z"
     }
   ]
 }
