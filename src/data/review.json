@@ -1,10 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Brak niezależnego potwierdzenia prognozy na pełne 7 dni.",
-    "PB95: silny spadek hurtu wspiera kierunek, ale limit detaliczny nie przesądza dalszych obniżek.",
-    "DIESEL: hurt spadł niewiele, lecz detal pozostaje blisko limitu; stabilność jest wiarygodna, niepewna."
+    "Brak mocnego sygnału dla pełnych 7 dni; publiczne prognozy wskazują niepewność.",
+    "Rekomendacja WAIT dla PB95 jest słabiej uzasadniona niż sam kierunek spadkowy."
   ],
-  "summary": "Sygnały wspierają prognozę, ale 7-dniowa pewność jest ograniczona.",
-  "reviewedAt": "2026-10-18T09:45:46.666Z"
+  "summary": "Kierunki są zgodne z hurtem, ale prognoza 7-dniowa pozostaje niepewna.",
+  "reviewedAt": "2026-10-19T11:00:50.386Z"
 }
