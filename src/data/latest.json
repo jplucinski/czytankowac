@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-18T09:44:57.862Z",
+  "asOf": "2026-10-19T10:59:57.338Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -7,37 +7,37 @@
       "fuel": "PB95",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.79,
-      "summary": "Hurt PB95 spadł o 9,1 gr/l, a detal pozostaje blisko limitu; w ciągu tygodnia możliwe są dalsze obniżki."
+      "confidence": 0.82,
+      "summary": "Hurt PB95 spadł o 25 gr/l w 5 dni, a detal zmniejszył się tygodniowo; możliwe dalsze łagodne obniżki."
     },
     {
       "fuel": "DIESEL",
       "direction": "STABLE",
       "recommendation": "NORMAL",
-      "confidence": 0.76,
-      "summary": "Hurt diesla obniżył się tylko o 2,9 gr/l, a ceny detaliczne są stabilne; większy spadek w tydzień jest mało prawdopodobny."
+      "confidence": 0.78,
+      "summary": "Hurt diesla spadł tylko o 4 gr/l w 5 dni, a detal lekko wzrósł; ceny powinny pozostać blisko obecnego poziomu."
     }
   ],
   "sources": [
     {
-      "title": "Ceny paliw dzisiaj — hurt ORLEN i ceny detaliczne",
-      "url": "https://cenapaliwa.pl/",
-      "accessedAt": "2026-10-18T09:44:57.862Z"
+      "title": "Hurtowe ceny paliw ORLEN i UNIMOT — cennik z 17 października 2026",
+      "url": "https://cenapaliwa.pl/hurt/",
+      "accessedAt": "2026-10-19T10:59:57.338Z"
     },
     {
-      "title": "Pomocne informacje — ceny hurtowe, detaliczne i kurs EUR NBP",
-      "url": "https://www.e-petrol.pl/notowania/pomocne-informacje",
-      "accessedAt": "2026-10-18T09:44:57.862Z"
+      "title": "Aktualne ceny paliw w Polsce — 19 października 2026",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-10-19T10:59:57.338Z"
     },
     {
       "title": "Maksymalna cena detaliczna paliw 17–19 października 2026",
       "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-17-19-pazdziernika-2026-r",
-      "accessedAt": "2026-10-18T09:44:57.862Z"
+      "accessedAt": "2026-10-19T10:59:57.338Z"
     },
     {
-      "title": "Ceny paliw w Polsce — dane z 18 października 2026",
-      "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-10-18T09:44:57.862Z"
+      "title": "Archiwum kursów średnich NBP — tabela A, tabela z 19 października 2026",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
+      "accessedAt": "2026-10-19T10:59:57.338Z"
     }
   ]
 }

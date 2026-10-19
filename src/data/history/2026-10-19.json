@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-10-19T10:59:57.338Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.82,
+      "summary": "Hurt PB95 spadł o 25 gr/l w 5 dni, a detal zmniejszył się tygodniowo; możliwe dalsze łagodne obniżki."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.78,
+      "summary": "Hurt diesla spadł tylko o 4 gr/l w 5 dni, a detal lekko wzrósł; ceny powinny pozostać blisko obecnego poziomu."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hurtowe ceny paliw ORLEN i UNIMOT — cennik z 17 października 2026",
+      "url": "https://cenapaliwa.pl/hurt/",
+      "accessedAt": "2026-10-19T10:59:57.338Z"
+    },
+    {
+      "title": "Aktualne ceny paliw w Polsce — 19 października 2026",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-10-19T10:59:57.338Z"
+    },
+    {
+      "title": "Maksymalna cena detaliczna paliw 17–19 października 2026",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-17-19-pazdziernika-2026-r",
+      "accessedAt": "2026-10-19T10:59:57.338Z"
+    },
+    {
+      "title": "Archiwum kursów średnich NBP — tabela A, tabela z 19 października 2026",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
+      "accessedAt": "2026-10-19T10:59:57.338Z"
+    }
+  ]
+}
