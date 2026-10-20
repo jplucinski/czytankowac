@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-10-20T10:13:47.458Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.86,
+      "summary": "Limit Pb95 spadł do 6,79 zł/l, a ceny detaliczne i hurtowe pozostają pod presją spadkową."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.79,
+      "summary": "Diesel kosztuje średnio 7,79 zł/l, lecz limit spadł tylko nieznacznie; w tydzień możliwe są małe wahania."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ceny paliw dziś — średnie ceny detaliczne w Polsce",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-10-20T10:13:47.458Z"
+    },
+    {
+      "title": "Maksymalne ceny paliw na dziś i jutro — Monitor Paliw",
+      "url": "https://monitorpaliw.pl/",
+      "accessedAt": "2026-10-20T10:13:47.458Z"
+    },
+    {
+      "title": "Kursy walut NBP — tabela C obowiązująca od 20.10.2026",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-c/",
+      "accessedAt": "2026-10-20T10:13:47.458Z"
+    },
+    {
+      "title": "Ceny paliw dziś — dane o zmianach hurtowych ORLEN",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-10-20T10:13:47.458Z"
+    }
+  ]
+}
