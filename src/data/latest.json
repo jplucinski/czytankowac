@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-19T10:59:57.338Z",
+  "asOf": "2026-10-20T10:13:47.458Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -7,37 +7,37 @@
       "fuel": "PB95",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.82,
-      "summary": "Hurt PB95 spadł o 25 gr/l w 5 dni, a detal zmniejszył się tygodniowo; możliwe dalsze łagodne obniżki."
+      "confidence": 0.86,
+      "summary": "Limit Pb95 spadł do 6,79 zł/l, a ceny detaliczne i hurtowe pozostają pod presją spadkową."
     },
     {
       "fuel": "DIESEL",
       "direction": "STABLE",
       "recommendation": "NORMAL",
-      "confidence": 0.78,
-      "summary": "Hurt diesla spadł tylko o 4 gr/l w 5 dni, a detal lekko wzrósł; ceny powinny pozostać blisko obecnego poziomu."
+      "confidence": 0.79,
+      "summary": "Diesel kosztuje średnio 7,79 zł/l, lecz limit spadł tylko nieznacznie; w tydzień możliwe są małe wahania."
     }
   ],
   "sources": [
     {
-      "title": "Hurtowe ceny paliw ORLEN i UNIMOT — cennik z 17 października 2026",
-      "url": "https://cenapaliwa.pl/hurt/",
-      "accessedAt": "2026-10-19T10:59:57.338Z"
-    },
-    {
-      "title": "Aktualne ceny paliw w Polsce — 19 października 2026",
+      "title": "Ceny paliw dziś — średnie ceny detaliczne w Polsce",
       "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-10-19T10:59:57.338Z"
+      "accessedAt": "2026-10-20T10:13:47.458Z"
     },
     {
-      "title": "Maksymalna cena detaliczna paliw 17–19 października 2026",
-      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-17-19-pazdziernika-2026-r",
-      "accessedAt": "2026-10-19T10:59:57.338Z"
+      "title": "Maksymalne ceny paliw na dziś i jutro — Monitor Paliw",
+      "url": "https://monitorpaliw.pl/",
+      "accessedAt": "2026-10-20T10:13:47.458Z"
     },
     {
-      "title": "Archiwum kursów średnich NBP — tabela A, tabela z 19 października 2026",
-      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
-      "accessedAt": "2026-10-19T10:59:57.338Z"
+      "title": "Kursy walut NBP — tabela C obowiązująca od 20.10.2026",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-c/",
+      "accessedAt": "2026-10-20T10:13:47.458Z"
+    },
+    {
+      "title": "Ceny paliw dziś — dane o zmianach hurtowych ORLEN",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-10-20T10:13:47.458Z"
     }
   ]
 }
