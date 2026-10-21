@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-19T10:59:57.338Z",
+  "asOf": "2026-10-21T10:22:41.734Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -7,37 +7,42 @@
       "fuel": "PB95",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.82,
-      "summary": "Hurt PB95 spadł o 25 gr/l w 5 dni, a detal zmniejszył się tygodniowo; możliwe dalsze łagodne obniżki."
+      "confidence": 0.88,
+      "summary": "Hurtowa PB95 spada, a detal obniżył się przez tydzień; możliwe są jeszcze niewielkie obniżki."
     },
     {
       "fuel": "DIESEL",
       "direction": "STABLE",
       "recommendation": "NORMAL",
       "confidence": 0.78,
-      "summary": "Hurt diesla spadł tylko o 4 gr/l w 5 dni, a detal lekko wzrósł; ceny powinny pozostać blisko obecnego poziomu."
+      "summary": "Diesel hurtowy wzrósł, lecz ceny detaliczne są stabilne; w tygodniu możliwe są tylko małe wahania."
     }
   ],
   "sources": [
     {
-      "title": "Hurtowe ceny paliw ORLEN i UNIMOT — cennik z 17 października 2026",
-      "url": "https://cenapaliwa.pl/hurt/",
-      "accessedAt": "2026-10-19T10:59:57.338Z"
+      "title": "Hurtowe ceny paliw ORLEN",
+      "url": "https://www.orlen.pl/pl/dla-biznesu/hurtowe-ceny-paliw?Fuel=ONEkodiesel&Year=2018",
+      "accessedAt": "2026-10-21T10:22:41.734Z"
     },
     {
-      "title": "Aktualne ceny paliw w Polsce — 19 października 2026",
+      "title": "Ceny paliw dzisiaj – benzyna, diesel i LPG",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-10-21T10:22:41.734Z"
+    },
+    {
+      "title": "Ceny paliw dziś — benzyna, diesel, LPG",
       "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-10-19T10:59:57.338Z"
+      "accessedAt": "2026-10-21T10:22:41.734Z"
     },
     {
-      "title": "Maksymalna cena detaliczna paliw 17–19 października 2026",
-      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-17-19-pazdziernika-2026-r",
-      "accessedAt": "2026-10-19T10:59:57.338Z"
+      "title": "Tabela A kursów średnich NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-10-21T10:22:41.734Z"
     },
     {
-      "title": "Archiwum kursów średnich NBP — tabela A, tabela z 19 października 2026",
-      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
-      "accessedAt": "2026-10-19T10:59:57.338Z"
+      "title": "Maksymalne ceny paliw na jutro i dziś — program CPN",
+      "url": "https://monitorpaliw.pl/",
+      "accessedAt": "2026-10-21T10:22:41.734Z"
     }
   ]
 }
