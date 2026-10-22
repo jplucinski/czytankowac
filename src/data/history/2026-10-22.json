@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-10-22T10:21:38.766Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.82,
+      "summary": "PB95 spada piąty dzień z rzędu; niższy limit i trend detaliczny sprzyjają dalszej, lecz niewielkiej obniżce."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "UP",
+      "recommendation": "FILL_UP",
+      "confidence": 0.79,
+      "summary": "Diesel wzrósł do 8,02 zł/l, a ostatni trend jest zwyżkowy; możliwe dalsze podwyżki w ciągu tygodnia."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Historia cen paliw w Polsce — CenyCPN.pl",
+      "url": "https://cenycpn.pl/historia",
+      "accessedAt": "2026-10-22T10:21:38.766Z"
+    },
+    {
+      "title": "Ceny paliw dziś — TankujNajtaniej.pl",
+      "url": "https://tankujnajtaniej.pl/ceny-paliw-dzis/",
+      "accessedAt": "2026-10-22T10:21:38.766Z"
+    },
+    {
+      "title": "Ceny paliw — dzisiaj i jutro — Starachowicka.pl",
+      "url": "https://starachowicka.pl/ceny-paliw/",
+      "accessedAt": "2026-10-22T10:21:38.766Z"
+    },
+    {
+      "title": "Archiwum kursów średnich — tabela A NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
+      "accessedAt": "2026-10-22T10:21:38.766Z"
+    }
+  ]
+}
