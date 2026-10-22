@@ -1,9 +1,10 @@
 {
   "decision": "PASS",
   "issues": [
-    "Brak mocnego sygnału dla pełnych 7 dni; publiczne prognozy wskazują niepewność.",
-    "Rekomendacja WAIT dla PB95 jest słabiej uzasadniona niż sam kierunek spadkowy."
+    "PB95: sygnał spadkowy potwierdzony, ale seria obejmuje tylko kilka dni.",
+    "DIESEL: wzrost do 8,02 zł/l potwierdzony, lecz dane tygodniowe wskazują wcześniejszy spadek.",
+    "Horyzont 7 dni i wysokie confidence są słabo uzasadnione."
   ],
-  "summary": "Kierunki są zgodne z hurtem, ale prognoza 7-dniowa pozostaje niepewna.",
-  "reviewedAt": "2026-10-19T11:00:50.386Z"
+  "summary": "Kierunki są zgodne z publicznymi danymi, ale pewność prognozy jest zawyżona.",
+  "reviewedAt": "2026-10-22T10:22:24.438Z"
 }
