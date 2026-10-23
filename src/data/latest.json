@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-22T10:21:38.766Z",
+  "asOf": "2026-10-23T10:16:48.334Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -7,37 +7,42 @@
       "fuel": "PB95",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.82,
-      "summary": "PB95 spada piąty dzień z rzędu; niższy limit i trend detaliczny sprzyjają dalszej, lecz niewielkiej obniżce."
+      "confidence": 0.86,
+      "summary": "Hurtowa Pb95 spadła o 4,8% w tydzień, a limit detaliczny obniżono do 6,56 zł/l; możliwe dalsze lekkie spadki."
     },
     {
       "fuel": "DIESEL",
-      "direction": "UP",
-      "recommendation": "FILL_UP",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
       "confidence": 0.79,
-      "summary": "Diesel wzrósł do 8,02 zł/l, a ostatni trend jest zwyżkowy; możliwe dalsze podwyżki w ciągu tygodnia."
+      "summary": "Hurtowy diesel jest niemal stabilny, a limit detaliczny wynosi 7,99 zł/l; ceny powinny pozostać blisko obecnego poziomu."
     }
   ],
   "sources": [
     {
-      "title": "Historia cen paliw w Polsce — CenyCPN.pl",
-      "url": "https://cenycpn.pl/historia",
-      "accessedAt": "2026-10-22T10:21:38.766Z"
+      "title": "Hurtowe ceny paliw ARAMCO Polska",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/aramco",
+      "accessedAt": "2026-10-23T10:16:48.334Z"
     },
     {
-      "title": "Ceny paliw dziś — TankujNajtaniej.pl",
-      "url": "https://tankujnajtaniej.pl/ceny-paliw-dzis/",
-      "accessedAt": "2026-10-22T10:21:38.766Z"
+      "title": "Hurtowe ceny paliw ORLEN, ARAMCO i BP",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
+      "accessedAt": "2026-10-23T10:16:48.334Z"
     },
     {
-      "title": "Ceny paliw — dzisiaj i jutro — Starachowicka.pl",
-      "url": "https://starachowicka.pl/ceny-paliw/",
-      "accessedAt": "2026-10-22T10:21:38.766Z"
+      "title": "Ceny paliw dziś — zapaliwo.pl",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-10-23T10:16:48.334Z"
     },
     {
-      "title": "Archiwum kursów średnich — tabela A NBP",
-      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
-      "accessedAt": "2026-10-22T10:21:38.766Z"
+      "title": "Maksymalna cena detaliczna paliw 23 października 2026",
+      "url": "https://redakcja.www.gov.pl/web/energia/wiadomosci",
+      "accessedAt": "2026-10-23T10:16:48.334Z"
+    },
+    {
+      "title": "Kursy średnie NBP i ceny rafineryjne",
+      "url": "https://www.e-petrol.pl/notowania/pomocne-informacje",
+      "accessedAt": "2026-10-23T10:16:48.334Z"
     }
   ]
 }

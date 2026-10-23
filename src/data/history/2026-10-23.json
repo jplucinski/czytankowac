@@ -1,0 +1,48 @@
+{
+  "asOf": "2026-10-23T10:16:48.334Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.86,
+      "summary": "Hurtowa Pb95 spadła o 4,8% w tydzień, a limit detaliczny obniżono do 6,56 zł/l; możliwe dalsze lekkie spadki."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.79,
+      "summary": "Hurtowy diesel jest niemal stabilny, a limit detaliczny wynosi 7,99 zł/l; ceny powinny pozostać blisko obecnego poziomu."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hurtowe ceny paliw ARAMCO Polska",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/aramco",
+      "accessedAt": "2026-10-23T10:16:48.334Z"
+    },
+    {
+      "title": "Hurtowe ceny paliw ORLEN, ARAMCO i BP",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
+      "accessedAt": "2026-10-23T10:16:48.334Z"
+    },
+    {
+      "title": "Ceny paliw dziś — zapaliwo.pl",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-10-23T10:16:48.334Z"
+    },
+    {
+      "title": "Maksymalna cena detaliczna paliw 23 października 2026",
+      "url": "https://redakcja.www.gov.pl/web/energia/wiadomosci",
+      "accessedAt": "2026-10-23T10:16:48.334Z"
+    },
+    {
+      "title": "Kursy średnie NBP i ceny rafineryjne",
+      "url": "https://www.e-petrol.pl/notowania/pomocne-informacje",
+      "accessedAt": "2026-10-23T10:16:48.334Z"
+    }
+  ]
+}
