@@ -1,10 +1,10 @@
 {
   "decision": "PASS",
   "issues": [
-    "Brak bezpośredniego potwierdzenia spadku hurtowej Pb95 o 4,8% w dostępnych źródłach.",
-    "Dla diesla sygnał jest lekko spadkowy, nie idealnie stabilny.",
-    "Horyzont 7 dni pozostaje słabo uzasadniony."
+    "PB95: odbicie hurtowe 24 października osłabia sygnał spadkowy.",
+    "DIESEL: silny wzrost hurtowy wskazuje ryzyko krótkiego odbicia, więc stabilizacja jest niepewna.",
+    "Brak niezależnego potwierdzenia z monitorpaliw.pl i cenapaliwa.pl."
   ],
-  "summary": "Kierunki są zgodne z sygnałem rynku; prognoza 7-dniowa ma jednak ograniczone uzasadnienie.",
-  "reviewedAt": "2026-10-23T10:17:45.996Z"
+  "summary": "Kierunek jest wiarygodny, ale odbicie hurtu zwiększa ryzyko błędu w obu prognozach.",
+  "reviewedAt": "2026-10-24T09:40:19.338Z"
 }
