@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-23T10:16:48.334Z",
+  "asOf": "2026-10-24T09:39:29.895Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -7,42 +7,37 @@
       "fuel": "PB95",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.86,
-      "summary": "Hurtowa Pb95 spadła o 4,8% w tydzień, a limit detaliczny obniżono do 6,56 zł/l; możliwe dalsze lekkie spadki."
+      "confidence": 0.84,
+      "summary": "Hurt Pb95 spadł przez pięć dni mimo odbicia 24 października, a prognoza detaliczna wskazuje dalsze obniżki."
     },
     {
       "fuel": "DIESEL",
       "direction": "STABLE",
       "recommendation": "NORMAL",
-      "confidence": 0.79,
-      "summary": "Hurtowy diesel jest niemal stabilny, a limit detaliczny wynosi 7,99 zł/l; ceny powinny pozostać blisko obecnego poziomu."
+      "confidence": 0.82,
+      "summary": "Diesel mocno podrożał w hurcie 24 października, lecz ceny detaliczne i prognoza tygodniowa wskazują stabilizację."
     }
   ],
   "sources": [
     {
-      "title": "Hurtowe ceny paliw ARAMCO Polska",
-      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/aramco",
-      "accessedAt": "2026-10-23T10:16:48.334Z"
-    },
-    {
-      "title": "Hurtowe ceny paliw ORLEN, ARAMCO i BP",
+      "title": "Hurtowe ceny paliw ORLEN i innych producentów",
       "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
-      "accessedAt": "2026-10-23T10:16:48.334Z"
+      "accessedAt": "2026-10-24T09:39:29.895Z"
     },
     {
-      "title": "Ceny paliw dziś — zapaliwo.pl",
-      "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-10-23T10:16:48.334Z"
-    },
-    {
-      "title": "Maksymalna cena detaliczna paliw 23 października 2026",
-      "url": "https://redakcja.www.gov.pl/web/energia/wiadomosci",
-      "accessedAt": "2026-10-23T10:16:48.334Z"
-    },
-    {
-      "title": "Kursy średnie NBP i ceny rafineryjne",
+      "title": "Prognozy i średnie ceny detaliczne paliw w Polsce",
       "url": "https://www.e-petrol.pl/notowania/pomocne-informacje",
-      "accessedAt": "2026-10-23T10:16:48.334Z"
+      "accessedAt": "2026-10-24T09:39:29.895Z"
+    },
+    {
+      "title": "Maksymalne ceny detaliczne paliw od 24 października 2026",
+      "url": "https://monitorpaliw.pl/",
+      "accessedAt": "2026-10-24T09:39:29.895Z"
+    },
+    {
+      "title": "Mediany cen na monitorowanych stacjach",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-10-24T09:39:29.895Z"
     }
   ]
 }

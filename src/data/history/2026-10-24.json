@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-10-24T09:39:29.895Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.84,
+      "summary": "Hurt Pb95 spadł przez pięć dni mimo odbicia 24 października, a prognoza detaliczna wskazuje dalsze obniżki."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.82,
+      "summary": "Diesel mocno podrożał w hurcie 24 października, lecz ceny detaliczne i prognoza tygodniowa wskazują stabilizację."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hurtowe ceny paliw ORLEN i innych producentów",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
+      "accessedAt": "2026-10-24T09:39:29.895Z"
+    },
+    {
+      "title": "Prognozy i średnie ceny detaliczne paliw w Polsce",
+      "url": "https://www.e-petrol.pl/notowania/pomocne-informacje",
+      "accessedAt": "2026-10-24T09:39:29.895Z"
+    },
+    {
+      "title": "Maksymalne ceny detaliczne paliw od 24 października 2026",
+      "url": "https://monitorpaliw.pl/",
+      "accessedAt": "2026-10-24T09:39:29.895Z"
+    },
+    {
+      "title": "Mediany cen na monitorowanych stacjach",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-10-24T09:39:29.895Z"
+    }
+  ]
+}
