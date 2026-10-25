@@ -1,10 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "PB95: odbicie hurtowe 24 października osłabia sygnał spadkowy.",
-    "DIESEL: silny wzrost hurtowy wskazuje ryzyko krótkiego odbicia, więc stabilizacja jest niepewna.",
-    "Brak niezależnego potwierdzenia z monitorpaliw.pl i cenapaliwa.pl."
+    "Diesel: sygnał hurtowy wskazuje wzrost, nie stabilizację.",
+    "PB95: dostępna prognoza potwierdza spadek, ale niekoniecznie dalszy trend."
   ],
-  "summary": "Kierunek jest wiarygodny, ale odbicie hurtu zwiększa ryzyko błędu w obu prognozach.",
-  "reviewedAt": "2026-10-24T09:40:19.338Z"
+  "summary": "PB95 zgodne z sygnałem spadkowym; diesel stabilny detalicznie, lecz hurt ostrzega przed wzrostem.",
+  "reviewedAt": "2026-10-25T09:58:23.805Z"
 }
