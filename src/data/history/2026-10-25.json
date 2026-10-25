@@ -1,0 +1,48 @@
+{
+  "asOf": "2026-10-25T09:57:25.834Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.84,
+      "summary": "Hurt i prognoza detaliczna wskazują na dalszy, niewielki spadek PB95 w nadchodzącym tygodniu."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.79,
+      "summary": "Diesel powinien pozostać blisko obecnych poziomów; możliwe są tylko niewielkie wahania cen."
+    }
+  ],
+  "sources": [
+    {
+      "title": "e-petrol.pl: tańsze tankowanie pod koniec października",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/komentarz",
+      "accessedAt": "2026-10-25T09:57:25.834Z"
+    },
+    {
+      "title": "e-petrol.pl: pomocne informacje — ceny hurtowe i detaliczne",
+      "url": "https://www.e-petrol.pl/notowania/pomocne-informacje",
+      "accessedAt": "2026-10-25T09:57:25.834Z"
+    },
+    {
+      "title": "Indeksy importowe hurtowych cen benzyny i oleju napędowego",
+      "url": "https://www.e-petrol.pl/notowania/ceny-hurt/indeksy-importowe",
+      "accessedAt": "2026-10-25T09:57:25.834Z"
+    },
+    {
+      "title": "Kursy walut NBP — tabela A",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-10-25T09:57:25.834Z"
+    },
+    {
+      "title": "Ceny paliw dziś — zapaliwo.pl",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-10-25T09:57:25.834Z"
+    }
+  ]
+}

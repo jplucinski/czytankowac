@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-24T09:39:29.895Z",
+  "asOf": "2026-10-25T09:57:25.834Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -8,36 +8,41 @@
       "direction": "DOWN",
       "recommendation": "WAIT",
       "confidence": 0.84,
-      "summary": "Hurt Pb95 spadł przez pięć dni mimo odbicia 24 października, a prognoza detaliczna wskazuje dalsze obniżki."
+      "summary": "Hurt i prognoza detaliczna wskazują na dalszy, niewielki spadek PB95 w nadchodzącym tygodniu."
     },
     {
       "fuel": "DIESEL",
       "direction": "STABLE",
       "recommendation": "NORMAL",
-      "confidence": 0.82,
-      "summary": "Diesel mocno podrożał w hurcie 24 października, lecz ceny detaliczne i prognoza tygodniowa wskazują stabilizację."
+      "confidence": 0.79,
+      "summary": "Diesel powinien pozostać blisko obecnych poziomów; możliwe są tylko niewielkie wahania cen."
     }
   ],
   "sources": [
     {
-      "title": "Hurtowe ceny paliw ORLEN i innych producentów",
-      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
-      "accessedAt": "2026-10-24T09:39:29.895Z"
+      "title": "e-petrol.pl: tańsze tankowanie pod koniec października",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/komentarz",
+      "accessedAt": "2026-10-25T09:57:25.834Z"
     },
     {
-      "title": "Prognozy i średnie ceny detaliczne paliw w Polsce",
+      "title": "e-petrol.pl: pomocne informacje — ceny hurtowe i detaliczne",
       "url": "https://www.e-petrol.pl/notowania/pomocne-informacje",
-      "accessedAt": "2026-10-24T09:39:29.895Z"
+      "accessedAt": "2026-10-25T09:57:25.834Z"
     },
     {
-      "title": "Maksymalne ceny detaliczne paliw od 24 października 2026",
-      "url": "https://monitorpaliw.pl/",
-      "accessedAt": "2026-10-24T09:39:29.895Z"
+      "title": "Indeksy importowe hurtowych cen benzyny i oleju napędowego",
+      "url": "https://www.e-petrol.pl/notowania/ceny-hurt/indeksy-importowe",
+      "accessedAt": "2026-10-25T09:57:25.834Z"
     },
     {
-      "title": "Mediany cen na monitorowanych stacjach",
-      "url": "https://cenapaliwa.pl/",
-      "accessedAt": "2026-10-24T09:39:29.895Z"
+      "title": "Kursy walut NBP — tabela A",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-10-25T09:57:25.834Z"
+    },
+    {
+      "title": "Ceny paliw dziś — zapaliwo.pl",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-10-25T09:57:25.834Z"
     }
   ]
 }
