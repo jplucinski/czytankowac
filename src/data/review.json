@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Diesel: sygnał hurtowy wskazuje wzrost, nie stabilizację.",
-    "PB95: dostępna prognoza potwierdza spadek, ale niekoniecznie dalszy trend."
+    "Sygnał krótkoterminowy wskazuje możliwy wzrost, zwłaszcza diesla, więc stabilizacja jest niepewna.",
+    "Źródło rynkowe potwierdza widełki, ale nie uzasadnia wysokiej pewności 0,81–0,82."
   ],
-  "summary": "PB95 zgodne z sygnałem spadkowym; diesel stabilny detalicznie, lecz hurt ostrzega przed wzrostem.",
-  "reviewedAt": "2026-10-25T09:58:23.805Z"
+  "summary": "Widełki są potwierdzone, lecz hurt sugeruje ryzyko wzrostu, szczególnie diesla.",
+  "reviewedAt": "2026-10-26T11:20:36.055Z"
 }
