@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-10-26T11:19:39.420Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.82,
+      "summary": "Detal spada, lecz hurt odbił; w ciągu 7 dni najbardziej prawdopodobna jest stabilizacja w przedziale 6,45–6,57 zł/l."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.81,
+      "summary": "Hurt mocno wzrósł, ale prognoza detaliczna pozostaje szeroka; ceny powinny oscylować wokół obecnego poziomu 7,90–8,02 zł/l."
+    }
+  ],
+  "sources": [
+    {
+      "title": "e-petrol: tańsze tankowanie pod koniec października",
+      "url": "https://www.e-petrol.pl/notowania-komentarz-rynek-paliw/124933/e-petrol-pl-tansze-tankowanie-pod-koniec-pazdziernika",
+      "accessedAt": "2026-10-26T11:19:39.420Z"
+    },
+    {
+      "title": "Hurtowe ceny paliw ORLEN, ARAMCO, BP",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
+      "accessedAt": "2026-10-26T11:19:39.420Z"
+    },
+    {
+      "title": "Ceny paliw dziś — zapaliwo.pl",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-10-26T11:19:39.420Z"
+    },
+    {
+      "title": "Archiwum kursów średnich NBP — tabela A",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
+      "accessedAt": "2026-10-26T11:19:39.420Z"
+    }
+  ]
+}
