@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-26T11:19:39.420Z",
+  "asOf": "2026-10-27T10:44:07.545Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -7,37 +7,42 @@
       "fuel": "PB95",
       "direction": "STABLE",
       "recommendation": "NORMAL",
-      "confidence": 0.82,
-      "summary": "Detal spada, lecz hurt odbił; w ciągu 7 dni najbardziej prawdopodobna jest stabilizacja w przedziale 6,45–6,57 zł/l."
+      "confidence": 0.79,
+      "summary": "Limit Pb95 wzrósł do 6,58 zł/l, lecz średnia detaliczna spadała; w ciągu tygodnia najbardziej prawdopodobna jest stabilizacja."
     },
     {
       "fuel": "DIESEL",
-      "direction": "STABLE",
-      "recommendation": "NORMAL",
-      "confidence": 0.81,
-      "summary": "Hurt mocno wzrósł, ale prognoza detaliczna pozostaje szeroka; ceny powinny oscylować wokół obecnego poziomu 7,90–8,02 zł/l."
+      "direction": "UP",
+      "recommendation": "FILL_UP",
+      "confidence": 0.84,
+      "summary": "Limit diesla wzrósł do 8,18 zł/l, a średnia detaliczna rosła; podwyższone ryzyko dalszych wzrostów przemawia za tankowaniem teraz."
     }
   ],
   "sources": [
     {
-      "title": "e-petrol: tańsze tankowanie pod koniec października",
-      "url": "https://www.e-petrol.pl/notowania-komentarz-rynek-paliw/124933/e-petrol-pl-tansze-tankowanie-pod-koniec-pazdziernika",
-      "accessedAt": "2026-10-26T11:19:39.420Z"
+      "title": "Notowania loco terminal ORLEN — ceny obowiązujące od 27.10.2026",
+      "url": "https://paliwa.orlen.pl/pl/notowania/loco-terminal/2026",
+      "accessedAt": "2026-10-27T10:44:07.545Z"
     },
     {
-      "title": "Hurtowe ceny paliw ORLEN, ARAMCO, BP",
-      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
-      "accessedAt": "2026-10-26T11:19:39.420Z"
+      "title": "Kursy walut — tabela A NBP, 26.10.2026",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-10-27T10:44:07.545Z"
     },
     {
-      "title": "Ceny paliw dziś — zapaliwo.pl",
+      "title": "Średnie ceny paliw w Polsce — 26.10.2026",
       "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-10-26T11:19:39.420Z"
+      "accessedAt": "2026-10-27T10:44:07.545Z"
     },
     {
-      "title": "Archiwum kursów średnich NBP — tabela A",
-      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
-      "accessedAt": "2026-10-26T11:19:39.420Z"
+      "title": "Ceny paliw dziś i jutro — limity maksymalne",
+      "url": "https://cenycpn.pl/",
+      "accessedAt": "2026-10-27T10:44:07.545Z"
+    },
+    {
+      "title": "Program CPN — ceny maksymalne paliw 27.10.2026",
+      "url": "https://radarpaliw.pl/program-cpn",
+      "accessedAt": "2026-10-27T10:44:07.545Z"
     }
   ]
 }

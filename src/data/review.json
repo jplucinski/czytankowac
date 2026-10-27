@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Sygnał krótkoterminowy wskazuje możliwy wzrost, zwłaszcza diesla, więc stabilizacja jest niepewna.",
-    "Źródło rynkowe potwierdza widełki, ale nie uzasadnia wysokiej pewności 0,81–0,82."
+    "Sygnał dla PB95 jest niejednoznaczny: limit wzrósł, ale hurtowa cena ORLEN lekko spadła.",
+    "Brak bezpośredniego potwierdzenia pełnej prognozy 7-dniowej; widoczny jest głównie sygnał krótkoterminowy."
   ],
-  "summary": "Widełki są potwierdzone, lecz hurt sugeruje ryzyko wzrostu, szczególnie diesla.",
-  "reviewedAt": "2026-10-26T11:20:36.055Z"
+  "summary": "Prognoza jest spójna z dostępnymi sygnałami, lecz 7-dniowa pewność jest ograniczona.",
+  "reviewedAt": "2026-10-27T10:45:06.980Z"
 }
