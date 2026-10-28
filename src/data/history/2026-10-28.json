@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-10-28T11:28:06.632Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.84,
+      "summary": "Hurt Pb95 spada piąty dzień, a ceny detaliczne są niższe niż tydzień temu; możliwe dalsze lekkie obniżki."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.76,
+      "summary": "Hurt diesla spadł mocno drugi dzień, co przy stabilnym euro zwiększa szanse na obniżki na stacjach."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hurtowe ceny paliw, ORLEN, ARAMCO, SELL, BP",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
+      "accessedAt": "2026-10-28T11:28:06.632Z"
+    },
+    {
+      "title": "Ceny paliw dziś — benzyna, diesel, LPG",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-10-28T11:28:06.632Z"
+    },
+    {
+      "title": "Ceny paliw dzisiaj — ceny hurtowe ORLEN i detal",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-10-28T11:28:06.632Z"
+    },
+    {
+      "title": "Tabela A kursów średnich NBP — 27 października 2026",
+      "url": "https://rss.nbp.pl/kursy/TabRss.aspx?n=2026/a/26a209",
+      "accessedAt": "2026-10-28T11:28:06.632Z"
+    }
+  ]
+}
