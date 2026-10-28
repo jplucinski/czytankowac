@@ -1,9 +1,10 @@
 {
   "decision": "PASS",
   "issues": [
-    "Sygnał dla PB95 jest niejednoznaczny: limit wzrósł, ale hurtowa cena ORLEN lekko spadła.",
-    "Brak bezpośredniego potwierdzenia pełnej prognozy 7-dniowej; widoczny jest głównie sygnał krótkoterminowy."
+    "Brak pełnych danych o 5-dniowym spadku Pb95 i 2-dniowym spadku diesla w dostępnych wynikach.",
+    "Brak potwierdzenia stabilnego kursu EUR/PLN.",
+    "Wysokie poziomy confidence są słabo uzasadnione."
   ],
-  "summary": "Prognoza jest spójna z dostępnymi sygnałami, lecz 7-dniowa pewność jest ograniczona.",
-  "reviewedAt": "2026-10-27T10:45:06.980Z"
+  "summary": "Sygnał spadkowy jest zgodny z rynkiem, ale uzasadnienie i pewność są ograniczone.",
+  "reviewedAt": "2026-10-28T11:29:06.336Z"
 }
