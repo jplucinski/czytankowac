@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-10-29T11:38:27.741Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.86,
+      "summary": "Hurt Pb95 spada, a ceny detaliczne są niższe tydzień do tygodnia; możliwe dalsze małe obniżki."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.78,
+      "summary": "Hurt diesla lekko spada, lecz detal pozostaje pod presją wzrostową; najbardziej prawdopodobne są niewielkie wahania."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ceny paliw dziś — benzyna, diesel, LPG",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-10-29T11:38:27.741Z"
+    },
+    {
+      "title": "Ceny paliw dzisiaj – benzyna, diesel i LPG",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-10-29T11:38:27.741Z"
+    },
+    {
+      "title": "Pomocne informacje: ceny hurtowe, detaliczne i kurs EUR",
+      "url": "https://www.e-petrol.pl/notowania/pomocne-informacje",
+      "accessedAt": "2026-10-29T11:38:27.741Z"
+    },
+    {
+      "title": "Maksymalne ceny paliw w Polsce",
+      "url": "https://bakomat.pl/",
+      "accessedAt": "2026-10-29T11:38:27.741Z"
+    }
+  ]
+}
