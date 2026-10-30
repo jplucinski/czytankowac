@@ -1,43 +1,43 @@
 {
-  "asOf": "2026-10-29T11:38:27.741Z",
+  "asOf": "2026-10-30T11:29:15.139Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
     {
       "fuel": "PB95",
-      "direction": "DOWN",
-      "recommendation": "WAIT",
-      "confidence": 0.86,
-      "summary": "Hurt Pb95 spada, a ceny detaliczne są niższe tydzień do tygodnia; możliwe dalsze małe obniżki."
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.79,
+      "summary": "Hurt Pb95 wynosi około 5,70 zł/l, a detal spada; w tydzień najbardziej prawdopodobna jest stabilizacja."
     },
     {
       "fuel": "DIESEL",
       "direction": "STABLE",
       "recommendation": "NORMAL",
-      "confidence": 0.78,
-      "summary": "Hurt diesla lekko spada, lecz detal pozostaje pod presją wzrostową; najbardziej prawdopodobne są niewielkie wahania."
+      "confidence": 0.77,
+      "summary": "Hurt ON jest wysoki, lecz ostatnio spada, a limit detaliczny obniżono; oczekiwana jest stabilizacja z ryzykiem odbicia."
     }
   ],
   "sources": [
     {
-      "title": "Ceny paliw dziś — benzyna, diesel, LPG",
+      "title": "Ceny hurtowe paliw 30 października 2026 – CenyCPN.pl",
+      "url": "https://cenycpn.pl/ceny-hurtowe/2026-10-30",
+      "accessedAt": "2026-10-30T11:29:15.139Z"
+    },
+    {
+      "title": "Ceny paliw dziś — benzyna, diesel, LPG – zapaliwo.pl",
       "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-10-29T11:38:27.741Z"
+      "accessedAt": "2026-10-30T11:29:15.139Z"
     },
     {
-      "title": "Ceny paliw dzisiaj – benzyna, diesel i LPG",
-      "url": "https://cenapaliwa.pl/",
-      "accessedAt": "2026-10-29T11:38:27.741Z"
+      "title": "Kursy walut – tabela A NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-10-30T11:29:15.139Z"
     },
     {
-      "title": "Pomocne informacje: ceny hurtowe, detaliczne i kurs EUR",
-      "url": "https://www.e-petrol.pl/notowania/pomocne-informacje",
-      "accessedAt": "2026-10-29T11:38:27.741Z"
-    },
-    {
-      "title": "Maksymalne ceny paliw w Polsce",
-      "url": "https://bakomat.pl/",
-      "accessedAt": "2026-10-29T11:38:27.741Z"
+      "title": "Notowania paliw ORLEN 2026",
+      "url": "https://paliwa.orlen.pl/pl/notowania/loco-terminal/2026",
+      "accessedAt": "2026-10-30T11:29:15.139Z"
     }
   ]
 }
