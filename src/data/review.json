@@ -1,10 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Brak wiarygodnego potwierdzenia cen detalicznych tydzień do tygodnia dla PB95.",
-    "Horyzont 7 dni i wysokie confidence są słabo uzasadnione.",
-    "Diesel: sygnał jest mieszany, więc STABLE pozostaje niepewne."
+    "Sygnał dla PB95 jest umiarkowany: spadek hurtu wspiera stabilizację, ale brak pełnej historii 7-dniowej.",
+    "Dla diesla ryzyko odbicia osłabia pewność prognozy."
   ],
-  "summary": "Kierunki są zgodne z hurtowym sygnałem, ale dane detaliczne i pewność prognozy są słabe.",
-  "reviewedAt": "2026-10-29T11:39:23.938Z"
+  "summary": "Oba paliwa mają spadkowy, lecz niejednoznaczny sygnał; stabilizacja w 7 dni jest rozsądna.",
+  "reviewedAt": "2026-10-30T11:30:19.372Z"
 }
