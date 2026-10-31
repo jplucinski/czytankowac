@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-10-31T11:00:16.317Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.81,
+      "summary": "Hurtowa PB95 spada piąty dzień, a ceny detaliczne lekko maleją; jeśli możesz, odłóż tankowanie o kilka dni."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.78,
+      "summary": "Diesel pozostaje drogi po wcześniejszym wzroście, lecz hurt spada; oczekuj raczej stabilizacji niż wyraźnej obniżki."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ceny hurtowe paliw — ORLEN, Anwim, BP, Unimot, Aramco",
+      "url": "https://monitorpaliw.pl/ceny-hurtowe/",
+      "accessedAt": "2026-10-31T11:00:16.317Z"
+    },
+    {
+      "title": "Aktualne ceny paliw w Polsce — zapaliwo.pl",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-10-31T11:00:16.317Z"
+    },
+    {
+      "title": "Maksymalna cena detaliczna paliw 31 października–2 listopada 2026",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-31-pazdziernika--2-listopada-2026-r",
+      "accessedAt": "2026-10-31T11:00:16.317Z"
+    },
+    {
+      "title": "Archiwum kursów średnich — tabela A NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
+      "accessedAt": "2026-10-31T11:00:16.317Z"
+    }
+  ]
+}
