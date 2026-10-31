@@ -1,43 +1,43 @@
 {
-  "asOf": "2026-10-30T11:29:15.139Z",
+  "asOf": "2026-10-31T11:00:16.317Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
     {
       "fuel": "PB95",
-      "direction": "STABLE",
-      "recommendation": "NORMAL",
-      "confidence": 0.79,
-      "summary": "Hurt Pb95 wynosi około 5,70 zł/l, a detal spada; w tydzień najbardziej prawdopodobna jest stabilizacja."
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.81,
+      "summary": "Hurtowa PB95 spada piąty dzień, a ceny detaliczne lekko maleją; jeśli możesz, odłóż tankowanie o kilka dni."
     },
     {
       "fuel": "DIESEL",
       "direction": "STABLE",
       "recommendation": "NORMAL",
-      "confidence": 0.77,
-      "summary": "Hurt ON jest wysoki, lecz ostatnio spada, a limit detaliczny obniżono; oczekiwana jest stabilizacja z ryzykiem odbicia."
+      "confidence": 0.78,
+      "summary": "Diesel pozostaje drogi po wcześniejszym wzroście, lecz hurt spada; oczekuj raczej stabilizacji niż wyraźnej obniżki."
     }
   ],
   "sources": [
     {
-      "title": "Ceny hurtowe paliw 30 października 2026 – CenyCPN.pl",
-      "url": "https://cenycpn.pl/ceny-hurtowe/2026-10-30",
-      "accessedAt": "2026-10-30T11:29:15.139Z"
+      "title": "Ceny hurtowe paliw — ORLEN, Anwim, BP, Unimot, Aramco",
+      "url": "https://monitorpaliw.pl/ceny-hurtowe/",
+      "accessedAt": "2026-10-31T11:00:16.317Z"
     },
     {
-      "title": "Ceny paliw dziś — benzyna, diesel, LPG – zapaliwo.pl",
+      "title": "Aktualne ceny paliw w Polsce — zapaliwo.pl",
       "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-10-30T11:29:15.139Z"
+      "accessedAt": "2026-10-31T11:00:16.317Z"
     },
     {
-      "title": "Kursy walut – tabela A NBP",
-      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
-      "accessedAt": "2026-10-30T11:29:15.139Z"
+      "title": "Maksymalna cena detaliczna paliw 31 października–2 listopada 2026",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-31-pazdziernika--2-listopada-2026-r",
+      "accessedAt": "2026-10-31T11:00:16.317Z"
     },
     {
-      "title": "Notowania paliw ORLEN 2026",
-      "url": "https://paliwa.orlen.pl/pl/notowania/loco-terminal/2026",
-      "accessedAt": "2026-10-30T11:29:15.139Z"
+      "title": "Archiwum kursów średnich — tabela A NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
+      "accessedAt": "2026-10-31T11:00:16.317Z"
     }
   ]
 }

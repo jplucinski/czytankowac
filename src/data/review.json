@@ -1,9 +1,10 @@
 {
   "decision": "PASS",
   "issues": [
-    "Sygnał dla PB95 jest umiarkowany: spadek hurtu wspiera stabilizację, ale brak pełnej historii 7-dniowej.",
-    "Dla diesla ryzyko odbicia osłabia pewność prognozy."
+    "PB95: sygnał spadkowy jest wiarygodny, ale nie potwierdza 7-dniowego trendu.",
+    "DIESEL: hurt spada minimalnie, więc stabilizacja jest możliwa, lecz słabo uzasadniona.",
+    "Brak niezależnego sygnału detalicznego i walutowego w sprawdzeniu."
   ],
-  "summary": "Oba paliwa mają spadkowy, lecz niejednoznaczny sygnał; stabilizacja w 7 dni jest rozsądna.",
-  "reviewedAt": "2026-10-30T11:30:19.372Z"
+  "summary": "Prognoza zgodna z dostępnym sygnałem, ale pewność 7-dniowa jest ograniczona.",
+  "reviewedAt": "2026-10-31T11:01:11.215Z"
 }
