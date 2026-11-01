@@ -1,10 +1,10 @@
 {
   "decision": "PASS",
   "issues": [
-    "PB95: sygnał spadkowy jest wiarygodny, ale nie potwierdza 7-dniowego trendu.",
-    "DIESEL: hurt spada minimalnie, więc stabilizacja jest możliwa, lecz słabo uzasadniona.",
-    "Brak niezależnego sygnału detalicznego i walutowego w sprawdzeniu."
+    "Horyzont 7 dni jest słabo uzasadniony; dane pokazują głównie ostatni tydzień.",
+    "Diesel: detal rośnie, a hurt ostatnio spada, więc sygnał stabilizacji jest niejednoznaczny.",
+    "Wysokie poziomy ufności są niewspółmierne do krótkiej i mieszanej historii danych."
   ],
-  "summary": "Prognoza zgodna z dostępnym sygnałem, ale pewność 7-dniowa jest ograniczona.",
-  "reviewedAt": "2026-10-31T11:01:11.215Z"
+  "summary": "Kierunki są wiarygodne, lecz prognoza 7-dniowa i pewność wymagają ostrożności.",
+  "reviewedAt": "2026-11-01T11:56:48.340Z"
 }

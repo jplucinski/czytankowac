@@ -1,0 +1,48 @@
+{
+  "asOf": "2026-11-01T11:55:48.903Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.79,
+      "summary": "Detaliczna Pb95 spada, a hurt pozostaje pod presją; w ciągu tygodnia możliwe są dalsze niewielkie obniżki."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.77,
+      "summary": "Diesel jest droższy niż tydzień temu, lecz ostatnie limity i hurt wskazują na stabilizację z ryzykiem lekkiego wzrostu."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hurtowe ceny paliw ORLEN",
+      "url": "https://www.orlen.pl/pl/dla-biznesu/hurtowe-ceny-paliw",
+      "accessedAt": "2026-11-01T11:55:48.903Z"
+    },
+    {
+      "title": "Ceny paliw dziś — benzyna, diesel, LPG",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-11-01T11:55:48.903Z"
+    },
+    {
+      "title": "Ceny paliw dziś i jutro — CenyCPN.pl",
+      "url": "https://cenycpn.pl/",
+      "accessedAt": "2026-11-01T11:55:48.903Z"
+    },
+    {
+      "title": "Maksymalna cena detaliczna paliw — Ministerstwo Energii",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-31-pazdziernika--2-listopada-2026-r",
+      "accessedAt": "2026-11-01T11:55:48.903Z"
+    },
+    {
+      "title": "NBP Web API — kursy walut",
+      "url": "https://api.nbp.pl/",
+      "accessedAt": "2026-11-01T11:55:48.903Z"
+    }
+  ]
+}
