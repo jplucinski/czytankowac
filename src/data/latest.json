@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-01T11:55:48.903Z",
+  "asOf": "2026-11-02T13:41:44.432Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -7,42 +7,42 @@
       "fuel": "PB95",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.79,
-      "summary": "Detaliczna Pb95 spada, a hurt pozostaje pod presją; w ciągu tygodnia możliwe są dalsze niewielkie obniżki."
+      "confidence": 0.86,
+      "summary": "Ceny PB95 spadają, a prognoza na 2–8 listopada jest niższa od ostatniej średniej; jeśli możesz, zatankuj później."
     },
     {
       "fuel": "DIESEL",
       "direction": "STABLE",
       "recommendation": "NORMAL",
-      "confidence": 0.77,
-      "summary": "Diesel jest droższy niż tydzień temu, lecz ostatnie limity i hurt wskazują na stabilizację z ryzykiem lekkiego wzrostu."
+      "confidence": 0.82,
+      "summary": "Diesel pozostaje drogi, lecz bez wyraźnego trendu; możliwe są małe wahania wokół 8 zł za litr."
     }
   ],
   "sources": [
     {
       "title": "Hurtowe ceny paliw ORLEN",
       "url": "https://www.orlen.pl/pl/dla-biznesu/hurtowe-ceny-paliw",
-      "accessedAt": "2026-11-01T11:55:48.903Z"
+      "accessedAt": "2026-11-02T13:41:44.432Z"
     },
     {
-      "title": "Ceny paliw dziś — benzyna, diesel, LPG",
+      "title": "Prognozy i średnie ceny detaliczne paliw",
+      "url": "https://www.e-petrol.pl/",
+      "accessedAt": "2026-11-02T13:41:44.432Z"
+    },
+    {
+      "title": "Aktualne ceny paliw w Polsce",
       "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-11-01T11:55:48.903Z"
+      "accessedAt": "2026-11-02T13:41:44.432Z"
     },
     {
-      "title": "Ceny paliw dziś i jutro — CenyCPN.pl",
-      "url": "https://cenycpn.pl/",
-      "accessedAt": "2026-11-01T11:55:48.903Z"
+      "title": "Tabela A kursów średnich NBP — 2 listopada 2026",
+      "url": "https://rss.nbp.pl/kursy/TabRss.aspx?n=2026%2Fa%2F26a213",
+      "accessedAt": "2026-11-02T13:41:44.432Z"
     },
     {
-      "title": "Maksymalna cena detaliczna paliw — Ministerstwo Energii",
-      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-31-pazdziernika--2-listopada-2026-r",
-      "accessedAt": "2026-11-01T11:55:48.903Z"
-    },
-    {
-      "title": "NBP Web API — kursy walut",
-      "url": "https://api.nbp.pl/",
-      "accessedAt": "2026-11-01T11:55:48.903Z"
+      "title": "Maksymalna cena detaliczna paliw 31 października–2 listopada 2026",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-31-pazdziernika--2-listopada-2026-r/",
+      "accessedAt": "2026-11-02T13:41:44.432Z"
     }
   ]
 }
