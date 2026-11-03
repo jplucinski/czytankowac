@@ -1,8 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Brak dostępnego publicznego sygnału do niezależnego potwierdzenia; wysokie poziomy pewności są nieuzasadnione."
+    "Brak niezależnego potwierdzenia dla obu paliw; widoczny sygnał wspiera Pb95, lecz dla diesla jest niejednoznaczny.",
+    "Pewność 0,86/0,83 jest wysoka względem krótkiego i ograniczonego uzasadnienia."
   ],
-  "summary": "Brak danych do pełnej weryfikacji, ale prognoza nie jest sprzeczna z dostępnym sygnałem.",
-  "reviewedAt": "2026-11-02T13:43:00.490Z"
+  "summary": "PASS: Pb95 ma wsparcie spadkowe; diesel także możliwy, lecz sygnał jest słabszy.",
+  "reviewedAt": "2026-11-03T12:55:37.059Z"
 }
