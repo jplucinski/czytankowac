@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Brak niezależnego potwierdzenia dla obu paliw; widoczny sygnał wspiera Pb95, lecz dla diesla jest niejednoznaczny.",
-    "Pewność 0,86/0,83 jest wysoka względem krótkiego i ograniczonego uzasadnienia."
+    "Potwierdzono sygnał spadkowy, ale nie zweryfikowano dokładnie zmian 7- i 9-gr./l.",
+    "Źródła wskazują także wysokie ceny diesla, więc jego dalsza przecena jest mniej pewna."
   ],
-  "summary": "PASS: Pb95 ma wsparcie spadkowe; diesel także możliwy, lecz sygnał jest słabszy.",
-  "reviewedAt": "2026-11-03T12:55:37.059Z"
+  "summary": "Sygnał spadkowy jest publicznie widoczny; rekomendacja WAIT pozostaje rozsądna, lecz niepewna.",
+  "reviewedAt": "2026-11-04T13:09:13.564Z"
 }

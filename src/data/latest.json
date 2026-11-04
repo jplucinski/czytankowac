@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-03T12:54:39.071Z",
+  "asOf": "2026-11-04T13:08:18.114Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -7,37 +7,42 @@
       "fuel": "PB95",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.86,
-      "summary": "Hurt Pb95 spada trzeci kolejny odczyt, a limit detaliczny obniżono; możliwe są dalsze niewielkie spadki."
+      "confidence": 0.87,
+      "summary": "Hurt Pb95 spadł o około 7 gr/l, a limity detaliczne maleją; możliwe są jeszcze niewielkie obniżki."
     },
     {
       "fuel": "DIESEL",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.83,
-      "summary": "Hurtowy diesel wyraźnie tanieje, a ceny detaliczne spadają; w ciągu tygodnia możliwa jest dalsza łagodna obniżka."
+      "confidence": 0.84,
+      "summary": "Hurt diesla spadł o około 8 gr/l, a cena maksymalna o 9 gr/l; w tygodniu możliwa dalsza łagodna przecena."
     }
   ],
   "sources": [
     {
-      "title": "Hurtowe ceny paliw ORLEN, ARAMCO i BP",
+      "title": "Hurtowe ceny paliw ORLEN i średnie rafineryjne",
       "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
-      "accessedAt": "2026-11-03T12:54:39.071Z"
+      "accessedAt": "2026-11-04T13:08:18.114Z"
     },
     {
-      "title": "Ceny paliw dziś — średnie detaliczne w Polsce",
+      "title": "Hurtowe ceny paliw ORLEN",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/orlen",
+      "accessedAt": "2026-11-04T13:08:18.114Z"
+    },
+    {
+      "title": "Indeksy importowe benzyny i diesla",
+      "url": "https://www.e-petrol.pl/notowania/ceny-hurt/indeksy-importowe",
+      "accessedAt": "2026-11-04T13:08:18.114Z"
+    },
+    {
+      "title": "Średnie i prognozowane ceny detaliczne w Polsce",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/ceny-stacje-paliw",
+      "accessedAt": "2026-11-04T13:08:18.114Z"
+    },
+    {
+      "title": "Bieżące ceny detaliczne paliw w Polsce",
       "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-11-03T12:54:39.071Z"
-    },
-    {
-      "title": "Maksymalne ceny paliw — Monitor Paliw",
-      "url": "https://monitorpaliw.pl/",
-      "accessedAt": "2026-11-03T12:54:39.071Z"
-    },
-    {
-      "title": "Ceny paliw dziś i jutro — CenyCPN",
-      "url": "https://cenycpn.pl/",
-      "accessedAt": "2026-11-03T12:54:39.071Z"
+      "accessedAt": "2026-11-04T13:08:18.114Z"
     }
   ]
 }
