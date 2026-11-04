@@ -1,0 +1,48 @@
+{
+  "asOf": "2026-11-04T13:08:18.114Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.87,
+      "summary": "Hurt Pb95 spadł o około 7 gr/l, a limity detaliczne maleją; możliwe są jeszcze niewielkie obniżki."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.84,
+      "summary": "Hurt diesla spadł o około 8 gr/l, a cena maksymalna o 9 gr/l; w tygodniu możliwa dalsza łagodna przecena."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hurtowe ceny paliw ORLEN i średnie rafineryjne",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
+      "accessedAt": "2026-11-04T13:08:18.114Z"
+    },
+    {
+      "title": "Hurtowe ceny paliw ORLEN",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/orlen",
+      "accessedAt": "2026-11-04T13:08:18.114Z"
+    },
+    {
+      "title": "Indeksy importowe benzyny i diesla",
+      "url": "https://www.e-petrol.pl/notowania/ceny-hurt/indeksy-importowe",
+      "accessedAt": "2026-11-04T13:08:18.114Z"
+    },
+    {
+      "title": "Średnie i prognozowane ceny detaliczne w Polsce",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/ceny-stacje-paliw",
+      "accessedAt": "2026-11-04T13:08:18.114Z"
+    },
+    {
+      "title": "Bieżące ceny detaliczne paliw w Polsce",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-11-04T13:08:18.114Z"
+    }
+  ]
+}
