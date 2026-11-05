@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-04T13:08:18.114Z",
+  "asOf": "2026-11-05T13:22:17.861Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -7,42 +7,37 @@
       "fuel": "PB95",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.87,
-      "summary": "Hurt Pb95 spadł o około 7 gr/l, a limity detaliczne maleją; możliwe są jeszcze niewielkie obniżki."
+      "confidence": 0.78,
+      "summary": "Hurt spadł, a limit na 5 listopada obniżono do 6,29 zł/l; w 7 dni możliwa dalsza łagodna obniżka."
     },
     {
       "fuel": "DIESEL",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.84,
-      "summary": "Hurt diesla spadł o około 8 gr/l, a cena maksymalna o 9 gr/l; w tygodniu możliwa dalsza łagodna przecena."
+      "confidence": 0.76,
+      "summary": "Hurt spadł, a limit na 5 listopada obniżono do 7,97 zł/l; w 7 dni możliwa dalsza łagodna obniżka."
     }
   ],
   "sources": [
     {
-      "title": "Hurtowe ceny paliw ORLEN i średnie rafineryjne",
-      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
-      "accessedAt": "2026-11-04T13:08:18.114Z"
+      "title": "Ceny paliw dziś i na jutro – CenyCPN.pl",
+      "url": "https://cenycpn.pl/",
+      "accessedAt": "2026-11-05T13:22:17.861Z"
     },
     {
-      "title": "Hurtowe ceny paliw ORLEN",
-      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/orlen",
-      "accessedAt": "2026-11-04T13:08:18.114Z"
+      "title": "Ceny paliw na jutro – cenypaliw.fyi",
+      "url": "https://cenypaliw.fyi/jutro",
+      "accessedAt": "2026-11-05T13:22:17.861Z"
     },
     {
-      "title": "Indeksy importowe benzyny i diesla",
-      "url": "https://www.e-petrol.pl/notowania/ceny-hurt/indeksy-importowe",
-      "accessedAt": "2026-11-04T13:08:18.114Z"
+      "title": "Kursy walut – tabela A NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-11-05T13:22:17.861Z"
     },
     {
-      "title": "Średnie i prognozowane ceny detaliczne w Polsce",
-      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/ceny-stacje-paliw",
-      "accessedAt": "2026-11-04T13:08:18.114Z"
-    },
-    {
-      "title": "Bieżące ceny detaliczne paliw w Polsce",
-      "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-11-04T13:08:18.114Z"
+      "title": "Ceny hurtowe paliw – Monitor Paliw",
+      "url": "https://monitorpaliw.pl/ceny-hurtowe/",
+      "accessedAt": "2026-11-05T13:22:17.861Z"
     }
   ]
 }

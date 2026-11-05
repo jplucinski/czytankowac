@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-11-05T13:22:17.861Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.78,
+      "summary": "Hurt spadł, a limit na 5 listopada obniżono do 6,29 zł/l; w 7 dni możliwa dalsza łagodna obniżka."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.76,
+      "summary": "Hurt spadł, a limit na 5 listopada obniżono do 7,97 zł/l; w 7 dni możliwa dalsza łagodna obniżka."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ceny paliw dziś i na jutro – CenyCPN.pl",
+      "url": "https://cenycpn.pl/",
+      "accessedAt": "2026-11-05T13:22:17.861Z"
+    },
+    {
+      "title": "Ceny paliw na jutro – cenypaliw.fyi",
+      "url": "https://cenypaliw.fyi/jutro",
+      "accessedAt": "2026-11-05T13:22:17.861Z"
+    },
+    {
+      "title": "Kursy walut – tabela A NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-11-05T13:22:17.861Z"
+    },
+    {
+      "title": "Ceny hurtowe paliw – Monitor Paliw",
+      "url": "https://monitorpaliw.pl/ceny-hurtowe/",
+      "accessedAt": "2026-11-05T13:22:17.861Z"
+    }
+  ]
+}
