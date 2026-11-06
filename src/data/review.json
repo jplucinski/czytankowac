@@ -1,9 +1,10 @@
 {
   "decision": "PASS",
   "issues": [
-    "Potwierdzono sygnał spadkowy, ale nie zweryfikowano dokładnie zmian 7- i 9-gr./l.",
-    "Źródła wskazują także wysokie ceny diesla, więc jego dalsza przecena jest mniej pewna."
+    "Brak potwierdzenia dalszych spadków przez pełne 7 dni.",
+    "Piątkowy limit obniżono o 9 gr dla Pb95 i 6 gr dla ON, nie o 8 gr.",
+    "Wysokie confidence jest słabo uzasadnione; dane wspierają głównie krótkoterminowy spadek."
   ],
-  "summary": "Sygnał spadkowy jest publicznie widoczny; rekomendacja WAIT pozostaje rozsądna, lecz niepewna.",
-  "reviewedAt": "2026-11-04T13:09:13.564Z"
+  "summary": "Kierunek spadkowy jest wiarygodny, lecz prognoza 7-dniowa i pewność są zawyżone.",
+  "reviewedAt": "2026-11-06T13:06:20.872Z"
 }
