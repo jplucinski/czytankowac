@@ -1,0 +1,48 @@
+{
+  "asOf": "2026-11-06T13:05:28.434Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.91,
+      "summary": "Hurt Pb95 spada piąty dzień, a limit na 7 listopada obniżono o 8 gr; możliwe dalsze, lecz łagodniejsze spadki."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.84,
+      "summary": "Hurt ON spada, a limit na 7 listopada obniżono o 8 gr; w tygodniu bardziej prawdopodobny lekki spadek niż stabilizacja."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ceny hurtowe paliw — ORLEN, Anwim, BP, Unimot, Aramco",
+      "url": "https://monitorpaliw.pl/ceny-hurtowe/",
+      "accessedAt": "2026-11-06T13:05:28.434Z"
+    },
+    {
+      "title": "Ceny paliw dziś i jutro",
+      "url": "https://cenycpn.pl/",
+      "accessedAt": "2026-11-06T13:05:28.434Z"
+    },
+    {
+      "title": "Aktualne ceny paliw w Polsce",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-11-06T13:05:28.434Z"
+    },
+    {
+      "title": "Tabela C — kurs EUR/PLN NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-c/",
+      "accessedAt": "2026-11-06T13:05:28.434Z"
+    },
+    {
+      "title": "Obwieszczenie Ministra Energii z 2 listopada 2026 r.",
+      "url": "https://monitorpolski.gov.pl/M2026000106501.pdf",
+      "accessedAt": "2026-11-06T13:05:28.434Z"
+    }
+  ]
+}
