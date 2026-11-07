@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-11-07T11:50:05.852Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.82,
+      "summary": "Hurtowa Pb95 spada kolejny dzień, a limit detaliczny obniżono; w ciągu tygodnia możliwe są dalsze niewielkie spadki."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.8,
+      "summary": "Hurtowy diesel tanieje seriami, limit detaliczny spadł; prawdopodobne są dalsze obniżki, choć ryzyko odbicia pozostaje."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hurtowe ceny paliw ORLEN",
+      "url": "https://www.orlen.pl/pl/dla-biznesu/hurtowe-ceny-paliw",
+      "accessedAt": "2026-11-07T11:50:05.852Z"
+    },
+    {
+      "title": "Maksymalna cena detaliczna paliw 7–9 listopada 2026",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-7-9-listopada-2026-r",
+      "accessedAt": "2026-11-07T11:50:05.852Z"
+    },
+    {
+      "title": "Kursy walut – tabela A NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-11-07T11:50:05.852Z"
+    },
+    {
+      "title": "Hurtowe ceny paliw ORLEN, Aramco, ANWIM",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
+      "accessedAt": "2026-11-07T11:50:05.852Z"
+    }
+  ]
+}
