@@ -1,10 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Brak potwierdzenia dalszych spadków przez pełne 7 dni.",
-    "Piątkowy limit obniżono o 9 gr dla Pb95 i 6 gr dla ON, nie o 8 gr.",
-    "Wysokie confidence jest słabo uzasadnione; dane wspierają głównie krótkoterminowy spadek."
+    "Sygnał potwierdza spadki hurtowe, ale nie dowodzi trendu przez pełne 7 dni.",
+    "Źródła nie pokazują wyraźnie danych walutowych ani niezależnego potwierdzenia dla obu paliw."
   ],
-  "summary": "Kierunek spadkowy jest wiarygodny, lecz prognoza 7-dniowa i pewność są zawyżone.",
-  "reviewedAt": "2026-11-06T13:06:20.872Z"
+  "summary": "Spadki hurtowe i limity wspierają WAIT, lecz 7-dniowa prognoza pozostaje niepewna.",
+  "reviewedAt": "2026-11-07T11:50:50.564Z"
 }
