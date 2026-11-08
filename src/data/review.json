@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Sygnał potwierdza spadki hurtowe, ale nie dowodzi trendu przez pełne 7 dni.",
-    "Źródła nie pokazują wyraźnie danych walutowych ani niezależnego potwierdzenia dla obu paliw."
+    "Prognoza 7-dniowa ma słabe, ogólne uzasadnienie; brak niezależnego potwierdzenia dla całego horyzontu.",
+    "Pewność 0,82/0,78 jest wysoka względem niepewności rynku."
   ],
-  "summary": "Spadki hurtowe i limity wspierają WAIT, lecz 7-dniowa prognoza pozostaje niepewna.",
-  "reviewedAt": "2026-11-07T11:50:50.564Z"
+  "summary": "Kierunek spadkowy obu paliw jest zgodny z bieżącym sygnałem hurtowym; rekomendacja WAIT ma sens.",
+  "reviewedAt": "2026-11-08T12:02:38.989Z"
 }
