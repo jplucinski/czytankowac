@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-07T11:50:05.852Z",
+  "asOf": "2026-11-08T12:02:01.077Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -8,36 +8,36 @@
       "direction": "DOWN",
       "recommendation": "WAIT",
       "confidence": 0.82,
-      "summary": "Hurtowa Pb95 spada kolejny dzień, a limit detaliczny obniżono; w ciągu tygodnia możliwe są dalsze niewielkie spadki."
+      "summary": "Hurtowa PB95 spadła do ok. 5,30 zł/l, a prognozy wskazują dalsze łagodnie obniżki w najbliższym tygodniu."
     },
     {
       "fuel": "DIESEL",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.8,
-      "summary": "Hurtowy diesel tanieje seriami, limit detaliczny spadł; prawdopodobne są dalsze obniżki, choć ryzyko odbicia pozostaje."
+      "confidence": 0.78,
+      "summary": "ON potaniał w hurcie do ok. 6,86 zł/l; oczekiwany jest dalszy, umiarkowany spadek cen przez 7 dni."
     }
   ],
   "sources": [
     {
-      "title": "Hurtowe ceny paliw ORLEN",
-      "url": "https://www.orlen.pl/pl/dla-biznesu/hurtowe-ceny-paliw",
-      "accessedAt": "2026-11-07T11:50:05.852Z"
+      "title": "Ceny hurtowe paliw — ORLEN, Anwim, BP, Unimot, Aramco",
+      "url": "https://monitorpaliw.pl/ceny-hurtowe/",
+      "accessedAt": "2026-11-08T12:02:01.077Z"
     },
     {
-      "title": "Maksymalna cena detaliczna paliw 7–9 listopada 2026",
-      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-7-9-listopada-2026-r",
-      "accessedAt": "2026-11-07T11:50:05.852Z"
+      "title": "Ceny hurtowe paliw 8 listopada 2026",
+      "url": "https://cenycpn.pl/ceny-hurtowe/2026-11-08",
+      "accessedAt": "2026-11-08T12:02:01.077Z"
     },
     {
-      "title": "Kursy walut – tabela A NBP",
+      "title": "Hurtowe ceny paliw ORLEN S.A.",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/orlen",
+      "accessedAt": "2026-11-08T12:02:01.077Z"
+    },
+    {
+      "title": "Kursy walut — tabela A NBP",
       "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
-      "accessedAt": "2026-11-07T11:50:05.852Z"
-    },
-    {
-      "title": "Hurtowe ceny paliw ORLEN, Aramco, ANWIM",
-      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
-      "accessedAt": "2026-11-07T11:50:05.852Z"
+      "accessedAt": "2026-11-08T12:02:01.077Z"
     }
   ]
 }

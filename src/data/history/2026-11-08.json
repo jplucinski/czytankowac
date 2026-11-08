@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-11-08T12:02:01.077Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.82,
+      "summary": "Hurtowa PB95 spadła do ok. 5,30 zł/l, a prognozy wskazują dalsze łagodnie obniżki w najbliższym tygodniu."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.78,
+      "summary": "ON potaniał w hurcie do ok. 6,86 zł/l; oczekiwany jest dalszy, umiarkowany spadek cen przez 7 dni."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ceny hurtowe paliw — ORLEN, Anwim, BP, Unimot, Aramco",
+      "url": "https://monitorpaliw.pl/ceny-hurtowe/",
+      "accessedAt": "2026-11-08T12:02:01.077Z"
+    },
+    {
+      "title": "Ceny hurtowe paliw 8 listopada 2026",
+      "url": "https://cenycpn.pl/ceny-hurtowe/2026-11-08",
+      "accessedAt": "2026-11-08T12:02:01.077Z"
+    },
+    {
+      "title": "Hurtowe ceny paliw ORLEN S.A.",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/orlen",
+      "accessedAt": "2026-11-08T12:02:01.077Z"
+    },
+    {
+      "title": "Kursy walut — tabela A NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-11-08T12:02:01.077Z"
+    }
+  ]
+}
