@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Prognoza 7-dniowa ma słabe, ogólne uzasadnienie; brak niezależnego potwierdzenia dla całego horyzontu.",
-    "Pewność 0,82/0,78 jest wysoka względem niepewności rynku."
+    "Pb95: sygnał na dalsze 7 dni jest słaby — wskazano raczej stabilizację niż wyraźny spadek.",
+    "Wysoka pewność 0,84/0,82 nie odpowiada szerokim przedziałom niepewności."
   ],
-  "summary": "Kierunek spadkowy obu paliw jest zgodny z bieżącym sygnałem hurtowym; rekomendacja WAIT ma sens.",
-  "reviewedAt": "2026-11-08T12:02:38.989Z"
+  "summary": "Kierunek spadkowy ma publiczne potwierdzenie, lecz 7-dniowa pewność jest zawyżona.",
+  "reviewedAt": "2026-11-09T14:08:25.341Z"
 }
