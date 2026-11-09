@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-11-09T14:07:30.244Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.84,
+      "summary": "Ceny detaliczne spadały przez tydzień, a niższy hurt i limit od 10 listopada sprzyjają dalszej obniżce."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.82,
+      "summary": "Diesel taniał tydzień do tygodnia; niższy hurt i zapowiadana korekta limitu wskazują na dalszy spadek."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kursy walut – tabela A NBP, 9 listopada 2026",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-11-09T14:07:30.244Z"
+    },
+    {
+      "title": "Maksymalna cena detaliczna paliw 7–9 listopada 2026 – Ministerstwo Energii",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-7-9-listopada-2026-r",
+      "accessedAt": "2026-11-09T14:07:30.244Z"
+    },
+    {
+      "title": "Aktualne ceny paliw w Polsce – zapaliwo.pl",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-11-09T14:07:30.244Z"
+    },
+    {
+      "title": "Ceny paliw dziś i na jutro – hurt Orlen i prognoza",
+      "url": "https://cenypaliw.fyi/",
+      "accessedAt": "2026-11-09T14:07:30.244Z"
+    }
+  ]
+}

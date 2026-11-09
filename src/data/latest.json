@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-08T12:02:01.077Z",
+  "asOf": "2026-11-09T14:07:30.244Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -7,37 +7,37 @@
       "fuel": "PB95",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.82,
-      "summary": "Hurtowa PB95 spadła do ok. 5,30 zł/l, a prognozy wskazują dalsze łagodnie obniżki w najbliższym tygodniu."
+      "confidence": 0.84,
+      "summary": "Ceny detaliczne spadały przez tydzień, a niższy hurt i limit od 10 listopada sprzyjają dalszej obniżce."
     },
     {
       "fuel": "DIESEL",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.78,
-      "summary": "ON potaniał w hurcie do ok. 6,86 zł/l; oczekiwany jest dalszy, umiarkowany spadek cen przez 7 dni."
+      "confidence": 0.82,
+      "summary": "Diesel taniał tydzień do tygodnia; niższy hurt i zapowiadana korekta limitu wskazują na dalszy spadek."
     }
   ],
   "sources": [
     {
-      "title": "Ceny hurtowe paliw — ORLEN, Anwim, BP, Unimot, Aramco",
-      "url": "https://monitorpaliw.pl/ceny-hurtowe/",
-      "accessedAt": "2026-11-08T12:02:01.077Z"
-    },
-    {
-      "title": "Ceny hurtowe paliw 8 listopada 2026",
-      "url": "https://cenycpn.pl/ceny-hurtowe/2026-11-08",
-      "accessedAt": "2026-11-08T12:02:01.077Z"
-    },
-    {
-      "title": "Hurtowe ceny paliw ORLEN S.A.",
-      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/orlen",
-      "accessedAt": "2026-11-08T12:02:01.077Z"
-    },
-    {
-      "title": "Kursy walut — tabela A NBP",
+      "title": "Kursy walut – tabela A NBP, 9 listopada 2026",
       "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
-      "accessedAt": "2026-11-08T12:02:01.077Z"
+      "accessedAt": "2026-11-09T14:07:30.244Z"
+    },
+    {
+      "title": "Maksymalna cena detaliczna paliw 7–9 listopada 2026 – Ministerstwo Energii",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-7-9-listopada-2026-r",
+      "accessedAt": "2026-11-09T14:07:30.244Z"
+    },
+    {
+      "title": "Aktualne ceny paliw w Polsce – zapaliwo.pl",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-11-09T14:07:30.244Z"
+    },
+    {
+      "title": "Ceny paliw dziś i na jutro – hurt Orlen i prognoza",
+      "url": "https://cenypaliw.fyi/",
+      "accessedAt": "2026-11-09T14:07:30.244Z"
     }
   ]
 }
