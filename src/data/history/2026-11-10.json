@@ -1,0 +1,48 @@
+{
+  "asOf": "2026-11-10T13:38:52.250Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.78,
+      "summary": "Hurt PB95 wzrósł dziś, ale wcześniejszy spadek i stabilny limit detaliczny przemawiają za niewielkimi wahaniami."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.82,
+      "summary": "Hurt ON spadł dziś o 7,5 gr/l po serii obniżek, więc w ciągu tygodnia możliwy jest dalszy łagodny spadek."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ORLEN i średnie ceny hurtowe paliw",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
+      "accessedAt": "2026-11-10T13:38:52.250Z"
+    },
+    {
+      "title": "Ceny hurtowe paliw – ORLEN, Anwim i inni",
+      "url": "https://monitorpaliw.pl/ceny-hurtowe/",
+      "accessedAt": "2026-11-10T13:38:52.250Z"
+    },
+    {
+      "title": "Maksymalna cena detaliczna paliw 10 listopada 2026 r. – Ministerstwo Energii",
+      "url": "https://redakcja.www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-10-listopada-2026-r",
+      "accessedAt": "2026-11-10T13:38:52.250Z"
+    },
+    {
+      "title": "Obwieszczenie Ministra Energii z 10 listopada 2026 r.",
+      "url": "https://www.monitorpolski.gov.pl/MP/2026/1121",
+      "accessedAt": "2026-11-10T13:38:52.250Z"
+    },
+    {
+      "title": "Tabela kursów średnich NBP – EUR/PLN",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-11-10T13:38:52.250Z"
+    }
+  ]
+}
