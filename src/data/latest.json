@@ -1,48 +1,43 @@
 {
-  "asOf": "2026-11-10T13:38:52.250Z",
+  "asOf": "2026-11-11T12:50:59.119Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
     {
       "fuel": "PB95",
-      "direction": "STABLE",
-      "recommendation": "NORMAL",
-      "confidence": 0.78,
-      "summary": "Hurt PB95 wzrósł dziś, ale wcześniejszy spadek i stabilny limit detaliczny przemawiają za niewielkimi wahaniami."
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.79,
+      "summary": "Hurtowa PB95 spadła do 5,307 zł/l netto, a limit detaliczny pozostaje stabilny; możliwe dalsze, łagodne obniżki."
     },
     {
       "fuel": "DIESEL",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.82,
-      "summary": "Hurt ON spadł dziś o 7,5 gr/l po serii obniżek, więc w ciągu tygodnia możliwy jest dalszy łagodny spadek."
+      "confidence": 0.84,
+      "summary": "Hurtowy diesel spadł do 6,681 zł/l netto; limit detaliczny obniżono, więc ceny mogą jeszcze umiarkowanie spaść."
     }
   ],
   "sources": [
     {
-      "title": "ORLEN i średnie ceny hurtowe paliw",
-      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
-      "accessedAt": "2026-11-10T13:38:52.250Z"
-    },
-    {
-      "title": "Ceny hurtowe paliw – ORLEN, Anwim i inni",
+      "title": "Hurtowe ceny paliw ORLEN, ANWIM i innych dostawców",
       "url": "https://monitorpaliw.pl/ceny-hurtowe/",
-      "accessedAt": "2026-11-10T13:38:52.250Z"
+      "accessedAt": "2026-11-11T12:50:59.119Z"
     },
     {
-      "title": "Maksymalna cena detaliczna paliw 10 listopada 2026 r. – Ministerstwo Energii",
-      "url": "https://redakcja.www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-10-listopada-2026-r",
-      "accessedAt": "2026-11-10T13:38:52.250Z"
+      "title": "Maksymalna cena detaliczna paliw 11–12 listopada 2026",
+      "url": "https://www.gov.pl/web/energia/wiadomosci",
+      "accessedAt": "2026-11-11T12:50:59.119Z"
     },
     {
-      "title": "Obwieszczenie Ministra Energii z 10 listopada 2026 r.",
-      "url": "https://www.monitorpolski.gov.pl/MP/2026/1121",
-      "accessedAt": "2026-11-10T13:38:52.250Z"
-    },
-    {
-      "title": "Tabela kursów średnich NBP – EUR/PLN",
+      "title": "Tabela A kursów średnich NBP — EUR/PLN 4,3895",
       "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
-      "accessedAt": "2026-11-10T13:38:52.250Z"
+      "accessedAt": "2026-11-11T12:50:59.119Z"
+    },
+    {
+      "title": "Średnie ceny detaliczne paliw w Polsce",
+      "url": "https://benzynamapa.pl/",
+      "accessedAt": "2026-11-11T12:50:59.119Z"
     }
   ]
 }

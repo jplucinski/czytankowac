@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-11-11T12:50:59.119Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.79,
+      "summary": "Hurtowa PB95 spadła do 5,307 zł/l netto, a limit detaliczny pozostaje stabilny; możliwe dalsze, łagodne obniżki."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.84,
+      "summary": "Hurtowy diesel spadł do 6,681 zł/l netto; limit detaliczny obniżono, więc ceny mogą jeszcze umiarkowanie spaść."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hurtowe ceny paliw ORLEN, ANWIM i innych dostawców",
+      "url": "https://monitorpaliw.pl/ceny-hurtowe/",
+      "accessedAt": "2026-11-11T12:50:59.119Z"
+    },
+    {
+      "title": "Maksymalna cena detaliczna paliw 11–12 listopada 2026",
+      "url": "https://www.gov.pl/web/energia/wiadomosci",
+      "accessedAt": "2026-11-11T12:50:59.119Z"
+    },
+    {
+      "title": "Tabela A kursów średnich NBP — EUR/PLN 4,3895",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-11-11T12:50:59.119Z"
+    },
+    {
+      "title": "Średnie ceny detaliczne paliw w Polsce",
+      "url": "https://benzynamapa.pl/",
+      "accessedAt": "2026-11-11T12:50:59.119Z"
+    }
+  ]
+}
