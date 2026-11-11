@@ -1,10 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "PB95: dzisiejsza podwyżka hurtowa (+50 zł/m³) słabo wspiera pełną stabilność.",
-    "DIESEL: brak potwierdzenia dokładnego spadku 7,5 gr/l; dostępne dane wskazują jednak na spadek hurtu o 7,5 gr/l.",
-    "Prognozy 7-dniowe pozostają niepewne."
+    "Sygnał obejmuje głównie bieżące ceny; brak mocnego potwierdzenia pełnego horyzontu 7 dni.",
+    "Stabilny limit PB95 słabiej wspiera prognozę spadku."
   ],
-  "summary": "Kierunki są zgodne z hurtowym sygnałem; PB95 ma lekkie ryzyko wzrostu, a ON wspiera oczekiwanie spadku.",
-  "reviewedAt": "2026-11-10T13:39:54.608Z"
+  "summary": "Obie prognozy mają zgodny sygnał spadkowy, ale uzasadnienie 7 dni jest umiarkowane.",
+  "reviewedAt": "2026-11-11T12:51:52.667Z"
 }
