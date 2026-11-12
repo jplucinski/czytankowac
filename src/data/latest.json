@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-11T12:50:59.119Z",
+  "asOf": "2026-11-12T13:53:39.200Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -7,37 +7,37 @@
       "fuel": "PB95",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.79,
-      "summary": "Hurtowa PB95 spadła do 5,307 zł/l netto, a limit detaliczny pozostaje stabilny; możliwe dalsze, łagodne obniżki."
+      "confidence": 0.78,
+      "summary": "Hurtowa cena PB95 stoi po wcześniejszej obniżce, więc ceny detaliczne mogą jeszcze lekko spaść w najbliższych dniach."
     },
     {
       "fuel": "DIESEL",
       "direction": "DOWN",
       "recommendation": "WAIT",
       "confidence": 0.84,
-      "summary": "Hurtowy diesel spadł do 6,681 zł/l netto; limit detaliczny obniżono, więc ceny mogą jeszcze umiarkowanie spaść."
+      "summary": "Diesel wyraźnie potaniał w hurcie, co zwiększa szansę na dalsze obniżki cen na stacjach."
     }
   ],
   "sources": [
     {
-      "title": "Hurtowe ceny paliw ORLEN, ANWIM i innych dostawców",
+      "title": "Ceny hurtowe paliw — ORLEN, Anwim, BP, Unimot, Aramco",
       "url": "https://monitorpaliw.pl/ceny-hurtowe/",
-      "accessedAt": "2026-11-11T12:50:59.119Z"
+      "accessedAt": "2026-11-12T13:53:39.200Z"
     },
     {
-      "title": "Maksymalna cena detaliczna paliw 11–12 listopada 2026",
-      "url": "https://www.gov.pl/web/energia/wiadomosci",
-      "accessedAt": "2026-11-11T12:50:59.119Z"
+      "title": "Ceny paliw dziś 12.11.2026 – PB95, PB98, ON",
+      "url": "https://tankujnajtaniej.pl/ceny-paliw-dzis",
+      "accessedAt": "2026-11-12T13:53:39.200Z"
     },
     {
-      "title": "Tabela A kursów średnich NBP — EUR/PLN 4,3895",
+      "title": "Kursy walut - tabela A NBP",
       "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
-      "accessedAt": "2026-11-11T12:50:59.119Z"
+      "accessedAt": "2026-11-12T13:53:39.200Z"
     },
     {
-      "title": "Średnie ceny detaliczne paliw w Polsce",
-      "url": "https://benzynamapa.pl/",
-      "accessedAt": "2026-11-11T12:50:59.119Z"
+      "title": "Ceny paliw: Tankowanie w czwartek bez zmian, ale środowy hurt Orlenu obniży limity na piątek",
+      "url": "https://agroprofil.pl/wiadomosci/ceny-paliw-tankowanie-w-czwartek-bez-zmian-ale-srodowy-hurt-orlenu-obnizy-limity-na-piatek/",
+      "accessedAt": "2026-11-12T13:53:39.200Z"
     }
   ]
 }
