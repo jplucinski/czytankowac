@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-11-12T13:53:39.200Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.78,
+      "summary": "Hurtowa cena PB95 stoi po wcześniejszej obniżce, więc ceny detaliczne mogą jeszcze lekko spaść w najbliższych dniach."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.84,
+      "summary": "Diesel wyraźnie potaniał w hurcie, co zwiększa szansę na dalsze obniżki cen na stacjach."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ceny hurtowe paliw — ORLEN, Anwim, BP, Unimot, Aramco",
+      "url": "https://monitorpaliw.pl/ceny-hurtowe/",
+      "accessedAt": "2026-11-12T13:53:39.200Z"
+    },
+    {
+      "title": "Ceny paliw dziś 12.11.2026 – PB95, PB98, ON",
+      "url": "https://tankujnajtaniej.pl/ceny-paliw-dzis",
+      "accessedAt": "2026-11-12T13:53:39.200Z"
+    },
+    {
+      "title": "Kursy walut - tabela A NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-11-12T13:53:39.200Z"
+    },
+    {
+      "title": "Ceny paliw: Tankowanie w czwartek bez zmian, ale środowy hurt Orlenu obniży limity na piątek",
+      "url": "https://agroprofil.pl/wiadomosci/ceny-paliw-tankowanie-w-czwartek-bez-zmian-ale-srodowy-hurt-orlenu-obnizy-limity-na-piatek/",
+      "accessedAt": "2026-11-12T13:53:39.200Z"
+    }
+  ]
+}
