@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-12T13:53:39.200Z",
+  "asOf": "2026-11-13T13:17:22.427Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -7,37 +7,42 @@
       "fuel": "PB95",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.78,
-      "summary": "Hurtowa cena PB95 stoi po wcześniejszej obniżce, więc ceny detaliczne mogą jeszcze lekko spaść w najbliższych dniach."
+      "confidence": 0.82,
+      "summary": "Średnia Pb95 spadła o 19 gr tygodniowo, a limit obniżono do 6,06 zł; możliwy dalszy łagodny spadek."
     },
     {
       "fuel": "DIESEL",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.84,
-      "summary": "Diesel wyraźnie potaniał w hurcie, co zwiększa szansę na dalsze obniżki cen na stacjach."
+      "confidence": 0.78,
+      "summary": "Diesel potaniał o 25 gr tygodniowo, a limit spadł do 7,54 zł; w kolejnym tygodniu prawdopodobna jest dalsza obniżka."
     }
   ],
   "sources": [
     {
-      "title": "Ceny hurtowe paliw — ORLEN, Anwim, BP, Unimot, Aramco",
-      "url": "https://monitorpaliw.pl/ceny-hurtowe/",
-      "accessedAt": "2026-11-12T13:53:39.200Z"
+      "title": "Ceny paliw dziś — średnie ceny detaliczne w Polsce, 13 listopada 2026",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-11-13T13:17:22.427Z"
     },
     {
-      "title": "Ceny paliw dziś 12.11.2026 – PB95, PB98, ON",
-      "url": "https://tankujnajtaniej.pl/ceny-paliw-dzis",
-      "accessedAt": "2026-11-12T13:53:39.200Z"
+      "title": "Maksymalna cena detaliczna paliw obowiązująca 13 listopada 2026 r.",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-13-listopada-2026-r",
+      "accessedAt": "2026-11-13T13:17:22.427Z"
     },
     {
-      "title": "Kursy walut - tabela A NBP",
+      "title": "Ceny paliw — 13 listopada 2026",
+      "url": "https://biedatankuje.pl/ceny/2026-11-13",
+      "accessedAt": "2026-11-13T13:17:22.427Z"
+    },
+    {
+      "title": "Tabela kursów średnich NBP nr 220/A/NBP/2026",
       "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
-      "accessedAt": "2026-11-12T13:53:39.200Z"
+      "accessedAt": "2026-11-13T13:17:22.427Z"
     },
     {
-      "title": "Ceny paliw: Tankowanie w czwartek bez zmian, ale środowy hurt Orlenu obniży limity na piątek",
-      "url": "https://agroprofil.pl/wiadomosci/ceny-paliw-tankowanie-w-czwartek-bez-zmian-ale-srodowy-hurt-orlenu-obnizy-limity-na-piatek/",
-      "accessedAt": "2026-11-12T13:53:39.200Z"
+      "title": "Notowania hurtowe ORLEN — 2026",
+      "url": "https://paliwa.orlen.pl/pl/notowania/loco-terminal/2026",
+      "accessedAt": "2026-11-13T13:17:22.427Z"
     }
   ]
 }
