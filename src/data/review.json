@@ -1,9 +1,8 @@
 {
   "decision": "PASS",
   "issues": [
-    "PB95: sygnał spadkowy jest słaby; dostępne dane wskazują raczej na stabilizację.",
-    "Horyzont 7 dni opiera się głównie na krótkoterminowych zmianach hurtowych."
+    "Sygnał dotyczy głównie limitów urzędowych, nie pełnej prognozy cen detalicznych; brak potwierdzenia spadku tygodniowego średniej Pb95/Diesla."
   ],
-  "summary": "Diesel ma mocne wsparcie dla spadku; PB95 raczej stabilizacja, ale rekomendacja WAIT pozostaje rozsądna.",
-  "reviewedAt": "2026-11-12T13:54:24.478Z"
+  "summary": "Obniżone limity wspierają spadek, ale dane detaliczne słabo potwierdzają skalę prognozy.",
+  "reviewedAt": "2026-11-13T13:18:22.010Z"
 }
