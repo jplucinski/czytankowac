@@ -1,48 +1,48 @@
 {
-  "asOf": "2026-11-13T13:17:22.427Z",
+  "asOf": "2026-11-14T12:21:30.205Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
     {
       "fuel": "PB95",
-      "direction": "DOWN",
-      "recommendation": "WAIT",
-      "confidence": 0.82,
-      "summary": "Średnia Pb95 spadła o 19 gr tygodniowo, a limit obniżono do 6,06 zł; możliwy dalszy łagodny spadek."
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.84,
+      "summary": "Hurt PB95 praktycznie bez zmian, a cena detaliczna wzrosła tylko o 2 gr tydzień do tygodnia; oczekiwane są małe wahania."
     },
     {
       "fuel": "DIESEL",
-      "direction": "DOWN",
-      "recommendation": "WAIT",
-      "confidence": 0.78,
-      "summary": "Diesel potaniał o 25 gr tygodniowo, a limit spadł do 7,54 zł; w kolejnym tygodniu prawdopodobna jest dalsza obniżka."
+      "direction": "UP",
+      "recommendation": "FILL_UP",
+      "confidence": 0.81,
+      "summary": "Hurt diesla wzrósł o 113 zł/m³ w dzień, a ceny detaliczne nadal spadały; możliwe odbicie w najbliższym tygodniu."
     }
   ],
   "sources": [
     {
-      "title": "Ceny paliw dziś — średnie ceny detaliczne w Polsce, 13 listopada 2026",
+      "title": "Hurtowe ceny paliw ORLEN",
+      "url": "https://www.orlen.pl/pl/dla-biznesu/hurtowe-ceny-paliw?Fuel=ONE",
+      "accessedAt": "2026-11-14T12:21:30.205Z"
+    },
+    {
+      "title": "Hurtowe ceny paliw: ORLEN, ARAMCO, BP i inni",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
+      "accessedAt": "2026-11-14T12:21:30.205Z"
+    },
+    {
+      "title": "Aktualne ceny paliw w Polsce",
       "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-11-13T13:17:22.427Z"
+      "accessedAt": "2026-11-14T12:21:30.205Z"
     },
     {
-      "title": "Maksymalna cena detaliczna paliw obowiązująca 13 listopada 2026 r.",
-      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-13-listopada-2026-r",
-      "accessedAt": "2026-11-13T13:17:22.427Z"
-    },
-    {
-      "title": "Ceny paliw — 13 listopada 2026",
-      "url": "https://biedatankuje.pl/ceny/2026-11-13",
-      "accessedAt": "2026-11-13T13:17:22.427Z"
-    },
-    {
-      "title": "Tabela kursów średnich NBP nr 220/A/NBP/2026",
+      "title": "Tabela kursów średnich NBP",
       "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
-      "accessedAt": "2026-11-13T13:17:22.427Z"
+      "accessedAt": "2026-11-14T12:21:30.205Z"
     },
     {
-      "title": "Notowania hurtowe ORLEN — 2026",
-      "url": "https://paliwa.orlen.pl/pl/notowania/loco-terminal/2026",
-      "accessedAt": "2026-11-13T13:17:22.427Z"
+      "title": "Maksymalna cena detaliczna paliw 14–16 listopada 2026",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-14-16-listopada-2026-r",
+      "accessedAt": "2026-11-14T12:21:30.205Z"
     }
   ]
 }
