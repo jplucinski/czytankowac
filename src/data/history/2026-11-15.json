@@ -1,0 +1,48 @@
+{
+  "asOf": "2026-11-15T12:52:12.973Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.82,
+      "summary": "Hurtowa Pb95 pozostaje stabilna, a prognoza detaliczna na 16–22 listopada wskazuje możliwy lekki spadek cen."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.84,
+      "summary": "Po wcześniejszym skoku diesel w hurcie ustabilizował się, lecz prognoza detaliczna nadal wskazuje lekki spadek cen."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hurtowe ceny paliw ORLEN",
+      "url": "https://www.orlen.pl/pl/dla-biznesu/hurtowe-ceny-paliw",
+      "accessedAt": "2026-11-15T12:52:12.973Z"
+    },
+    {
+      "title": "Hurtowe ceny paliw — e-petrol.pl",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
+      "accessedAt": "2026-11-15T12:52:12.973Z"
+    },
+    {
+      "title": "Prognoza cen detalicznych paliw 16–22 listopada 2026",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/ceny-stacje-paliw",
+      "accessedAt": "2026-11-15T12:52:12.973Z"
+    },
+    {
+      "title": "Tabela A kursów średnich NBP — EUR/PLN",
+      "url": "https://rss.nbp.pl/kursy/TabRss.aspx?n=2026%2Fa%2F26a221",
+      "accessedAt": "2026-11-15T12:52:12.973Z"
+    },
+    {
+      "title": "Maksymalna cena detaliczna paliw 14–16 listopada 2026",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-14-16-listopada-2026-r",
+      "accessedAt": "2026-11-15T12:52:12.973Z"
+    }
+  ]
+}

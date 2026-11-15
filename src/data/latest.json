@@ -1,48 +1,48 @@
 {
-  "asOf": "2026-11-14T12:21:30.205Z",
+  "asOf": "2026-11-15T12:52:12.973Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
     {
       "fuel": "PB95",
-      "direction": "STABLE",
-      "recommendation": "NORMAL",
-      "confidence": 0.84,
-      "summary": "Hurt PB95 praktycznie bez zmian, a cena detaliczna wzrosła tylko o 2 gr tydzień do tygodnia; oczekiwane są małe wahania."
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.82,
+      "summary": "Hurtowa Pb95 pozostaje stabilna, a prognoza detaliczna na 16–22 listopada wskazuje możliwy lekki spadek cen."
     },
     {
       "fuel": "DIESEL",
-      "direction": "UP",
-      "recommendation": "FILL_UP",
-      "confidence": 0.81,
-      "summary": "Hurt diesla wzrósł o 113 zł/m³ w dzień, a ceny detaliczne nadal spadały; możliwe odbicie w najbliższym tygodniu."
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.84,
+      "summary": "Po wcześniejszym skoku diesel w hurcie ustabilizował się, lecz prognoza detaliczna nadal wskazuje lekki spadek cen."
     }
   ],
   "sources": [
     {
       "title": "Hurtowe ceny paliw ORLEN",
-      "url": "https://www.orlen.pl/pl/dla-biznesu/hurtowe-ceny-paliw?Fuel=ONE",
-      "accessedAt": "2026-11-14T12:21:30.205Z"
+      "url": "https://www.orlen.pl/pl/dla-biznesu/hurtowe-ceny-paliw",
+      "accessedAt": "2026-11-15T12:52:12.973Z"
     },
     {
-      "title": "Hurtowe ceny paliw: ORLEN, ARAMCO, BP i inni",
+      "title": "Hurtowe ceny paliw — e-petrol.pl",
       "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
-      "accessedAt": "2026-11-14T12:21:30.205Z"
+      "accessedAt": "2026-11-15T12:52:12.973Z"
     },
     {
-      "title": "Aktualne ceny paliw w Polsce",
-      "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-11-14T12:21:30.205Z"
+      "title": "Prognoza cen detalicznych paliw 16–22 listopada 2026",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/ceny-stacje-paliw",
+      "accessedAt": "2026-11-15T12:52:12.973Z"
     },
     {
-      "title": "Tabela kursów średnich NBP",
-      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
-      "accessedAt": "2026-11-14T12:21:30.205Z"
+      "title": "Tabela A kursów średnich NBP — EUR/PLN",
+      "url": "https://rss.nbp.pl/kursy/TabRss.aspx?n=2026%2Fa%2F26a221",
+      "accessedAt": "2026-11-15T12:52:12.973Z"
     },
     {
       "title": "Maksymalna cena detaliczna paliw 14–16 listopada 2026",
       "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-14-16-listopada-2026-r",
-      "accessedAt": "2026-11-14T12:21:30.205Z"
+      "accessedAt": "2026-11-15T12:52:12.973Z"
     }
   ]
 }
