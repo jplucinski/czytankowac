@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "DIESEL: sygnał wzrostowy jest krótkoterminowy i słaby; ceny detaliczne nadal spadają, a oficjalne limity na 14–16 listopada wskazują spadek względem wcześniejszych poziomów. ([gov.pl](https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-14-16-listopada-2026-r?utm_source=openai))",
-    "PB95: brak niezależnego potwierdzenia pełnej stabilności w horyzoncie 7 dni."
+    "Pewność 0,82–0,84 jest zawyżona: sygnały wskazują spadek, ale ryzyko geopolityczne ogranicza skalę obniżek.",
+    "Dla diesla hurt odbił 14 listopada, więc sygnał spadkowy jest mniej jednoznaczny."
   ],
-  "summary": "Prognoza jest zgodna z częścią sygnałów, ale szczególnie DIESEL obarczony jest dużą niepewnością.",
-  "reviewedAt": "2026-11-14T12:22:27.982Z"
+  "summary": "Kierunek spadkowy obu paliw potwierdzony, lecz diesel i wysoka pewność wymagają ostrożności.",
+  "reviewedAt": "2026-11-15T12:53:07.864Z"
 }
