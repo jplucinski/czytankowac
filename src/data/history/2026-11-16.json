@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-11-16T13:51:46.097Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.82,
+      "summary": "PB95 jest stabilna; hurt Orlenu i prognozy wskazują najwyżej na wzrost o kilka groszy do 23 listopada."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "UP",
+      "recommendation": "FILL_UP",
+      "confidence": 0.86,
+      "summary": "Diesel może podrożeć; hurt Orlenu sugeruje około 12 groszy wzrostu od 17 listopada i około 10 groszy w tydzień."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ceny paliw dziś — benzyna, diesel, LPG",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-11-16T13:51:46.097Z"
+    },
+    {
+      "title": "Archiwum kursów średnich – tabela A NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/archiwum-kursow-srednich-tabela-a/",
+      "accessedAt": "2026-11-16T13:51:46.097Z"
+    },
+    {
+      "title": "Ceny paliw dziś i na jutro – hurtowe ceny Orlenu",
+      "url": "https://cenypaliw.fyi/",
+      "accessedAt": "2026-11-16T13:51:46.097Z"
+    },
+    {
+      "title": "Prognoza cen maksymalnych paliw na 17–23 listopada 2026",
+      "url": "https://radarpaliw.pl/program-cpn",
+      "accessedAt": "2026-11-16T13:51:46.097Z"
+    }
+  ]
+}
