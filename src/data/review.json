@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Pewność 0,82–0,84 jest zawyżona: sygnały wskazują spadek, ale ryzyko geopolityczne ogranicza skalę obniżek.",
-    "Dla diesla hurt odbił 14 listopada, więc sygnał spadkowy jest mniej jednoznaczny."
+    "Diesel: publiczne prognozy są sprzeczne — część wskazuje spadek, nie wzrost.",
+    "Confidence 0.86 jest zbyt wysoka przy szerokim zakresie i niepewnych danych."
   ],
-  "summary": "Kierunek spadkowy obu paliw potwierdzony, lecz diesel i wysoka pewność wymagają ostrożności.",
-  "reviewedAt": "2026-11-15T12:53:07.864Z"
+  "summary": "Sygnał Orlenu wspiera wzrost diesla i stabilną PB95, ale prognozy detaliczne są niejednoznaczne.",
+  "reviewedAt": "2026-11-16T13:52:36.938Z"
 }
