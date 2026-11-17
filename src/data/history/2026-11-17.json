@@ -1,0 +1,38 @@
+{
+  "asOf": "2026-11-17T14:43:54.431Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.78,
+      "summary": "Hurtowa Pb95 spadła do 5,245 zł/l netto; przy stabilnym kursie EUR możliwa lekka obniżka cen detalicznych w ciągu tygodnia."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.82,
+      "summary": "ON potaniał w hurcie do 6,707 zł/l netto; obecna korekta sugeruje spadek cen detalicznych, choć diesel pozostaje zmienny."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hurtowe ceny paliw ORLEN i rynek krajowy",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
+      "accessedAt": "2026-11-17T14:43:54.431Z"
+    },
+    {
+      "title": "Kursy walut NBP — tabela A z 17 listopada 2026",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-11-17T14:43:54.431Z"
+    },
+    {
+      "title": "Maksymalne ceny paliw na stacjach 17 listopada 2026",
+      "url": "https://reflex.com.pl/",
+      "accessedAt": "2026-11-17T14:43:54.431Z"
+    }
+  ]
+}
