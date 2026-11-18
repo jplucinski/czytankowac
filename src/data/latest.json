@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-17T14:43:54.431Z",
+  "asOf": "2026-11-18T14:22:36.574Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -7,32 +7,42 @@
       "fuel": "PB95",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.78,
-      "summary": "Hurtowa Pb95 spadła do 5,245 zł/l netto; przy stabilnym kursie EUR możliwa lekka obniżka cen detalicznych w ciągu tygodnia."
+      "confidence": 0.8,
+      "summary": "Hurt i limity detaliczne spadają, a średnia cena jest poniżej limitu; możliwy dalszy łagodny spadek w 7 dni."
     },
     {
       "fuel": "DIESEL",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.82,
-      "summary": "ON potaniał w hurcie do 6,707 zł/l netto; obecna korekta sugeruje spadek cen detalicznych, choć diesel pozostaje zmienny."
+      "confidence": 0.84,
+      "summary": "Diesel ma silniejszy impuls spadkowy w hurcie i limicie; ceny mogą obniżyć się jeszcze w najbliższym tygodniu."
     }
   ],
   "sources": [
     {
-      "title": "Hurtowe ceny paliw ORLEN i rynek krajowy",
-      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
-      "accessedAt": "2026-11-17T14:43:54.431Z"
+      "title": "Ceny detaliczne paliw w Polsce — e-petrol.pl",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/ceny-stacje-paliw",
+      "accessedAt": "2026-11-18T14:22:36.574Z"
     },
     {
-      "title": "Kursy walut NBP — tabela A z 17 listopada 2026",
+      "title": "Maksymalna cena detaliczna paliw 18 listopada 2026 r. — gov.pl",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-18-listopada-2026-r",
+      "accessedAt": "2026-11-18T14:22:36.574Z"
+    },
+    {
+      "title": "Kursy walut — tabela A NBP",
       "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
-      "accessedAt": "2026-11-17T14:43:54.431Z"
+      "accessedAt": "2026-11-18T14:22:36.574Z"
     },
     {
-      "title": "Maksymalne ceny paliw na stacjach 17 listopada 2026",
-      "url": "https://reflex.com.pl/",
-      "accessedAt": "2026-11-17T14:43:54.431Z"
+      "title": "Ceny paliw dziś — cenaPaliwa.pl",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-11-18T14:22:36.574Z"
+    },
+    {
+      "title": "Program CPN — dane o cenach hurtowych i limitach",
+      "url": "https://radarpaliw.pl/program-cpn",
+      "accessedAt": "2026-11-18T14:22:36.574Z"
     }
   ]
 }
