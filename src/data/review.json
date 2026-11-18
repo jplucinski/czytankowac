@@ -1,8 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Potwierdzono ceny hurtowe, ale brak niezależnej weryfikacji kursu EUR i pełnej dynamiki 7-dniowej."
+    "Sygnał 7-dniowy jest umiarkowany; główny dowód dotyczy limitów, nie pełnych cen stacyjnych.",
+    "Brak niezależnego potwierdzenia dla kursu walut i całego horyzontu 7 dni."
   ],
-  "summary": "Sygnał spadkowy dla obu paliw jest zgodny z danymi hurtowymi i prognozą rynku.",
-  "reviewedAt": "2026-11-17T14:44:42.769Z"
+  "summary": "Kierunek spadkowy obu paliw ma publiczne potwierdzenie, ale prognoza 7-dniowa jest niepewna.",
+  "reviewedAt": "2026-11-18T14:23:39.095Z"
 }

@@ -1,0 +1,48 @@
+{
+  "asOf": "2026-11-18T14:22:36.574Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.8,
+      "summary": "Hurt i limity detaliczne spadają, a średnia cena jest poniżej limitu; możliwy dalszy łagodny spadek w 7 dni."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.84,
+      "summary": "Diesel ma silniejszy impuls spadkowy w hurcie i limicie; ceny mogą obniżyć się jeszcze w najbliższym tygodniu."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ceny detaliczne paliw w Polsce — e-petrol.pl",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/ceny-stacje-paliw",
+      "accessedAt": "2026-11-18T14:22:36.574Z"
+    },
+    {
+      "title": "Maksymalna cena detaliczna paliw 18 listopada 2026 r. — gov.pl",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-18-listopada-2026-r",
+      "accessedAt": "2026-11-18T14:22:36.574Z"
+    },
+    {
+      "title": "Kursy walut — tabela A NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-11-18T14:22:36.574Z"
+    },
+    {
+      "title": "Ceny paliw dziś — cenaPaliwa.pl",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-11-18T14:22:36.574Z"
+    },
+    {
+      "title": "Program CPN — dane o cenach hurtowych i limitach",
+      "url": "https://radarpaliw.pl/program-cpn",
+      "accessedAt": "2026-11-18T14:22:36.574Z"
+    }
+  ]
+}
