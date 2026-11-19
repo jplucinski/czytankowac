@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-11-19T14:34:00.237Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.82,
+      "summary": "Hurtowa Pb95 spadła kolejny dzień i jest niższa niż tydzień temu; ceny na stacjach mogą jeszcze lekko spaść."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.8,
+      "summary": "Hurtowy diesel tanieje kolejny dzień i jest niższy niż tydzień temu; możliwe dalsze, umiarkowane obniżki."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hurtowe ceny paliw ORLEN S.A.",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/orlen",
+      "accessedAt": "2026-11-19T14:34:00.237Z"
+    },
+    {
+      "title": "Kursy walut – tabela A NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-11-19T14:34:00.237Z"
+    },
+    {
+      "title": "Ceny hurtowe paliw — ORLEN, Anwim, BP, Unimot, Aramco",
+      "url": "https://monitorpaliw.pl/ceny-hurtowe/",
+      "accessedAt": "2026-11-19T14:34:00.237Z"
+    },
+    {
+      "title": "Ceny paliw dziś: benzyna 95 i diesel",
+      "url": "https://cityon.pl/ceny-paliw",
+      "accessedAt": "2026-11-19T14:34:00.237Z"
+    }
+  ]
+}
