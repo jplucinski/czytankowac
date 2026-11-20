@@ -1,0 +1,48 @@
+{
+  "asOf": "2026-11-20T14:12:20.292Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.82,
+      "summary": "Hurtowa Pb95 spadła o 5 groszy, a prognoza detaliczna wskazuje dalszą lekką obniżkę w najbliższym tygodniu."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.84,
+      "summary": "Hurtowy diesel i limit detaliczny spadły, a ceny na stacjach mogą obniżyć się jeszcze nieznacznie do 29 listopada."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ceny paliw ORLEN, obowiązujące od 20.11.2026",
+      "url": "https://paliwa.orlen.pl/pl/notowania/autogaz-hurt/2026",
+      "accessedAt": "2026-11-20T14:12:20.292Z"
+    },
+    {
+      "title": "Prognoza cen paliw na 23–29 listopada 2026",
+      "url": "https://www.e-petrol.pl/notowania-komentarz-rynek-paliw/125144/epetrolpl-za-benzyne-wciaz-ponizej-6-zl",
+      "accessedAt": "2026-11-20T14:12:20.292Z"
+    },
+    {
+      "title": "Aktualne ceny paliw w Polsce, 20.11.2026",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-11-20T14:12:20.292Z"
+    },
+    {
+      "title": "Maksymalna cena detaliczna paliw, 20.11.2026",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-20-listopada-2026-r",
+      "accessedAt": "2026-11-20T14:12:20.292Z"
+    },
+    {
+      "title": "Kursy walut NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-11-20T14:12:20.292Z"
+    }
+  ]
+}

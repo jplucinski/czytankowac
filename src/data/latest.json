@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-19T14:34:00.237Z",
+  "asOf": "2026-11-20T14:12:20.292Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
@@ -8,36 +8,41 @@
       "direction": "DOWN",
       "recommendation": "WAIT",
       "confidence": 0.82,
-      "summary": "Hurtowa Pb95 spadła kolejny dzień i jest niższa niż tydzień temu; ceny na stacjach mogą jeszcze lekko spaść."
+      "summary": "Hurtowa Pb95 spadła o 5 groszy, a prognoza detaliczna wskazuje dalszą lekką obniżkę w najbliższym tygodniu."
     },
     {
       "fuel": "DIESEL",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.8,
-      "summary": "Hurtowy diesel tanieje kolejny dzień i jest niższy niż tydzień temu; możliwe dalsze, umiarkowane obniżki."
+      "confidence": 0.84,
+      "summary": "Hurtowy diesel i limit detaliczny spadły, a ceny na stacjach mogą obniżyć się jeszcze nieznacznie do 29 listopada."
     }
   ],
   "sources": [
     {
-      "title": "Hurtowe ceny paliw ORLEN S.A.",
-      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/orlen",
-      "accessedAt": "2026-11-19T14:34:00.237Z"
+      "title": "Ceny paliw ORLEN, obowiązujące od 20.11.2026",
+      "url": "https://paliwa.orlen.pl/pl/notowania/autogaz-hurt/2026",
+      "accessedAt": "2026-11-20T14:12:20.292Z"
     },
     {
-      "title": "Kursy walut – tabela A NBP",
+      "title": "Prognoza cen paliw na 23–29 listopada 2026",
+      "url": "https://www.e-petrol.pl/notowania-komentarz-rynek-paliw/125144/epetrolpl-za-benzyne-wciaz-ponizej-6-zl",
+      "accessedAt": "2026-11-20T14:12:20.292Z"
+    },
+    {
+      "title": "Aktualne ceny paliw w Polsce, 20.11.2026",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-11-20T14:12:20.292Z"
+    },
+    {
+      "title": "Maksymalna cena detaliczna paliw, 20.11.2026",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-20-listopada-2026-r",
+      "accessedAt": "2026-11-20T14:12:20.292Z"
+    },
+    {
+      "title": "Kursy walut NBP",
       "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
-      "accessedAt": "2026-11-19T14:34:00.237Z"
-    },
-    {
-      "title": "Ceny hurtowe paliw — ORLEN, Anwim, BP, Unimot, Aramco",
-      "url": "https://monitorpaliw.pl/ceny-hurtowe/",
-      "accessedAt": "2026-11-19T14:34:00.237Z"
-    },
-    {
-      "title": "Ceny paliw dziś: benzyna 95 i diesel",
-      "url": "https://cityon.pl/ceny-paliw",
-      "accessedAt": "2026-11-19T14:34:00.237Z"
+      "accessedAt": "2026-11-20T14:12:20.292Z"
     }
   ]
 }
