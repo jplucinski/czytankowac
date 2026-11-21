@@ -1,48 +1,43 @@
 {
-  "asOf": "2026-11-20T14:12:20.292Z",
+  "asOf": "2026-11-21T13:36:52.258Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
     {
       "fuel": "PB95",
-      "direction": "DOWN",
-      "recommendation": "WAIT",
-      "confidence": 0.82,
-      "summary": "Hurtowa Pb95 spadła o 5 groszy, a prognoza detaliczna wskazuje dalszą lekką obniżkę w najbliższym tygodniu."
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.78,
+      "summary": "Hurtowa PB95 spadła, ale obecny limit detaliczny stabilizuje ceny; w najbliższym tygodniu oczekiwane są niewielkie zmiany."
     },
     {
       "fuel": "DIESEL",
       "direction": "DOWN",
       "recommendation": "WAIT",
       "confidence": 0.84,
-      "summary": "Hurtowy diesel i limit detaliczny spadły, a ceny na stacjach mogą obniżyć się jeszcze nieznacznie do 29 listopada."
+      "summary": "Diesel wyraźnie potaniał w hurcie; przy stabilnym limicie detalicznym możliwe są dalsze, stopniowe obniżki na stacjach."
     }
   ],
   "sources": [
     {
-      "title": "Ceny paliw ORLEN, obowiązujące od 20.11.2026",
-      "url": "https://paliwa.orlen.pl/pl/notowania/autogaz-hurt/2026",
-      "accessedAt": "2026-11-20T14:12:20.292Z"
+      "title": "Ceny hurtowe paliw — ORLEN, Anwim, BP, Unimot, Aramco",
+      "url": "https://monitorpaliw.pl/ceny-hurtowe/",
+      "accessedAt": "2026-11-21T13:36:52.258Z"
     },
     {
-      "title": "Prognoza cen paliw na 23–29 listopada 2026",
-      "url": "https://www.e-petrol.pl/notowania-komentarz-rynek-paliw/125144/epetrolpl-za-benzyne-wciaz-ponizej-6-zl",
-      "accessedAt": "2026-11-20T14:12:20.292Z"
+      "title": "Hurtowe ceny paliw ORLEN i UNIMOT",
+      "url": "https://cenapaliwa.pl/hurt/",
+      "accessedAt": "2026-11-21T13:36:52.258Z"
     },
     {
-      "title": "Aktualne ceny paliw w Polsce, 20.11.2026",
-      "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-11-20T14:12:20.292Z"
+      "title": "Hurtowe ceny paliw ORLEN S.A.",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/orlen",
+      "accessedAt": "2026-11-21T13:36:52.258Z"
     },
     {
-      "title": "Maksymalna cena detaliczna paliw, 20.11.2026",
-      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-20-listopada-2026-r",
-      "accessedAt": "2026-11-20T14:12:20.292Z"
-    },
-    {
-      "title": "Kursy walut NBP",
-      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
-      "accessedAt": "2026-11-20T14:12:20.292Z"
+      "title": "Ceny paliw 21 listopada 2026 — Pb95 i Diesel",
+      "url": "https://biedatankuje.pl/ceny/2026-11-21",
+      "accessedAt": "2026-11-21T13:36:52.258Z"
     }
   ]
 }
