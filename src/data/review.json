@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Dieselowy sygnał spadkowy jest słabiej udokumentowany niż dla Pb95.",
-    "Nie potwierdzono wszystkich wskazanych źródeł, więc pewność 0,82–0,84 jest zawyżona."
+    "PB95 spada w hurcie, więc „stabilnie” jest uproszczeniem.",
+    "Limit detaliczny jest pułapem, nie gwarantuje stabilności cen."
   ],
-  "summary": "Publiczne sygnały wspierają spadek obu paliw; dla diesla potwierdzenie jest słabsze.",
-  "reviewedAt": "2026-11-20T14:13:14.679Z"
+  "summary": "Sygnały wspierają stabilną PB95 i spadkowy diesel, ale pewność prognozy jest zawyżona.",
+  "reviewedAt": "2026-11-21T13:37:34.641Z"
 }
