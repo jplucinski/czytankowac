@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-11-21T13:36:52.258Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.78,
+      "summary": "Hurtowa PB95 spadła, ale obecny limit detaliczny stabilizuje ceny; w najbliższym tygodniu oczekiwane są niewielkie zmiany."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.84,
+      "summary": "Diesel wyraźnie potaniał w hurcie; przy stabilnym limicie detalicznym możliwe są dalsze, stopniowe obniżki na stacjach."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ceny hurtowe paliw — ORLEN, Anwim, BP, Unimot, Aramco",
+      "url": "https://monitorpaliw.pl/ceny-hurtowe/",
+      "accessedAt": "2026-11-21T13:36:52.258Z"
+    },
+    {
+      "title": "Hurtowe ceny paliw ORLEN i UNIMOT",
+      "url": "https://cenapaliwa.pl/hurt/",
+      "accessedAt": "2026-11-21T13:36:52.258Z"
+    },
+    {
+      "title": "Hurtowe ceny paliw ORLEN S.A.",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/orlen",
+      "accessedAt": "2026-11-21T13:36:52.258Z"
+    },
+    {
+      "title": "Ceny paliw 21 listopada 2026 — Pb95 i Diesel",
+      "url": "https://biedatankuje.pl/ceny/2026-11-21",
+      "accessedAt": "2026-11-21T13:36:52.258Z"
+    }
+  ]
+}
