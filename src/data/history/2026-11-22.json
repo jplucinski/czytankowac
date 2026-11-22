@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-11-22T13:29:06.714Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.83,
+      "summary": "Hurtowa PB95 jest prawie bez zmian, a ceny detaliczne spadały; w kolejnym tygodniu najbardziej prawdopodobna jest stabilizacja."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.86,
+      "summary": "Diesel w hurcie potaniał, a ceny detaliczne spadały szybciej niż benzyna; możliwe są jeszcze niewielkie obniżki."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ceny hurtowe paliw 22 listopada 2026 — CenyCPN.pl",
+      "url": "https://cenycpn.pl/ceny-hurtowe/2026-11-22",
+      "accessedAt": "2026-11-22T13:29:06.714Z"
+    },
+    {
+      "title": "Ceny paliw dziś — zapaliwo.pl",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-11-22T13:29:06.714Z"
+    },
+    {
+      "title": "Maksymalna cena detaliczna paliw 21–23 listopada 2026 — Ministerstwo Energii",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-21-23-listopada-2026-r",
+      "accessedAt": "2026-11-22T13:29:06.714Z"
+    },
+    {
+      "title": "Prognoza cen paliw na tydzień 23–29 listopada 2026 — CIRE",
+      "url": "https://www.cire.pl/artykuly/serwis-informacyjny-cire-24/prognoza-cen-paliw-na-tydzien-od-23-do-29-listopada-2026",
+      "accessedAt": "2026-11-22T13:29:06.714Z"
+    }
+  ]
+}

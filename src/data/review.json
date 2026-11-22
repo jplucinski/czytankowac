@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "PB95 spada w hurcie, więc „stabilnie” jest uproszczeniem.",
-    "Limit detaliczny jest pułapem, nie gwarantuje stabilności cen."
+    "PB95: sygnał rynkowy wskazuje raczej stabilizację z niewielkim ryzykiem spadku, nie pełną pewność.",
+    "Wysoka pewność 0,83–0,86 jest słabo uzasadniona przy prognozie 7-dniowej."
   ],
-  "summary": "Sygnały wspierają stabilną PB95 i spadkowy diesel, ale pewność prognozy jest zawyżona.",
-  "reviewedAt": "2026-11-21T13:37:34.641Z"
+  "summary": "Kierunki obu paliw są zgodne z publicznymi prognozami; diesel ma wyraźniejszy potencjał spadku.",
+  "reviewedAt": "2026-11-22T13:29:52.867Z"
 }
