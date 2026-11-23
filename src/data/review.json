@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "PB95: sygnał rynkowy wskazuje raczej stabilizację z niewielkim ryzykiem spadku, nie pełną pewność.",
-    "Wysoka pewność 0,83–0,86 jest słabo uzasadniona przy prognozie 7-dniowej."
+    "PB95: sygnały wskazują raczej na stabilizację z lekkim ryzykiem wzrostu niż jednoznaczny trend.",
+    "Diesel: dane wspierają spadek, ale prognozowane kilkanaście groszy jest niepewne."
   ],
-  "summary": "Kierunki obu paliw są zgodne z publicznymi prognozami; diesel ma wyraźniejszy potencjał spadku.",
-  "reviewedAt": "2026-11-22T13:29:52.867Z"
+  "summary": "Prognoza jest zgodna z publicznymi sygnałami: PB95 stabilnie, diesel prawdopodobnie potanieje.",
+  "reviewedAt": "2026-11-23T16:16:54.294Z"
 }
