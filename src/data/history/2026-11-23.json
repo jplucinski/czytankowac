@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-11-23T16:16:08.398Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.78,
+      "summary": "Ceny detaliczne spadały, ale hurtowe obniżki wyhamowały; w najbliższym tygodniu oczekiwana stabilizacja z niewielkim ryzykiem wzrostu."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.86,
+      "summary": "Spadek cen hurtowych diesla i rynku ARA daje przestrzeń do dalszej obniżki na stacjach o około kilkanaście groszy."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ceny paliw dziś — benzyna, diesel, LPG",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-11-23T16:16:08.398Z"
+    },
+    {
+      "title": "Kursy walut — tabela A NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-11-23T16:16:08.398Z"
+    },
+    {
+      "title": "Prognoza cen paliw na tydzień 23–29 listopada 2026",
+      "url": "https://www.cire.pl/artykuly/serwis-informacyjny-cire-24/prognoza-cen-paliw-na-tydzien-od-23-do-29-listopada-2026",
+      "accessedAt": "2026-11-23T16:16:08.398Z"
+    },
+    {
+      "title": "Ceny paliw — ostatni dzień obecnych limitów",
+      "url": "https://agroprofil.pl/wiadomosci/ceny-paliw-ostatni-dzien-obecnych-limitow-we-wtorek-obnizki/",
+      "accessedAt": "2026-11-23T16:16:08.398Z"
+    }
+  ]
+}
