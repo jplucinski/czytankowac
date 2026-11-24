@@ -1,0 +1,48 @@
+{
+  "asOf": "2026-11-24T16:02:42.654Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.82,
+      "summary": "Pb95 kosztuje średnio 5,83 zł/l i spada, lecz limit 5,90 zł/l oraz tańszy hurt sprzyjają głównie stabilizacji."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.86,
+      "summary": "Diesel kosztuje średnio 7,24 zł/l, tanieje szybciej niż benzyna, a niższy hurt Orlenu wspiera dalszy niewielki spadek."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Maksymalna cena detaliczna paliw obowiązująca 24 listopada 2026 r.",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-24-listopada-2026-r",
+      "accessedAt": "2026-11-24T16:02:42.654Z"
+    },
+    {
+      "title": "Ceny paliw dziś — benzyna, diesel, LPG",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-11-24T16:02:42.654Z"
+    },
+    {
+      "title": "Kursy walut – tabela C NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-c/",
+      "accessedAt": "2026-11-24T16:02:42.654Z"
+    },
+    {
+      "title": "Notowania ORLEN Paliwa — loco terminal",
+      "url": "https://paliwa.orlen.pl/pl/notowania/loco-terminal/2026",
+      "accessedAt": "2026-11-24T16:02:42.654Z"
+    },
+    {
+      "title": "Ceny paliw dzisiaj — benzyna, diesel i LPG",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-11-24T16:02:42.654Z"
+    }
+  ]
+}
