@@ -1,48 +1,43 @@
 {
-  "asOf": "2026-11-24T16:02:42.654Z",
+  "asOf": "2026-11-25T15:51:32.690Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
     {
       "fuel": "PB95",
-      "direction": "STABLE",
-      "recommendation": "NORMAL",
-      "confidence": 0.82,
-      "summary": "Pb95 kosztuje średnio 5,83 zł/l i spada, lecz limit 5,90 zł/l oraz tańszy hurt sprzyjają głównie stabilizacji."
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.78,
+      "summary": "Hurtowa Pb95 spada, a ceny detaliczne obniżyły się; w najbliższym tygodniu możliwe są dalsze niewielkie obniżki."
     },
     {
       "fuel": "DIESEL",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.86,
-      "summary": "Diesel kosztuje średnio 7,24 zł/l, tanieje szybciej niż benzyna, a niższy hurt Orlenu wspiera dalszy niewielki spadek."
+      "confidence": 0.82,
+      "summary": "Diesel wyraźnie tanieje w hurcie i detalu; przy utrzymaniu trendu warto odłożyć tankowanie o kilka dni."
     }
   ],
   "sources": [
     {
-      "title": "Maksymalna cena detaliczna paliw obowiązująca 24 listopada 2026 r.",
-      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-24-listopada-2026-r",
-      "accessedAt": "2026-11-24T16:02:42.654Z"
-    },
-    {
-      "title": "Ceny paliw dziś — benzyna, diesel, LPG",
+      "title": "Ceny paliw dziś — średnie ceny detaliczne w Polsce, 25 listopada 2026",
       "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-11-24T16:02:42.654Z"
+      "accessedAt": "2026-11-25T15:51:32.690Z"
     },
     {
-      "title": "Kursy walut – tabela C NBP",
-      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-c/",
-      "accessedAt": "2026-11-24T16:02:42.654Z"
+      "title": "Maksymalna cena detaliczna paliw obowiązująca 25 listopada 2026 r.",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-25-listopada-2026-r",
+      "accessedAt": "2026-11-25T15:51:32.690Z"
     },
     {
-      "title": "Notowania ORLEN Paliwa — loco terminal",
-      "url": "https://paliwa.orlen.pl/pl/notowania/loco-terminal/2026",
-      "accessedAt": "2026-11-24T16:02:42.654Z"
-    },
-    {
-      "title": "Ceny paliw dzisiaj — benzyna, diesel i LPG",
+      "title": "Ceny paliw dziś — dane hurtowe ORLEN i ceny detaliczne",
       "url": "https://cenapaliwa.pl/",
-      "accessedAt": "2026-11-24T16:02:42.654Z"
+      "accessedAt": "2026-11-25T15:51:32.690Z"
+    },
+    {
+      "title": "Prognoza cen paliw na tydzień 23–29 listopada 2026",
+      "url": "https://www.cire.pl/artykuly/serwis-informacyjny-cire-24/prognoza-cen-paliw-na-tydzien-od-23-do-29-listopada-2026",
+      "accessedAt": "2026-11-25T15:51:32.690Z"
     }
   ]
 }

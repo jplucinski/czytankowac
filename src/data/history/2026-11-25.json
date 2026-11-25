@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-11-25T15:51:32.690Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.78,
+      "summary": "Hurtowa Pb95 spada, a ceny detaliczne obniżyły się; w najbliższym tygodniu możliwe są dalsze niewielkie obniżki."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.82,
+      "summary": "Diesel wyraźnie tanieje w hurcie i detalu; przy utrzymaniu trendu warto odłożyć tankowanie o kilka dni."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ceny paliw dziś — średnie ceny detaliczne w Polsce, 25 listopada 2026",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-11-25T15:51:32.690Z"
+    },
+    {
+      "title": "Maksymalna cena detaliczna paliw obowiązująca 25 listopada 2026 r.",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-25-listopada-2026-r",
+      "accessedAt": "2026-11-25T15:51:32.690Z"
+    },
+    {
+      "title": "Ceny paliw dziś — dane hurtowe ORLEN i ceny detaliczne",
+      "url": "https://cenapaliwa.pl/",
+      "accessedAt": "2026-11-25T15:51:32.690Z"
+    },
+    {
+      "title": "Prognoza cen paliw na tydzień 23–29 listopada 2026",
+      "url": "https://www.cire.pl/artykuly/serwis-informacyjny-cire-24/prognoza-cen-paliw-na-tydzien-od-23-do-29-listopada-2026",
+      "accessedAt": "2026-11-25T15:51:32.690Z"
+    }
+  ]
+}
