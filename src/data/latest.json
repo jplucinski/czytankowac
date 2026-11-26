@@ -1,48 +1,43 @@
 {
-  "asOf": "2026-11-24T16:02:42.654Z",
+  "asOf": "2026-11-26T15:31:09.348Z",
   "market": "PL",
   "horizonDays": 7,
   "fuels": [
     {
       "fuel": "PB95",
-      "direction": "STABLE",
-      "recommendation": "NORMAL",
-      "confidence": 0.82,
-      "summary": "Pb95 kosztuje średnio 5,83 zł/l i spada, lecz limit 5,90 zł/l oraz tańszy hurt sprzyjają głównie stabilizacji."
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.77,
+      "summary": "Hurtowa PB95 spada, a limit detaliczny obniżył się; w najbliższym tygodniu możliwe dalsze, niewielkie obniżki."
     },
     {
       "fuel": "DIESEL",
       "direction": "DOWN",
       "recommendation": "WAIT",
-      "confidence": 0.86,
-      "summary": "Diesel kosztuje średnio 7,24 zł/l, tanieje szybciej niż benzyna, a niższy hurt Orlenu wspiera dalszy niewielki spadek."
+      "confidence": 0.8,
+      "summary": "Hurtowy diesel wyraźnie tanieje, a limit detaliczny spadł; ceny na stacjach mogą jeszcze lekko się obniżyć."
     }
   ],
   "sources": [
     {
-      "title": "Maksymalna cena detaliczna paliw obowiązująca 24 listopada 2026 r.",
-      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-24-listopada-2026-r",
-      "accessedAt": "2026-11-24T16:02:42.654Z"
+      "title": "Hurtowe ceny paliw, ORLEN, ARAMCO, SELL, BP",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
+      "accessedAt": "2026-11-26T15:31:09.348Z"
     },
     {
-      "title": "Ceny paliw dziś — benzyna, diesel, LPG",
-      "url": "https://zapaliwo.pl/",
-      "accessedAt": "2026-11-24T16:02:42.654Z"
+      "title": "Kursy walut – tabela A NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-11-26T15:31:09.348Z"
     },
     {
-      "title": "Kursy walut – tabela C NBP",
-      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-c/",
-      "accessedAt": "2026-11-24T16:02:42.654Z"
+      "title": "Obwieszczenie Ministra Energii z 26 listopada 2026 r.",
+      "url": "https://monitorpolski.gov.pl/M2026000117901.pdf",
+      "accessedAt": "2026-11-26T15:31:09.348Z"
     },
     {
-      "title": "Notowania ORLEN Paliwa — loco terminal",
-      "url": "https://paliwa.orlen.pl/pl/notowania/loco-terminal/2026",
-      "accessedAt": "2026-11-24T16:02:42.654Z"
-    },
-    {
-      "title": "Ceny paliw dzisiaj — benzyna, diesel i LPG",
-      "url": "https://cenapaliwa.pl/",
-      "accessedAt": "2026-11-24T16:02:42.654Z"
+      "title": "Ceny paliw dziś i na jutro",
+      "url": "https://cenypaliw.fyi/",
+      "accessedAt": "2026-11-26T15:31:09.348Z"
     }
   ]
 }
