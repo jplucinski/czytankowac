@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-11-26T15:31:09.348Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.77,
+      "summary": "Hurtowa PB95 spada, a limit detaliczny obniżył się; w najbliższym tygodniu możliwe dalsze, niewielkie obniżki."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "DOWN",
+      "recommendation": "WAIT",
+      "confidence": 0.8,
+      "summary": "Hurtowy diesel wyraźnie tanieje, a limit detaliczny spadł; ceny na stacjach mogą jeszcze lekko się obniżyć."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hurtowe ceny paliw, ORLEN, ARAMCO, SELL, BP",
+      "url": "https://www.e-petrol.pl/notowania/rynek-krajowy/hurt",
+      "accessedAt": "2026-11-26T15:31:09.348Z"
+    },
+    {
+      "title": "Kursy walut – tabela A NBP",
+      "url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/",
+      "accessedAt": "2026-11-26T15:31:09.348Z"
+    },
+    {
+      "title": "Obwieszczenie Ministra Energii z 26 listopada 2026 r.",
+      "url": "https://monitorpolski.gov.pl/M2026000117901.pdf",
+      "accessedAt": "2026-11-26T15:31:09.348Z"
+    },
+    {
+      "title": "Ceny paliw dziś i na jutro",
+      "url": "https://cenypaliw.fyi/",
+      "accessedAt": "2026-11-26T15:31:09.348Z"
+    }
+  ]
+}

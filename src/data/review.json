@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Dla PB95 sygnał jest mieszany: ceny hurtowe spadają, ale nie potwierdza to pewnej stabilizacji przez 7 dni.",
-    "Dla DIESEL brak niezależnego potwierdzenia średniej 7,24 zł/l i tempa spadku."
+    "Potwierdzono spadkowy sygnał hurtowy i detaliczny; 7-dniowa prognoza pozostaje niepewna.",
+    "Nie zweryfikowano niezależnie kursu NBP ani obwieszczenia."
   ],
-  "summary": "Kierunki są zgodne z tańszym hurtem, ale średnie detaliczne i horyzont 7 dni są słabo potwierdzone.",
-  "reviewedAt": "2026-11-24T16:03:43.400Z"
+  "summary": "Sygnały wspierają spadki PB95 i diesla, ale skala obniżek jest niepewna.",
+  "reviewedAt": "2026-11-26T15:31:52.566Z"
 }
