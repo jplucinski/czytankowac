@@ -1,9 +1,9 @@
 {
   "decision": "PASS",
   "issues": [
-    "Potwierdzono spadkowy sygnał hurtowy i detaliczny; 7-dniowa prognoza pozostaje niepewna.",
-    "Nie zweryfikowano niezależnie kursu NBP ani obwieszczenia."
+    "Sygnał dla diesla jest niejednoznaczny: najbliższa prognoza wskazuje możliwy wzrost, nie spadek.",
+    "Horyzont 7 dni ma ograniczone potwierdzenie; dostępne dane obejmują głównie kilka dni."
   ],
-  "summary": "Sygnały wspierają spadki PB95 i diesla, ale skala obniżek jest niepewna.",
-  "reviewedAt": "2026-11-26T15:31:52.566Z"
+  "summary": "PB95 ma wsparcie dla spadku; diesel może odbić, więc prognoza jest tylko częściowo potwierdzona.",
+  "reviewedAt": "2026-11-27T15:25:21.733Z"
 }
