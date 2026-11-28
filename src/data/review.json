@@ -1,9 +1,10 @@
 {
   "decision": "PASS",
   "issues": [
-    "Sygnał dla diesla jest niejednoznaczny: najbliższa prognoza wskazuje możliwy wzrost, nie spadek.",
-    "Horyzont 7 dni ma ograniczone potwierdzenie; dostępne dane obejmują głównie kilka dni."
+    "Potwierdzono limit 5,77 zł/l dla PB95 i 7,15 zł/l dla diesla, ale nie zweryfikowano średnich detalicznych ani zmiany hurtu diesla o 86 zł/m³.",
+    "Horyzont 7 dni wykracza poza potwierdzony limit obowiązujący 28–30 listopada 2026 r.",
+    "Pewność 0,82/0,80 jest słabo uzasadniona."
   ],
-  "summary": "PB95 ma wsparcie dla spadku; diesel może odbić, więc prognoza jest tylko częściowo potwierdzona.",
-  "reviewedAt": "2026-11-27T15:25:21.733Z"
+  "summary": "Sygnał wspiera stabilną PB95 i ryzyko wzrostu diesla, lecz dowody są ograniczone.",
+  "reviewedAt": "2026-11-28T14:24:52.448Z"
 }
