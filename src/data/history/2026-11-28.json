@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-11-28T14:23:57.543Z",
+  "market": "PL",
+  "horizonDays": 7,
+  "fuels": [
+    {
+      "fuel": "PB95",
+      "direction": "STABLE",
+      "recommendation": "NORMAL",
+      "confidence": 0.82,
+      "summary": "Detaliczna PB95 spadła do 5,75 zł/l, a hurt Orlenu wzrósł; limit 5,77 zł/l ogranicza możliwe podwyżki."
+    },
+    {
+      "fuel": "DIESEL",
+      "direction": "UP",
+      "recommendation": "FILL_UP",
+      "confidence": 0.8,
+      "summary": "Diesel kosztuje średnio 7,13 zł/l, lecz hurt wzrósł o 86 zł/m³; większe ryzyko podwyżek przemawia za tankowaniem."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hurtowe ceny paliw ORLEN — ceny obowiązujące od 28.11.2026",
+      "url": "https://www.orlen.pl/pl/dla-biznesu/hurtowe-ceny-paliw?Fuel=ONE",
+      "accessedAt": "2026-11-28T14:23:57.543Z"
+    },
+    {
+      "title": "Ceny paliw dziś — średnie ceny detaliczne w Polsce",
+      "url": "https://zapaliwo.pl/",
+      "accessedAt": "2026-11-28T14:23:57.543Z"
+    },
+    {
+      "title": "Maksymalna cena detaliczna paliw 28–30 listopada 2026",
+      "url": "https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-w-dniach-28-30-listopada-2026-r",
+      "accessedAt": "2026-11-28T14:23:57.543Z"
+    },
+    {
+      "title": "Kurs euro NBP z 27.11.2026",
+      "url": "https://danepubliczne.com/kursy-walut/eur/2026-11",
+      "accessedAt": "2026-11-28T14:23:57.543Z"
+    }
+  ]
+}
